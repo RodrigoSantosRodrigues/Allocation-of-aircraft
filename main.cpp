@@ -10,23 +10,6 @@ typedef IloArray<IloNumVar3Matrix> IloNumVar4Matrix;
 using namespace std;
 
 int main(int argc, char *argv[]){
-	/*
-	// F -> conjunto de Fazendas
-    // C -> conjunto de Culturas
-    int F, C;
-	
-	// Dados de entrada dependentes dos conjuntos
-    char** NomeFazenda; // por fazenda
-    float* Area; // por fazenda
-    float* Agua; // por fazenda
-
-    char** NomeCultura; // por cultura
-    float* AMax; // por cultura
-    float* ConsAgua; // por cultura
-    float* Lucro; // por cultura
-	*/
-	
-	
 	// Declarando conjuntos de entrada
     // A -> Quantidade de aviões
     // V -> Quantidade de voos
@@ -54,7 +37,7 @@ int main(int argc, char *argv[]){
 	
 	// Dados de entrada dependentes de 2 conjuntos
 	// Por voos (v) e aeroportos (o)
-	int**  DTvo;        // Variável binária que informa se o voo v tem origem no aeroporto o
+	int**  DTvo;      // Variável binária que informa se o voo v tem origem no aeroporto o
 	int**  OT;        // Variável binária que informa se o voo v tem destino no aeroporto o
 	
 	// Por voos (v) e dias (d)
@@ -63,46 +46,24 @@ int main(int argc, char *argv[]){
 	// Por trechos (t) e dias (d)
 	int**  DTtd;	  // Demanda por voos do trecho t no dia d
 
+	
 	// Leitura do Arquivo
     FILE* fp;
     fp = fopen(argv[1],"r");
 
-    if( fp == NULL)
-    {
+    if(fp == NULL){
         printf("Erro ao abrir o arquivo!\n");
         exit(1);    
     }
     
-    // Leitura dos conjuntos A, V, D, T e O
+    
+	// Leitura dos conjuntos A, V, D, T e O
     fscanf(fp, "%d", &A);
     fscanf(fp, "%d", &V);
 	fscanf(fp, "%d", &D);
 	fscanf(fp, "%d", &T);
 	fscanf(fp, "%d", &O);
 	
-	/*
-    // Definindo os dados de entrada de acordo com o tamanho dos conjuntos lidos
-    // Por fazenda
-    NomeFazenda = new char*[F];
-    for(int f = 0; f < F; f++)
-    {
-        NomeFazenda[f] = new char[51];
-    }
-
-    Area = new float[F];
-    Agua = new float[F];
-
-    //Por Cultura
-    NomeCultura = new char*[C];
-    for(int c = 0; c < C; c++)
-    {
-        NomeCultura[c] = new char[51];
-    }
-
-    AMax = new float[C];
-    ConsAgua = new float[C];
-    Lucro = new float[C];
-	*/
 	
 	// Definindo os dados de entrada dependentes de 1 conjunto
 	// Por aviões (a)
@@ -146,54 +107,128 @@ int main(int argc, char *argv[]){
     }
 	
 	
+	// Realizando a leitura dos dados dependentes de 1 conjunto
+	// Por aviões (a)
+	for(int a=0; a<A; a++){
+		fscanf(fp, "%d", KA[a]);
+		fscanf(fp, "%f", CA[a]);
+		fscanf(fp, "%f", VA[a]);
+		fscanf(fp, "%d", QA[a]);
+	}
 	
+	// Por voos (v)
+	for(int v=0; v<V; v++){
+		fscanf(fp, "%f", DisTv[v]);
+		fscanf(fp, "%d", DV[v]);
+	}
 	
+	// Por trechos (t)
+	for(int t=0; t<T; t++){
+		fscanf(fp, "%f", DisTt[t]);
+	}
 	
+	// Por dias (d)
+	for(int d=0; d<D; d++){
+		fscanf(fp, "%d", VDd[d]);
+	}
 	
-	// Após a declaração dos tamanhos dos dados de entrada, realizando a leitura
-    // Por Fazenda
-    for(int f = 0; f < F; f++)
-    {
-        fscanf(fp, "%s", NomeFazenda[f]);
-        fscanf(fp, "%f", &Area[f]);
-        fscanf(fp, "%f", &Agua[f]);
+	// Realizando a leitura dos dados dependentes de 2 conjuntos
+	// Por voos (v) e aeroportos (o)
+	for(int v=0; v<V; v++){
+		for(int o=0; o<O; o++){
+			fscanf(fp, "%d", DTvo[v][o]);
+		}
     }
-
-    // Por Cultura
-
-    for(int c = 0; c < C; c++)
-    {
-        fscanf(fp, "%s", NomeCultura[c]);
-        fscanf(fp, "%f", &AMax[c]);
-        fscanf(fp, "%f", &ConsAgua[c]);
-        fscanf(fp, "%f", &Lucro[c]);
-    }  
-
-
-    // Impressão para Verificação dos dados
-    printf("F: %d\n", F);
-    printf("C: %d\n", C);
-
-    printf("Fazendas: \n");
-    printf("Nome \t Area \t Agua\n");
-    for(int f = 0; f < F; f++)
-    {
-        printf("%s \t %.2f \t %.2f \n", NomeFazenda[f], Area[f], Agua[f]);
+	
+	for(int v=0; v<V; v++){
+		for(int o=0; o<O; o++){
+			fscanf(fp, "%d", OT[v][o]);
+		}
     }
-
-    // Por Cultura
-    printf("Culturas: \n");
-    printf("Nome \t AreaMax \t ConsAgua \t Lucro\n");
-
-    for(int c = 0; c < C; c++)
-    {
-        printf("%s \t %.2f \t %.2f \t %.2f \n", NomeCultura[c], AMax[c], ConsAgua[c], Lucro[c]);
-    }  
-
-
-
-
-    // DECLARANDO O AMBIENTE E O MODELO MATEMATICO
+	
+	// Por voos (v) e dias (d)
+	for(int v=0; v<V; v++){
+		for(int d=0; d<D; d++){
+			fscanf(fp, "%d", VDvd[v][d]);
+		}
+    }
+	
+	// Por trechos (t) e dias (d)
+	for(int t=0; t<T; t++){
+		for(int d=0; d<D; d++){
+			fscanf(fp, "%d", DTtd[t][d]);
+		}
+    }
+	
+	// Impressão para verificação dos dados
+	printf("A: %d\n",A);
+    printf("V: %d\n",V);
+	printf("D: %d\n",D);
+	printf("T: %d\n",T);
+	printf("O: %d\n",O);
+	
+	// Impressão dos dados dependentes de 1 conjunto
+	printf("Avioes: \n");
+    printf("Aviao \t Capacidade \t Consumo \t Velocidade \t Quantidade\n");
+    for(int a=0; a<A; a++){
+        printf("Aviao%d \t %d \t %.2f \t %.2f \t %d \n", A, KA[a], CA[a], VA[a], QA[a]);
+    }
+	
+	printf("Voos: \n");
+    printf("Voo \t Distancia \t Demanda\n");
+    for(int v=0; v<V; v++){
+        printf("Voo%d \t %.2f \t %d \n", V, DisTv[v], DV[v]);
+    }
+	
+	printf("Trechos: \n");
+	printf("Trecho \t Distancia\n");
+	for(int t=0; t<T; t++){
+		printf("Trecho%d \t %.2f \n", T, DisTt[t]);
+	}
+	
+	printf("Dias: \n");
+	printf("Dia \t Quant. de voos \n");
+	for(int d=0; d<D; d++){
+		printf("Dia%d \t %d \n", D, VDd[d]);
+	}
+	
+	// Impressão dos dados dependentes de 2 conjuntos
+	// Por voos (v) e aeroportos (o)
+	printf("\nVoo V tem origem no aeroporto O? (1 caso sim, 0 caso nao)\n");
+	for(int v=0; v<V; v++){
+		for(int o=0; o<O; o++){
+			printf("Voo%d/Aeroporto%d: %d \t", V, O, DTvo[v][o]);
+		}
+		printf("\n");
+    }
+	
+	printf("\n\nVoo V tem destino no aeroporto O? (1 caso sim, 0 caso nao)\n");
+	for(int v=0; v<V; v++){
+		for(int o=0; o<O; o++){
+			printf("Voo%d/Aeroporto%d: %d \t", V, O, OT[v][o]);
+		}
+		printf("\n");
+    }
+	
+	// Por voos (v) e dias (d)
+	printf("\n\nVoo V pertence ao dia D? (1 caso sim, 0 caso nao)\n");
+	for(int v=0; v<V; v++){
+		for(int d=0; d<D; d++){
+			printf("Voo%d/Dia%d: %d \t", V, D, VDvd[v][d]);
+		}
+		printf("\n");
+    }
+	
+	// Por trechos (t) e dias (d)
+	printf("\n\nDemanda por voos do Trecho X no dia Y\n");
+	for(int t=0; t<T; t++){
+		for(int d=0; d<D; d++){
+			printf("Trecho%d/Dia%d: %d \t", T, D, DTtd[t][d]);
+		}
+		printf("\n");
+    }
+	
+	// DECLARANDO O AMBIENTE E O MODELO MATEMATICO
     IloEnv env;
 	IloModel modelo;
     // iniciando o modelo
