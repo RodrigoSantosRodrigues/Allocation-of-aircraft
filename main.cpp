@@ -13,40 +13,12 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-
-	// Declarando conjuntos de entrada
-    // A -> Quantidade de aviões
-    // V -> Quantidade de voos
-	// D -> Quantidade de dias
-	// T -> Quantidade de trechos
-	// O -> Quantidade de aeroportos
-	// 𝐷𝑖𝑠𝑇𝑣 -> distância do voo 𝑣
-	// 𝐷𝑖𝑠𝑇𝑡 -> distância do trecho t
-	// 𝐾𝐴𝑎 -> Capacidade de passageiros do avião do tipo 𝑎
-	// 𝐶𝐴𝑎 -> Consumo do avião 𝑎
-	// 𝑉𝐴𝑎 -> Velocidade do avião 𝑎
-	// 𝑉𝐷𝑑 ->  Quantidade de voos no dia D
-	//* 𝑉𝐷𝑣𝑑 -> Matriz binária que Informa se o voo 𝑣 pertence ao dia 𝑑 com valor 1 e zero, caso contrário
-	//* 𝐷𝑇𝑣𝑜 -> Matriz binária que informa se o voo 𝑣 tem origem no aeroporto 𝑜 com valor 1 e zero, caso	contrário.
-	// 𝐷𝑇𝑡𝑑 -> demanda por voos do Trecho t no dia d
-	// 𝐷𝑉𝑣 -> Demanda do voo 𝑣
-	//* 𝑂𝑇𝑣𝑜 -> Matriz binária que informa se o voo 𝑣 tem destino no aeroporto 𝑜 com valor 1 e zero, caso contrário.
-	// 𝑄𝐴 -> quantidade de tipos de avião
-	//* 𝑇𝐴𝑎𝑞𝑎 -> Matriz binária que informa com 1 se o avião A é do tipo QA
-	//* 𝑀𝑂𝑇𝑣𝑜 -> Parâmetro que informa se o voo v tem origem no aeroporto O
-	//* 𝑀𝐷𝑇𝑣𝑜 -> Parâmetro que informa se o voo v tem destino no aeroporto O
+	/*
+	// F -> conjunto de Fazendas
+    // C -> conjunto de Culturas
+    int F, C;
 	
-	
-	int A, V, D, T, O, QA, KAa, CAa, VAa, VDd, DVv, QA, DTtd;
-	float DistTv, DisTt
-	
-	
-	
-	
-	
-	
-	
-    // Dados de entrada dependentes dos conjuntos
+	// Dados de entrada dependentes dos conjuntos
     char** NomeFazenda; // por fazenda
     float* Area; // por fazenda
     float* Agua; // por fazenda
@@ -55,35 +27,47 @@ int main(int argc, char *argv[])
     float* AMax; // por cultura
     float* ConsAgua; // por cultura
     float* Lucro; // por cultura
+	*/
 	
 	
 	
-	// Dados de entrada dependentes dos conjuntos
 	
-	// Por aviões
-	char** TipoAviao; // Tipo do avião
+	
+	// Declarando conjuntos de entrada
+    // A -> Quantidade de aviões
+    // V -> Quantidade de voos
+	// D -> Quantidade de dias
+	// T -> Quantidade de trechos
+	// O -> Quantidade de aeroportos
+	int A, V, D, T, O;
+	
+	// Dados de entrada dependentes de 1 conjunto
+	// Por aviões (a)
 	int*   KA;        // Capacidade de passageiros do avião do tipo a
 	float* CA;        // Consumo do avião a
 	float* VA;        // Velocidade do avião a
+	int*   QA;	      // Quantidade de aviões do tipo a
 	
-	// Por voos
-	int*   NumVoo;     // Número de identificação do voo
-	float* DisT;	  // Distância do voo v
+	// Por voos (v)
+	float* DisTv;	  // Distância do voo v
 	int*   DV;        // Demanda do voo v
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	
+	// Por trechos (t)
+	float* DisTt;	  // Distância do trecho t
+	
+	// Por dias (d)
+	int*   VDd;		  // Quantidades de voo no dia d
+	
+	// Dados de entrada dependentes de 2 conjuntos
+	// Por voos (v) e aeroportos (o)
+	int**  DTvo;        // Variável binária que informa se o voo v tem origem no aeroporto o
+	int**  OT;        // Variável binária que informa se o voo v tem destino no aeroporto o
+	
+	// Por voos (v) e dias (d)
+	int**  VDvd;      // Variável binária que informa se o voo v pertence ao dia d
+	
+	// Por trechos (t) e dias (d)
+	int**  DTtd;	  // Demanda por voos do trecho t no dia d
 
 
 
