@@ -1,9 +1,7 @@
 #include<iostream>
 #include<stdio.h>
-#include <sstream>
-
-#include <ilcplex/ilocplex.h>
-
+#include<sstream>
+#include<ilcplex/ilocplex.h>
 
 typedef IloArray<IloNumVarArray> IloNumVarMatrix;
 typedef IloArray<IloNumVarMatrix> IloNumVar3Matrix;
@@ -11,8 +9,7 @@ typedef IloArray<IloNumVar3Matrix> IloNumVar4Matrix;
 
 using namespace std;
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]){
 	/*
 	// F -> conjunto de Fazendas
     // C -> conjunto de Culturas
@@ -28,9 +25,6 @@ int main(int argc, char *argv[])
     float* ConsAgua; // por cultura
     float* Lucro; // por cultura
 	*/
-	
-	
-	
 	
 	
 	// Declarando conjuntos de entrada
@@ -69,9 +63,7 @@ int main(int argc, char *argv[])
 	// Por trechos (t) e dias (d)
 	int**  DTtd;	  // Demanda por voos do trecho t no dia d
 
-
-
-    // Leitura do Arquivo
+	// Leitura do Arquivo
     FILE* fp;
     fp = fopen(argv[1],"r");
 
@@ -81,10 +73,14 @@ int main(int argc, char *argv[])
         exit(1);    
     }
     
-    // Leitura dos conjuntos
-    fscanf(fp, "%d", &F);
-    fscanf(fp, "%d", &C); 
-
+    // Leitura dos conjuntos A, V, D, T e O
+    fscanf(fp, "%d", &A);
+    fscanf(fp, "%d", &V);
+	fscanf(fp, "%d", &D);
+	fscanf(fp, "%d", &T);
+	fscanf(fp, "%d", &O);
+	
+	/*
     // Definindo os dados de entrada de acordo com o tamanho dos conjuntos lidos
     // Por fazenda
     NomeFazenda = new char*[F];
@@ -106,10 +102,55 @@ int main(int argc, char *argv[])
     AMax = new float[C];
     ConsAgua = new float[C];
     Lucro = new float[C];
+	*/
+	
+	// Definindo os dados de entrada dependentes de 1 conjunto
+	// Por aviões (a)
+	KA = new int[A];
+	CA = new float[A];
+	VA = new float[A];
+	QA = new int[A];
+	
+	// Por voos (v)
+	DisTv = new float[V];
+	DV = new int[V];
+	
+	// Por trechos (t)
+	DisTt = new float[T];
+	
+	// Por dias (d)
+	VDd = new int[D];
 
-
-
-    // Após a declaração dos tamanhos dos dados de entrada, realizando a leitura
+	// Definindo os dados de entrada dependentes de 2 conjuntos
+	// Por voos (v) e aeroportos (o)
+	DTvo = new int*[V];
+	for(int v=0; v<V; v++){
+        DTvo[v] = new int[O];
+    }
+	
+	OT = new int*[V];
+	for(int v=0; v<V; v++){
+        OT[v] = new int[O];
+    }
+	
+	// Por voos (v) e dias (d)
+	VDvd = new int*[V];
+	for(int v=0; v<V; v++){
+        VDvd[v] = new int[D];
+    }
+	
+	// Por trechos (t) e dias (d)
+	DTtd = new int*[T];
+	for(int t=0; t<T; t++){
+        DTtd[t] = new int[D];
+    }
+	
+	
+	
+	
+	
+	
+	// Após a declaração dos tamanhos dos dados de entrada, realizando a leitura
     // Por Fazenda
     for(int f = 0; f < F; f++)
     {
@@ -332,15 +373,3 @@ int main(int argc, char *argv[])
 
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
