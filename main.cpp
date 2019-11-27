@@ -23,7 +23,6 @@ int main(int argc, char *argv[]){
 	int*   KA;        // Capacidade de passageiros do avião do tipo a
 	float* CA;        // Consumo do avião a
 	float* VA;        // Velocidade do avião a
-	int*   QA;	      // Quantidade de aviões do tipo a
 	
 	// Por voos (v)
 	float* DisTv;	  // Distância do voo v
@@ -45,7 +44,9 @@ int main(int argc, char *argv[]){
 	
 	// Por trechos (t) e dias (d)
 	int**  DTtd;	  // Demanda por voos do trecho t no dia d
-
+	
+	
+	
 	
 	// Leitura do Arquivo
     FILE* fp;
@@ -57,6 +58,8 @@ int main(int argc, char *argv[]){
     }
     
     
+	
+	
 	// Leitura dos conjuntos A, V, D, T e O
     fscanf(fp, "%d", &A);
     fscanf(fp, "%d", &V);
@@ -65,12 +68,13 @@ int main(int argc, char *argv[]){
 	fscanf(fp, "%d", &O);
 	
 	
+	
+	
 	// Definindo os dados de entrada dependentes de 1 conjunto
 	// Por aviões (a)
 	KA = new int[A];
 	CA = new float[A];
 	VA = new float[A];
-	QA = new int[A];
 	
 	// Por voos (v)
 	DisTv = new float[V];
@@ -107,13 +111,14 @@ int main(int argc, char *argv[]){
     }
 	
 	
+	
+	
 	// Realizando a leitura dos dados dependentes de 1 conjunto
 	// Por aviões (a)
 	for(int a=0; a<A; a++){
 		fscanf(fp, "%d", KA[a]);
 		fscanf(fp, "%f", CA[a]);
 		fscanf(fp, "%f", VA[a]);
-		fscanf(fp, "%d", QA[a]);
 	}
 	
 	// Por voos (v)
@@ -160,6 +165,9 @@ int main(int argc, char *argv[]){
 		}
     }
 	
+	
+	
+	
 	// Impressão para verificação dos dados
 	printf("A: %d\n",A);
     printf("V: %d\n",V);
@@ -171,7 +179,7 @@ int main(int argc, char *argv[]){
 	printf("Avioes: \n");
     printf("Aviao \t Capacidade \t Consumo \t Velocidade \t Quantidade\n");
     for(int a=0; a<A; a++){
-        printf("Aviao%d \t %d \t %.2f \t %.2f \t %d \n", A, KA[a], CA[a], VA[a], QA[a]);
+        printf("Aviao%d \t %d \t %.2f \t %.2f\n", A, KA[a], CA[a], VA[a]);
     }
 	
 	printf("Voos: \n");
@@ -228,15 +236,19 @@ int main(int argc, char *argv[]){
 		printf("\n");
     }
 	
+	
+	
+	
 	// Declarando o ambiente e o modelo matemático
     IloEnv env;
 	IloModel modelo;
     // Iniciando o modelo
     modelo = IloModel(env);
     
-
-    // DECLARAÇÃO DE VARIÁVEIS DE DUAS DIMENSÕES
-    // Declaração de x
+	
+	
+	
+    // Declaração da variável de decisão x
     IloNumVarMatrix x(env, A);
 	for(int a=0; a<A; a++){
         x[a] = IloNumVarArray(env, V, 0, 1, ILOINT);
@@ -250,7 +262,10 @@ int main(int argc, char *argv[]){
             modelo.add(x[a][v]);
         }
     }
-
+	
+	
+	
+	
 	// Declaração da função objetivo
 	IloExpr fo(env);
     // Somatório de A 
@@ -264,10 +279,9 @@ int main(int argc, char *argv[]){
     modelo.add(IloMinimize(env, fo));
 
     
+	
+	
 	// Declaração das restrições do problema
-
-    // Declarando a restrição
-    // Parâmetros: ambiente, valor min, expressão, valor maximo
 
     // Restrição 1 - Garante que cada voo seja atendido somente por 1 avião
 	// Para todo V
@@ -436,119 +450,36 @@ int main(int argc, char *argv[]){
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-    // restrição de disponibilidade de água nas fazendas
-    // para todo F
-    for(int f = 0 ; f < F; f++)
-    {
-        IloExpr soma(env);
-        // somatório de C
-        for(int c = 0 ; c < C; c++)
-        {
-           soma+= ConsAgua[c]*x[f][c]; 
-        } 
-        // declarar a restrição
-        IloRange rest_consAgua(env, -IloInfinity, soma, Agua[f]);
-        // nome das restrições
-        stringstream rest;
-        rest << "consAgua[" << NomeFazenda[f] << "]:";
-        rest_consAgua.setName(rest.str().c_str());
-        // adicionar a restrição ao modelo
-        modelo.add(rest_consAgua);
-    }
-
-    // restrição área Maxima Plantada
-    // para todo C
-    for(int c = 0 ; c < C; c++)
-    {
-        IloExpr soma(env);
-        // somatorio de F
-        for(int f = 0 ; f < F; f++)
-        {
-            soma+=x[f][c];
-        }
-
-        // declarar a restrição
-        IloRange rest_areaMax(env, -IloInfinity, soma, AMax[c]);
-        // adicionar a restrição ao modelo
-        modelo.add(rest_areaMax);
-    }
-    
-    // restrição de proporcionalidade
-    // para cada F
-    for(int f = 0 ; f < F; f++)
-    {
-        // para todo F
-        for(int g = 0; g < F; g++)
-        {
-            if(f != g)
-            {
-                IloExpr soma1(env);
-                IloExpr soma2(env);
-                
-                // somatorio C
-                for(int c = 0; c < C; c++)
-                {
-                    soma1+= x[f][c];
-                }
-                soma1 = soma1 / Area[f];
-
-                // somatorio C
-                for(int c = 0 ; c < C; c++)
-                {
-                    soma2 += x[g][c];
-                }
-                soma2 = soma2 / Area[g];
-
-                // definindo a restrição
-                IloRange restProporcao(env, 0, soma1-soma2, 0);
-                // adicionando a restrição ao modelo
-                modelo.add(restProporcao);
-            } 
-        }
-    }
-
-
- 
-    // Carregando o módulo do Cplex
+	// Carregando o módulo do Cplex
     IloCplex cplex(modelo);
-    // exportando o lp
-    cplex.exportModel("fazenda.lp");
+    // Exportando o lp
+    cplex.exportModel("aeronave.lp");
     // Executando o modelo
     cplex.solve();
     
-    // PEGAR OS VALORES DAS VARIÁVEIS 
-    //cplex.getValue(NOME_VAR)    
-
-    for(int f = 0; f < F; f++)
-    {
-        printf("*****\n");
-        printf("%s\n", NomeFazenda[f]);
-        for(int c = 0 ; c < C; c++)
-        {
-            double valor = cplex.getValue(x[f][c]);
-            printf("%s: %f \n", NomeCultura[c], valor);
-        }
-
-    }
-
-
-    return 0;
+	
+	
+	
+    // Imprimindo os valores das variáveis de decisão
+	// Variável x[a][v]
+    printf("\n\n");
+	for(int a=0; a<A; a++){
+		for(int v=0; v<V; v++){
+			int valor = cplex.getValue(x[a][v]);
+			printf("x[aviao%d][voo%d] = %d\n", a, v, valor);
+		}
+	}
+	
+	// Variável y[a][o][d]
+	printf("\n\n");
+	for(int a=0; a<A; a++){
+		for(int o=0; o<O; o++){
+			for(int d=0; d<D; d++){
+				valor = cplex.getValue(y[a][o][d]);
+				printf("x[aviao%d][aeroporto%d][dia%d] = %d\n", a, o, d, valor);
+			}
+		}
+	}
+	
+	return 0;
 }
