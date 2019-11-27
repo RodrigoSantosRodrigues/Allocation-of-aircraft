@@ -309,7 +309,6 @@ int main(int argc, char *argv[]){
     }
 	
 	// Restrição 2 - Garante que o limite de horas operadas por cada aeronave seja respeitado
-	/*
 	// Para todo A
 	for(int a=0; a<A; a++){
 		// Para todo D
@@ -318,11 +317,21 @@ int main(int argc, char *argv[]){
 			
 			// Somatório de V
 			for(int v=0; v<V; v++){
-				
+				soma = soma + x[a][v] * DisTv[v] * VDvd[v][d];
 			}
+			
+			// Declara a restrição
+			IloRange rest_2(env, 0, soma, 24*VA[a]);
+		
+			// Define o nome da restrição
+			stringstream rest;
+			rest << "Restricao 2[Aviao"<<a<<"][Dia"<<d<<"]:";
+			rest_2.setName(rest.str().c_str());
+		
+			// Adicionando a restrição ao modelo
+			modelo.add(rest_2);
 		}
 	}
-	*/
 	
 	// Restrição 3 - Cada avião a cada dia deve iniciar suas operações de uma única origem
 	// Para todo A
