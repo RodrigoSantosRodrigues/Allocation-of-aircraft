@@ -263,6 +263,9 @@ int main(int argc, char *argv[]){
         }
     }
 	
+	// Declaração da variável de decisão y
+	// Como declarar uma variável de 3 dimensões?? A variável é y[a][o][d] e pode assumir apenas os valores 1 e 0
+	
 	
 	
 	
