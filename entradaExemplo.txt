@@ -1,0 +1,31 @@
+A V D T O        // Para A = 2, V = 2, T = 2, D = 2, O = 2  
+// Por [A]
+KA[0] CA[0] VA[0]
+KA[1] CA[1] VA[1]
+
+// Por [V]
+DisTv[0] DV[0]
+DisTv[1] DV[1]
+
+// Por [T]
+DisTt[0]
+DisTt[1]
+
+// Por [D]
+VDd[0]
+VDd[1]
+
+// Por [V][O]
+DTvo[0][0] DTvo[0][1]
+DTvo[1][0] DTvo[1][1]
+
+OT[0][0] OT[0][1]
+OT[1][0] OT[1][1]
+
+// Por [V][D]
+VDvd[0][0] VDvd[0][1]
+VDvd[1][0] VDvd[1][1]
+
+// Por [T][D]
+DTtd[0][0] DTtd[0][1]
+DTtd[1][0] DTtd[1][1]
