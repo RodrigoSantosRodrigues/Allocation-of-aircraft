@@ -228,87 +228,231 @@ int main(int argc, char *argv[]){
 		printf("\n");
     }
 	
-	// DECLARANDO O AMBIENTE E O MODELO MATEMATICO
+	// Declarando o ambiente e o modelo matemático
     IloEnv env;
 	IloModel modelo;
-    // iniciando o modelo
+    // Iniciando o modelo
     modelo = IloModel(env);
     
 
-    // parametros para declaração de variáveis: ambiente, tamanho, valor min, valor max, tipo (ILOINT, ILOFLOAT, ILOBOOL)
-
-    // DECLARAÇÃO DE VARIÁVEIS DE UMA DIMENSÃO  
-    // declarando a variavel y  
-    /*IloNumVarArray y(env, F, 0, IloInfinity, ILOFLOAT);
-    // adicionar as variaveis ao modelo
-    for(int f = 0; f < F; f++)
-    {
-        modelo.add(y[f]);
-    }*/
-
     // DECLARAÇÃO DE VARIÁVEIS DE DUAS DIMENSÕES
-    // declaração de x
-    // para variáveis com mais de uma dimensão, os parâmetros são: ambiente, tamanho
-    IloNumVarMatrix x(env, F);
-    for(int f= 0 ; f < F; f++)
-    {
-        x[f] = IloNumVarArray(env, C, 0, IloInfinity, ILOFLOAT);
+    // Declaração de x
+    IloNumVarMatrix x(env, A);
+	for(int a=0; a<A; a++){
+        x[a] = IloNumVarArray(env, V, 0, 1, ILOINT);
     }
-
-    // adicionando x ao modelo
-    for(int f= 0; f < F; f++)
-    {
-        for(int c = 0 ; c < C; c++)
-        {
+	// Adicionando x ao modelo
+    for(int a=0; a<A; a++){
+        for(int v=0; v<V; v++){
             stringstream var;
-            var << "x[" << NomeFazenda[f] << "][" << NomeCultura[c]<< "]";
-            x[f][c].setName(var.str().c_str());
-            modelo.add(x[f][c]);
+            var << "x[Aviao"<<a<<"][Voo"<<v<<"]";
+            x[a][v].setName(var.str().c_str());
+            modelo.add(x[a][v]);
         }
     }
 
-    // DECLARAÇÃO DA FUNÇÃO OBJETIVO
-
-    IloExpr fo(env);
-    
-    //somatorio de F
-    for(int f=0; f < F; f++)
-    {
-        for(int c = 0; c < C; c++)
-        {
-            fo += Lucro[c]*x[f][c];            
+	// Declaração da função objetivo
+	IloExpr fo(env);
+    // Somatório de A 
+	for(int a=0; a<A; a++){
+        // Somatório de V
+		for(int v=0; v<V; v++){
+            fo = fo + x[a][v] * DisTv[v] * CA[a];
         }
     }
-
-      
-    //IloMinimize e IloMaximize
-    modelo.add(IloMaximize(env, fo));
+	//Adiciona ao modelo a função objetivo de minimização
+    modelo.add(IloMinimize(env, fo));
 
     
-    // DECLARAÇÃO DAS RESTRIÇÕES DO PROBLEMA
+	// Declaração das restrições do problema
 
-    // declarando a restrição
-    // parametros: ambiente, valor min, expressão, valor maximo
+    // Declarando a restrição
+    // Parâmetros: ambiente, valor min, expressão, valor maximo
 
-    // restrição relativa à area da fazenda
-    // para todo F
-    for(int f = 0 ; f < F ; f++)
-    {
-        IloExpr soma(env);
-        // somatorio em C
-        for(int c = 0 ; c < C; c++)
-        {
-            soma += x[f][c];
-        }
-        // declara a restrição
-        IloRange rest_areaFaz(env, -IloInfinity, soma, Area[f]);
-        // definindo nome para a restrição
-        stringstream rest;
-        rest << "AreaFaz[" << NomeFazenda[f] << "]:";
-        rest_areaFaz.setName(rest.str().c_str());
-        // adicionar a restrição ao modelo
-        modelo.add(rest_areaFaz); 
+    // Restrição 1 - Garante que cada voo seja atendido somente por 1 avião
+	// Para todo V
+	for(int v=0; v<V; v++){
+		IloExpr soma(env);
+		
+		// Somatório de A
+		for(int a=0; a<A; a++){
+			soma = soma + x[a][v];
+		}
+		
+		// Declara a restrição
+		IloRange rest_1(env, 1, soma, 1);
+		
+		// Define o nome da restrição
+		stringstream rest;
+        rest << "Restricao 1[Voo"<<v<<"]:";
+        rest_1.setName(rest.str().c_str());
+		
+		// Adicionando a restrição ao modelo
+        modelo.add(rest_1);
     }
+	
+	// Restrição 2 - Garante que o limite de horas operadas por cada aeronave seja respeitado
+	/*
+	// Para todo A
+	for(int a=0; a<A; a++){
+		// Para todo D
+		for(int d=0; d<D; d++){
+			IloExpr soma(env);
+			
+			// Somatório de V
+			for(int v=0; v<V; v++){
+				
+			}
+		}
+	}
+	*/
+	
+	// Restrição 3 - Cada avião a cada dia deve iniciar suas operações de uma única origem
+	// Para todo A
+	for(int a=0; a<A; a++){
+		// Para todo D
+		for(int d=0; d<D; d++){
+			IloExpr soma(env);
+			
+			// Somatório de O
+			for(int o=0; o<O; o++){
+				soma = soma + y[a][o][d];
+			}
+			
+			// Declara a restrição
+			IloRange rest_3(env, 1, soma, 1);
+			
+			// Define o nome da restrição
+			stringstream rest;
+			rest << "Restricao 3[Aviao"<<a<<"][Dia"<<d<<"]:";
+			rest_3.setName(rest.str().c_str());
+		
+			// Adicionando a restrição ao modelo
+			modelo.add(rest_3);
+		}
+	}
+	
+	// Restrição 4 - Certifica que a quantidade de decolagens deve ser igual a quantidade de pousos
+	// Para todo A
+	for(int a=0; a<A; a++){
+		// Para todo D
+		for(int d=0; d<D; d++){
+			// Para todo O
+			for(int o=0; o<O; o++){
+				IloExpr soma1(env);
+				IloExpr soma2(env);
+				
+				// Somatório de V
+				for(int v=0; v<V; v++){
+					soma1 = soma1 + x[a][v] * DTvo[v][o] * VDvd[v][d];
+				}
+				// Somatório de V
+				for(int v=0; v<V; v++){
+					soma2 = soma2 + x[a][v] * OT[v][o] * VDvd[v][d] + y[a][o][d+1];
+				}
+				soma1 = soma1 + y[a][o][d];
+				
+				// Declara a restrição
+				IloRange rest_4(env, soma2, soma1, soma2);
+			
+				// Define o nome da restrição
+				stringstream rest;
+				rest << "Restricao 4[Aviao"<<a<<"][Dia"<<d<<"][Aero"<<o<<"]:";
+				rest_4.setName(rest.str().c_str());
+		
+				// Adicionando a restrição ao modelo
+				modelo.add(rest_4);
+			}
+		}
+	}
+	
+	// Restrição 5 - Só podem ser alocados aviões que cumprem a demanda do voo
+	// Para todo V
+	for(int v=0; v<V; v++){
+		IloExpr soma(env);
+		
+		// Somatório de A
+		for(int a=0; a<A; a++){
+			soma = soma + x[a][v] * KA[a];
+		}
+		
+		// Declara a restrição
+		IloRange rest_5(env, DV[v], soma, IloInfinity);
+		
+		// Define o nome da restrição
+		stringstream rest;
+		rest << "Restricao 5[Voo"<<v<<"]:";
+		rest_5.setName(rest.str().c_str());
+		
+		// Adicionando a restrição ao modelo
+		modelo.add(rest_5);
+	}
+	
+	// Restrição 6 - x[a][v] pertence a {0,1}
+	// Para todo A
+	for(int a=0; a<A; a++){
+		// Para todo V
+		for(int v=0; v<V; v++){
+			IloExpr variavel(env);
+			variavel = x[a][v];
+			
+			// Declara a restrição
+			IloRange rest_6(env, 0, variavel, 1);
+			
+			// Define o nome da restrição
+			stringstream rest;
+			rest << "Restricao 6[Aviao"<<a<<"][Voo"<<v<<"]:";
+			rest_6.setName(rest.str().c_str());
+			
+			// Adicionando a restrição ao modelo
+			modelo.add(rest_6);
+		}
+	}
+	
+	// Restrição 7 - y[a][o][d] pertence a {0,1}
+	// Para todo A
+	for(int a=0; a<A; a++){
+		// Para todo O
+		for(int o=0; o<O; o++){
+			// Para todo D
+			for(int d=0; d<D; d++){
+				IloExpr variavel(env);
+				variavel = y[a][o][d];
+			
+				// Declara a restrição
+				IloRange rest_7(env, 0, variavel, 1);
+			
+				// Define o nome da restrição
+				stringstream rest;
+				rest << "Restricao 7[Aviao"<<a<<"][Aero"<<o<<"][Dia"<<d<<"]:";
+				rest_7.setName(rest.str().c_str());
+			
+				// Adicionando a restrição ao modelo
+				modelo.add(rest_7);
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
     // restrição de disponibilidade de água nas fazendas
     // para todo F
