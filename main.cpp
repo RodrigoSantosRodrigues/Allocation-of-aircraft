@@ -45,8 +45,63 @@ int main(int argc, char *argv[]){
 	// Por trechos (t) e dias (d)
 	int**  DTtd;	  // Demanda por voos do trecho t no dia d
 	
-	
-	
+
+	//###################################      Início     ###################################################
+	// File pointer 
+	fstream fin;
+
+	// Open file se existir
+	fin.open("arquivo.csv", ios::in);
+
+	// Pegar a quantidade de colunas
+	// of which the data is required 
+	int rollnum, roll2, count = 0;
+	cout << "Entre com o numero de colunas"
+		<< "Para exibir os detalhes: ";
+	cin >> rollnum;
+
+	// Ler dados do arquivo
+	// Como Vetor de String
+	vector<string> row;
+	string line, word, temp;
+
+	while (fin >> temp) {
+
+		row.clear();
+
+		// lê uma linha inteira e
+       // Armazena-o em uma variável de string 'line'
+		getline(fin, line);
+
+		// usado para quebrar palavras
+		stringstream s(line);
+
+		// lê todos os dados da coluna de uma linha e
+		// armazena-o em uma variável de string, 'word'
+		while (getline(s, word, ', ')) {
+
+			// Adiciona todos os dados da coluna
+			// de uma linha para um vetor
+			row.push_back(word);
+		}
+
+		// converte a string em número inteiro para comparação
+		roll2 = stoi(row[0]);
+
+		// Compare o número do roll
+		if (roll2 == rollnum) {
+
+			// Imprime os dados encontrados
+			count = 1;
+			cout << "Details of Roll " << row[0] << " : \n";
+			cout << "Coluna 1: " << row[1] << "\n";
+			cout << "Coluna 2: " << row[2] << "\n";
+			break;
+		}
+	}
+	if (count == 0)
+		cout << "Record not found\n";
+	//###################################      Fim Leitura Arquivo  CSV   ######################################
 	
 	// Leitura do Arquivo
     FILE* fp;
