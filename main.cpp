@@ -1,3 +1,15 @@
+/*
+				Pesquisa Operacional
+	ALOCAÇÃO DE AERONAVES PARA REDUÇÃO DOCONSUMO DE COMBUSTÍVEL
+
+	Autors:
+		Rodrigo Junior 
+		Nalbert Wattam
+		Hiagor Elias
+
+
+*/
+
 #include<iostream>
 #include<stdio.h>
 #include<sstream>
