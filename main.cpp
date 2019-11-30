@@ -500,7 +500,7 @@ int main(int argc, char *argv[]){
 	for(int a=0; a<A; a++){
 		for(int o=0; o<O; o++){
 			for(int d=0; d<D; d++){
-				valor = cplex.getValue(y[a][o][d]);
+				int valor = cplex.getValue(y[a][o][d]);
 				printf("x[aviao%d][aeroporto%d][dia%d] = %d\n", a, o, d, valor);
 			}
 		}
