@@ -375,11 +375,8 @@ int main(int argc, char *argv[]){
 			modelo.add(rest_4);
 		}
 	}
-<<<<<<< Updated upstream
-/*	
-=======
-	
->>>>>>> Stashed changes
+
+	/*
 	// Restrição 5 - Certifica que a quantidade de decolagens deve ser igual a quantidade de pousos
 	// Para todo A
 	for(int a=0; a<A; a++){
@@ -414,11 +411,8 @@ int main(int argc, char *argv[]){
 			}
 		}
 	}
-<<<<<<< Updated upstream
-*/	
-=======
+	*/
 	
->>>>>>> Stashed changes
 	// Restrição 6 - Só podem ser alocados aviões que cumprem a demanda do voo
 	// Para todo V
 	for(int v=0; v<V; v++){
