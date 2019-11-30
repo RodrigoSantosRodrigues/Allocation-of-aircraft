@@ -1,0 +1,96 @@
+A: 2
+V: 5
+D: 1
+T: 2
+O: 2
+Avioes: 
+
+Aviao 	 Capacidade 	 Consumo 	 Velocidade
+
+Aviao 0 	 174 	 2700.00 	 830.00
+Aviao 1 	 118 	 2300.00 	 830.00
+Voos: 
+
+Voo 	 Distancia 	 Demanda
+
+Voo 0 	 700.00 	 172 
+Voo 1 	 538.00 	 118 
+Voo 2 	 538.00 	 105 
+Voo 3 	 538.00 	 174 
+Voo 4 	 700.00 	 108 
+Trechos: 
+
+Trecho 	 Distancia
+
+Trecho 0 	 700.00 
+Trecho 1 	 538.00 
+Dias: 
+
+Dia 	 Quant. de voos 
+
+Dia 0 	 5 
+
+Voo V tem origem no aeroporto O? (1 caso sim, 0 caso nao)
+
+Voo 0/Aeroporto 0: 0 	Voo 0/Aeroporto 1: 1 	
+Voo 1/Aeroporto 0: 1 	Voo 1/Aeroporto 1: 0 	
+Voo 2/Aeroporto 0: 1 	Voo 2/Aeroporto 1: 0 	
+Voo 3/Aeroporto 0: 1 	Voo 3/Aeroporto 1: 0 	
+Voo 4/Aeroporto 0: 0 	Voo 4/Aeroporto 1: 1 	
+
+
+Voo V tem destino no aeroporto O? (1 caso sim, 0 caso nao)
+
+Voo 0/Aeroporto 0: 1 	Voo 0/Aeroporto 1: 0 	
+Voo 1/Aeroporto 0: 0 	Voo 1/Aeroporto 1: 1 	
+Voo 2/Aeroporto 0: 0 	Voo 2/Aeroporto 1: 1 	
+Voo 3/Aeroporto 0: 0 	Voo 3/Aeroporto 1: 1 	
+Voo 4/Aeroporto 0: 1 	Voo 4/Aeroporto 1: 0 	
+
+
+Voo V pertence ao dia D? (1 caso sim, 0 caso nao)
+
+Voo 0/Dia 0: 1 	
+Voo 1/Dia 0: 1 	
+Voo 2/Dia 0: 1 	
+Voo 3/Dia 0: 1 	
+Voo 4/Dia 0: 1 	
+
+
+Demanda por voos do Trecho X no dia Y
+
+Trecho 0/Dia 0: 280 	
+Trecho 1/Dia 0: 397 	
+Found incumbent of value 8137800.000000 after 0.00 sec. (0.01 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 28 rows and 31 columns.
+MIP Presolve modified 8 coefficients.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.02 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.03 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.03 ticks)
+
+
+x[aviao0][voo0] = 1
+x[aviao0][voo1] = 0
+x[aviao0][voo2] = 0
+x[aviao0][voo3] = 1
+x[aviao0][voo4] = 0
+x[aviao1][voo0] = 0
+x[aviao1][voo1] = 1
+x[aviao1][voo2] = 1
+x[aviao1][voo3] = 0
+x[aviao1][voo4] = 1
+
+
+y[aviao0][aeroporto0][dia0] = 1
+y[aviao0][aeroporto1][dia0] = 0
+y[aviao1][aeroporto0][dia0] = 1
+y[aviao1][aeroporto1][dia0] = 0

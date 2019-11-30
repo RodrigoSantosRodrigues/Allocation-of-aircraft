@@ -267,22 +267,19 @@ int main(int argc, char *argv[]){
 	// Declaração da variável de decisão y
 	IloNumVar3Matrix y(env, A);
 	for(int a=0; a<A; a++){
-        y[a] = IloNumVarMatrix(env, O);
+        	y[a] = IloNumVarMatrix(env, O);
 		for(int o = 0; o<O; o++){
 			y[a][o] = IloNumVarArray(env, D, 0, 1, ILOINT);
-		}
-	}
-	// Adicionando y ao modelo
-	for(int a=0; a<A; a++){
-        for(int o = 0; o<O; o++){
+		
 			for(int d = 0; d<D; d++){
 				stringstream var;
-		    	var << "y[Aviao"<<a<<"][Aeroporto"<<o<<"][Dia"<<d<<"]";
-		    	y[a][o][d].setName(var.str().c_str());
-		    	modelo.add(y[a][o][d]);
+				var << "y[Aviao"<<a<<"][Aeroporto"<<o<<"][Dia"<<d<<"]";
+				y[a][o][d].setName(var.str().c_str());
+				modelo.add(y[a][o][d]);
 			}
 		}
 	}
+	
 	
 	
 	
@@ -376,30 +373,31 @@ int main(int argc, char *argv[]){
 		}
 	}
 
-	/*
+
 	// Restrição 5 - Certifica que a quantidade de decolagens deve ser igual a quantidade de pousos
 	// Para todo A
-	for(int a=0; a<A; a++){
-		// Para todo O
-		for(int o=0; o<O; o++){
-			// Para todo D
-			for(int d=0; d<D; d++){
+	for(int a=1; a<A; a++){
+		// Para todo D
+		for(int d=1; d<D; d++){
+			for(int o=1; o<O; o++){
+			// Para todo O
+			
 				IloExpr soma1(env);
 				IloExpr soma2(env);
 				
 				// Somatório de V
-				for(int v=0; v<V; v++){
+				for(int v=1; v<V; v++){
 					soma1 = soma1 + x[a][v] * DTvo[v][o] * VDvd[v][d];
 				}
 				soma1 = soma1 + y[a][o][d];
 				
 				// Somatório de V
-				for(int v=0; v<V; v++){
+				for(int v=1; v<V; v++){
 					soma2 = soma2 + x[a][v] * OT[v][o] + y[a][o][d+1];
 				}
-				
+				soma2-=soma1;
 				// Declara a restrição
-				IloRange rest_5(env, 0, soma1-soma2, 0);
+				IloRange rest_5(env, 0, soma2, 0);
 			
 				// Define o nome da restrição
 				stringstream rest;
@@ -411,8 +409,7 @@ int main(int argc, char *argv[]){
 			}
 		}
 	}
-	*/
-	
+
 	// Restrição 6 - Só podem ser alocados aviões que cumprem a demanda do voo
 	// Para todo V
 	for(int v=0; v<V; v++){
