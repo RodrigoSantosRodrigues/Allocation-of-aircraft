@@ -1,15 +1,3 @@
-/*
-				Pesquisa Operacional
-	ALOCAÇÃO DE AERONAVES PARA REDUÇÃO DOCONSUMO DE COMBUSTÍVEL
-
-	Autors:
-		Rodrigo Junior 
-		Nalbert Wattam
-		Hiagor Elias
-
-
-*/
-
 #include<iostream>
 #include<stdio.h>
 #include<sstream>
@@ -23,8 +11,8 @@ using namespace std;
 
 int main(int argc, char *argv[]){
 	// Declarando conjuntos de entrada
-    // A -> Quantidade de aviões
-    // V -> Quantidade de voos
+    	// A -> Quantidade de aviões
+    	// V -> Quantidade de voos
 	// D -> Quantidade de dias
 	// T -> Quantidade de trechos
 	// O -> Quantidade de aeroportos
@@ -57,63 +45,8 @@ int main(int argc, char *argv[]){
 	// Por trechos (t) e dias (d)
 	int**  DTtd;	  // Demanda por voos do trecho t no dia d
 	
-
-	//###################################      Início     ###################################################
-	// File pointer 
-	fstream fin;
-
-	// Open file se existir
-	fin.open("arquivo.csv", ios::in);
-
-	// Pegar a quantidade de colunas
-	// of which the data is required 
-	int rollnum, roll2, count = 0;
-	cout << "Entre com o numero de colunas"
-		<< "Para exibir os detalhes: ";
-	cin >> rollnum;
-
-	// Ler dados do arquivo
-	// Como Vetor de String
-	vector<string> row;
-	string line, word, temp;
-
-	while (fin >> temp) {
-
-		row.clear();
-
-		// lê uma linha inteira e
-       // Armazena-o em uma variável de string 'line'
-		getline(fin, line);
-
-		// usado para quebrar palavras
-		stringstream s(line);
-
-		// lê todos os dados da coluna de uma linha e
-		// armazena-o em uma variável de string, 'word'
-		while (getline(s, word, ', ')) {
-
-			// Adiciona todos os dados da coluna
-			// de uma linha para um vetor
-			row.push_back(word);
-		}
-
-		// converte a string em número inteiro para comparação
-		roll2 = stoi(row[0]);
-
-		// Compare o número do roll
-		if (roll2 == rollnum) {
-
-			// Imprime os dados encontrados
-			count = 1;
-			cout << "Details of Roll " << row[0] << " : \n";
-			cout << "Coluna 1: " << row[1] << "\n";
-			cout << "Coluna 2: " << row[2] << "\n";
-			break;
-		}
-	}
-	if (count == 0)
-		cout << "Record not found\n";
-	//###################################      Fim Leitura Arquivo  CSV   ######################################
+	
+	
 	
 	// Leitura do Arquivo
     FILE* fp;
@@ -237,14 +170,14 @@ int main(int argc, char *argv[]){
 	
 	// Impressão para verificação dos dados
 	printf("A: %d\n",A);
-    printf("V: %d\n",V);
+    	printf("V: %d\n",V);
 	printf("D: %d\n",D);
 	printf("T: %d\n",T);
 	printf("O: %d\n",O);
 	
 	// Impressão dos dados dependentes de 1 conjunto
 	printf("Avioes: \n");
-    printf("Aviao \t Capacidade \t Consumo \t Velocidade \t Quantidade\n");
+    	printf("Aviao \t Capacidade \t Consumo \t Velocidade \t Quantidade\n");
     for(int a=0; a<A; a++){
         printf("Aviao%d \t %d \t %.2f \t %.2f\n", A, KA[a], CA[a], VA[a]);
     }
@@ -330,6 +263,23 @@ int main(int argc, char *argv[]){
         }
     }
 	
+	// Adicionando y ao modelo
+	IloNumVar3Matrix y(env, A);
+	for(int a=0; a<A; a++){
+        y[a] = IloNumVarMatrix(env, O);
+    
+		for(int o = 0; o<O; o++){
+			y[a][o]=IloNumVarArray(env,D,0,1,ILOBOOL);
+			for(int d = 0; d<D; d++)
+			{
+				
+				stringstream var;
+		    	var << "y[Aviao"<<a<<"][Aeroporto"<<o<<"][Dia"<<d<<"]";
+		    	y[a][o][d].setName(var.str().c_str());
+		    	modelo.add(y[a][o][d]);
+			}
+		}
+	}
 	// Declaração da variável de decisão y
 	// Como declarar uma variável de 3 dimensões?? A variável é y[a][o][d] e pode assumir apenas os valores 1 e 0
 	
@@ -433,20 +383,20 @@ int main(int argc, char *argv[]){
 			// Para todo O
 			for(int o=0; o<O; o++){
 				IloExpr soma1(env);
-				IloExpr soma2(env);
-				
+				//IloExpr soma2(env);
+				int temp = 0;
 				// Somatório de V
 				for(int v=0; v<V; v++){
 					soma1 = soma1 + x[a][v] * DTvo[v][o] * VDvd[v][d];
 				}
 				// Somatório de V
 				for(int v=0; v<V; v++){
-					soma2 = soma2 + x[a][v] * OT[v][o] * VDvd[v][d] + y[a][o][d+1];
+					temp = temp + x[a][v] * OT[v][o] * VDvd[v][d] + y[a][o][d+1];
 				}
 				soma1 = soma1 + y[a][o][d];
 				
 				// Declara a restrição
-				IloRange rest_4(env, soma2, soma1, soma2);
+				IloRange rest_4(env, temp, soma1, temp);
 			
 				// Define o nome da restrição
 				stringstream rest;
@@ -548,7 +498,7 @@ int main(int argc, char *argv[]){
 			printf("x[aviao%d][voo%d] = %d\n", a, v, valor);
 		}
 	}
-	
+	/*
 	// Variável y[a][o][d]
 	printf("\n\n");
 	for(int a=0; a<A; a++){
@@ -558,7 +508,7 @@ int main(int argc, char *argv[]){
 				printf("x[aviao%d][aeroporto%d][dia%d] = %d\n", a, o, d, valor);
 			}
 		}
-	}
+	}*/
 	
 	return 0;
 }
