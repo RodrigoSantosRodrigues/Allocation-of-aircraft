@@ -11,8 +11,8 @@ using namespace std;
 
 int main(int argc, char *argv[]){
 	// Declarando conjuntos de entrada
-    	// A -> Quantidade de aviões
-    	// V -> Quantidade de voos
+    // A -> Quantidade de aviões
+    // V -> Quantidade de voos
 	// D -> Quantidade de dias
 	// T -> Quantidade de trechos
 	// O -> Quantidade de aeroportos
@@ -170,14 +170,14 @@ int main(int argc, char *argv[]){
 	
 	// Impressão para verificação dos dados
 	printf("A: %d\n",A);
-    	printf("V: %d\n",V);
+    printf("V: %d\n",V);
 	printf("D: %d\n",D);
 	printf("T: %d\n",T);
 	printf("O: %d\n",O);
 	
 	// Impressão dos dados dependentes de 1 conjunto
 	printf("Avioes: \n");
-    	printf("Aviao \t Capacidade \t Consumo \t Velocidade \t Quantidade\n");
+    printf("Aviao \t Capacidade \t Consumo \t Velocidade \t Quantidade\n");
     for(int a=0; a<A; a++){
         printf("Aviao%d \t %d \t %.2f \t %.2f\n", A, KA[a], CA[a], VA[a]);
     }
@@ -263,16 +263,14 @@ int main(int argc, char *argv[]){
         }
     }
 	
-	// Adicionando y ao modelo
+	// Declaração da variável de decisão y
 	IloNumVar3Matrix y(env, A);
 	for(int a=0; a<A; a++){
         y[a] = IloNumVarMatrix(env, O);
-    
 		for(int o = 0; o<O; o++){
 			y[a][o]=IloNumVarArray(env,D,0,1,ILOBOOL);
-			for(int d = 0; d<D; d++)
-			{
-				
+			// Adicionando y ao modelo
+			for(int d = 0; d<D; d++){
 				stringstream var;
 		    	var << "y[Aviao"<<a<<"][Aeroporto"<<o<<"][Dia"<<d<<"]";
 		    	y[a][o][d].setName(var.str().c_str());
@@ -280,8 +278,6 @@ int main(int argc, char *argv[]){
 			}
 		}
 	}
-	// Declaração da variável de decisão y
-	// Como declarar uma variável de 3 dimensões?? A variável é y[a][o][d] e pode assumir apenas os valores 1 e 0
 	
 	
 	
@@ -383,7 +379,7 @@ int main(int argc, char *argv[]){
 			// Para todo O
 			for(int o=0; o<O; o++){
 				IloExpr soma1(env);
-				//IloExpr soma2(env);
+				IloExpr soma2(env);
 				int temp = 0;
 				// Somatório de V
 				for(int v=0; v<V; v++){
@@ -391,12 +387,12 @@ int main(int argc, char *argv[]){
 				}
 				// Somatório de V
 				for(int v=0; v<V; v++){
-					temp = temp + x[a][v] * OT[v][o] * VDvd[v][d] + y[a][o][d+1];
+					soma2 = soma2 + x[a][v] * OT[v][o] * VDvd[v][d] + y[a][o][d+1];
 				}
 				soma1 = soma1 + y[a][o][d];
 				
 				// Declara a restrição
-				IloRange rest_4(env, temp, soma1, temp);
+				IloRange rest_4(env, 0, soma1-soma2, 0);
 			
 				// Define o nome da restrição
 				stringstream rest;
@@ -498,7 +494,7 @@ int main(int argc, char *argv[]){
 			printf("x[aviao%d][voo%d] = %d\n", a, v, valor);
 		}
 	}
-	/*
+	
 	// Variável y[a][o][d]
 	printf("\n\n");
 	for(int a=0; a<A; a++){
@@ -508,7 +504,7 @@ int main(int argc, char *argv[]){
 				printf("x[aviao%d][aeroporto%d][dia%d] = %d\n", a, o, d, valor);
 			}
 		}
-	}*/
+	}
 	
 	return 0;
 }
