@@ -10,6 +10,7 @@ typedef IloArray<IloNumVar3Matrix> IloNumVar4Matrix;
 using namespace std;
 
 int main(int argc, char *argv[]){
+	
 	// Declarando conjuntos de entrada
     // A -> Quantidade de aviões
     // V -> Quantidade de voos
@@ -116,52 +117,52 @@ int main(int argc, char *argv[]){
 	// Realizando a leitura dos dados dependentes de 1 conjunto
 	// Por aviões (a)
 	for(int a=0; a<A; a++){
-		fscanf(fp, "%d", KA[a]);
-		fscanf(fp, "%f", CA[a]);
-		fscanf(fp, "%f", VA[a]);
+		fscanf(fp, "%d", &KA[a]);
+		fscanf(fp, "%f", &CA[a]);
+		fscanf(fp, "%f", &VA[a]);
 	}
 	
 	// Por voos (v)
 	for(int v=0; v<V; v++){
-		fscanf(fp, "%f", DisTv[v]);
-		fscanf(fp, "%d", DV[v]);
+		fscanf(fp, "%f", &DisTv[v]);
+		fscanf(fp, "%d", &DV[v]);
 	}
 	
 	// Por trechos (t)
 	for(int t=0; t<T; t++){
-		fscanf(fp, "%f", DisTt[t]);
+		fscanf(fp, "%f", &DisTt[t]);
 	}
 	
 	// Por dias (d)
 	for(int d=0; d<D; d++){
-		fscanf(fp, "%d", VDd[d]);
+		fscanf(fp, "%d", &VDd[d]);
 	}
 	
 	// Realizando a leitura dos dados dependentes de 2 conjuntos
 	// Por voos (v) e aeroportos (o)
 	for(int v=0; v<V; v++){
 		for(int o=0; o<O; o++){
-			fscanf(fp, "%d", DTvo[v][o]);
+			fscanf(fp, "%d", &DTvo[v][o]);
 		}
     }
 	
 	for(int v=0; v<V; v++){
 		for(int o=0; o<O; o++){
-			fscanf(fp, "%d", OT[v][o]);
+			fscanf(fp, "%d", &OT[v][o]);
 		}
     }
 	
 	// Por voos (v) e dias (d)
 	for(int v=0; v<V; v++){
 		for(int d=0; d<D; d++){
-			fscanf(fp, "%d", VDvd[v][d]);
+			fscanf(fp, "%d", &VDvd[v][d]);
 		}
     }
 	
 	// Por trechos (t) e dias (d)
 	for(int t=0; t<T; t++){
 		for(int d=0; d<D; d++){
-			fscanf(fp, "%d", DTtd[t][d]);
+			fscanf(fp, "%d", &DTtd[t][d]);
 		}
     }
 	
@@ -176,62 +177,62 @@ int main(int argc, char *argv[]){
 	printf("O: %d\n",O);
 	
 	// Impressão dos dados dependentes de 1 conjunto
-	printf("Avioes: \n");
-    printf("Aviao \t Capacidade \t Consumo \t Velocidade \t Quantidade\n");
+	printf("Avioes: \n\n");
+    printf("Aviao \t Capacidade \t Consumo \t Velocidade\n\n");
     for(int a=0; a<A; a++){
-        printf("Aviao%d \t %d \t %.2f \t %.2f\n", A, KA[a], CA[a], VA[a]);
+        printf("Aviao %d \t %d \t %.2f \t %.2f\n", a, KA[a], CA[a], VA[a]);
     }
 	
-	printf("Voos: \n");
-    printf("Voo \t Distancia \t Demanda\n");
+	printf("Voos: \n\n");
+    printf("Voo \t Distancia \t Demanda\n\n");
     for(int v=0; v<V; v++){
-        printf("Voo%d \t %.2f \t %d \n", V, DisTv[v], DV[v]);
+        printf("Voo %d \t %.2f \t %d \n", v, DisTv[v], DV[v]);
     }
 	
-	printf("Trechos: \n");
-	printf("Trecho \t Distancia\n");
+	printf("Trechos: \n\n");
+	printf("Trecho \t Distancia\n\n");
 	for(int t=0; t<T; t++){
-		printf("Trecho%d \t %.2f \n", T, DisTt[t]);
+		printf("Trecho %d \t %.2f \n", t, DisTt[t]);
 	}
 	
-	printf("Dias: \n");
-	printf("Dia \t Quant. de voos \n");
+	printf("Dias: \n\n");
+	printf("Dia \t Quant. de voos \n\n");
 	for(int d=0; d<D; d++){
-		printf("Dia%d \t %d \n", D, VDd[d]);
+		printf("Dia %d \t %d \n", d, VDd[d]);
 	}
 	
 	// Impressão dos dados dependentes de 2 conjuntos
 	// Por voos (v) e aeroportos (o)
-	printf("\nVoo V tem origem no aeroporto O? (1 caso sim, 0 caso nao)\n");
+	printf("\nVoo V tem origem no aeroporto O? (1 caso sim, 0 caso nao)\n\n");
 	for(int v=0; v<V; v++){
 		for(int o=0; o<O; o++){
-			printf("Voo%d/Aeroporto%d: %d \t", V, O, DTvo[v][o]);
+			printf("Voo %d/Aeroporto %d: %d \t", v, o, DTvo[v][o]);
 		}
 		printf("\n");
     }
 	
-	printf("\n\nVoo V tem destino no aeroporto O? (1 caso sim, 0 caso nao)\n");
+	printf("\n\nVoo V tem destino no aeroporto O? (1 caso sim, 0 caso nao)\n\n");
 	for(int v=0; v<V; v++){
 		for(int o=0; o<O; o++){
-			printf("Voo%d/Aeroporto%d: %d \t", V, O, OT[v][o]);
+			printf("Voo %d/Aeroporto %d: %d \t", v, o, OT[v][o]);
 		}
 		printf("\n");
     }
 	
 	// Por voos (v) e dias (d)
-	printf("\n\nVoo V pertence ao dia D? (1 caso sim, 0 caso nao)\n");
+	printf("\n\nVoo V pertence ao dia D? (1 caso sim, 0 caso nao)\n\n");
 	for(int v=0; v<V; v++){
 		for(int d=0; d<D; d++){
-			printf("Voo%d/Dia%d: %d \t", V, D, VDvd[v][d]);
+			printf("Voo %d/Dia %d: %d \t", v, d, VDvd[v][d]);
 		}
 		printf("\n");
     }
 	
 	// Por trechos (t) e dias (d)
-	printf("\n\nDemanda por voos do Trecho X no dia Y\n");
+	printf("\n\nDemanda por voos do Trecho X no dia Y\n\n");
 	for(int t=0; t<T; t++){
 		for(int d=0; d<D; d++){
-			printf("Trecho%d/Dia%d: %d \t", T, D, DTtd[t][d]);
+			printf("Trecho %d/Dia %d: %d \t", t, d, DTtd[t][d]);
 		}
 		printf("\n");
     }
@@ -268,8 +269,12 @@ int main(int argc, char *argv[]){
 	for(int a=0; a<A; a++){
         y[a] = IloNumVarMatrix(env, O);
 		for(int o = 0; o<O; o++){
-			y[a][o]=IloNumVarArray(env,D,0,1,ILOBOOL);
-			// Adicionando y ao modelo
+			y[a][o] = IloNumVarArray(env, D, 0, 1, ILOINT);
+		}
+	}
+	// Adicionando y ao modelo
+	for(int a=0; a<A; a++){
+        for(int o = 0; o<O; o++){
 			for(int d = 0; d<D; d++){
 				stringstream var;
 		    	var << "y[Aviao"<<a<<"][Aeroporto"<<o<<"][Dia"<<d<<"]";
@@ -299,7 +304,7 @@ int main(int argc, char *argv[]){
 	
 	// Declaração das restrições do problema
 
-    // Restrição 1 - Garante que cada voo seja atendido somente por 1 avião
+    // Restrição 2 - Garante que cada voo seja atendido somente por 1 avião
 	// Para todo V
 	for(int v=0; v<V; v++){
 		IloExpr soma(env);
@@ -310,18 +315,18 @@ int main(int argc, char *argv[]){
 		}
 		
 		// Declara a restrição
-		IloRange rest_1(env, 1, soma, 1);
+		IloRange rest_2(env, 1, soma, 1);
 		
 		// Define o nome da restrição
 		stringstream rest;
-        rest << "Restricao 1[Voo"<<v<<"]:";
-        rest_1.setName(rest.str().c_str());
+        rest << "Restricao 2[Voo"<<v<<"]:";
+        rest_2.setName(rest.str().c_str());
 		
 		// Adicionando a restrição ao modelo
-        modelo.add(rest_1);
+        modelo.add(rest_2);
     }
 	
-	// Restrição 2 - Garante que o limite de horas operadas por cada aeronave seja respeitado
+	// Restrição 3 - Garante que o limite de horas operadas por cada aeronave seja respeitado
 	// Para todo A
 	for(int a=0; a<A; a++){
 		// Para todo D
@@ -334,19 +339,19 @@ int main(int argc, char *argv[]){
 			}
 			
 			// Declara a restrição
-			IloRange rest_2(env, 0, soma, 24*VA[a]);
+			IloRange rest_3(env, 0, soma, 24*VA[a]);
 		
 			// Define o nome da restrição
 			stringstream rest;
-			rest << "Restricao 2[Aviao"<<a<<"][Dia"<<d<<"]:";
-			rest_2.setName(rest.str().c_str());
+			rest << "Restricao 3[Aviao"<<a<<"][Dia"<<d<<"]:";
+			rest_3.setName(rest.str().c_str());
 		
 			// Adicionando a restrição ao modelo
-			modelo.add(rest_2);
+			modelo.add(rest_3);
 		}
 	}
 	
-	// Restrição 3 - Cada avião a cada dia deve iniciar suas operações de uma única origem
+	// Restrição 4 - Cada avião a cada dia deve iniciar suas operações de uma única origem
 	// Para todo A
 	for(int a=0; a<A; a++){
 		// Para todo D
@@ -359,53 +364,54 @@ int main(int argc, char *argv[]){
 			}
 			
 			// Declara a restrição
-			IloRange rest_3(env, 1, soma, 1);
+			IloRange rest_4(env, 1, soma, 1);
 			
 			// Define o nome da restrição
 			stringstream rest;
-			rest << "Restricao 3[Aviao"<<a<<"][Dia"<<d<<"]:";
-			rest_3.setName(rest.str().c_str());
+			rest << "Restricao 4[Aviao"<<a<<"][Dia"<<d<<"]:";
+			rest_4.setName(rest.str().c_str());
 		
 			// Adicionando a restrição ao modelo
-			modelo.add(rest_3);
+			modelo.add(rest_4);
 		}
 	}
-	
-	// Restrição 4 - Certifica que a quantidade de decolagens deve ser igual a quantidade de pousos
+/*	
+	// Restrição 5 - Certifica que a quantidade de decolagens deve ser igual a quantidade de pousos
 	// Para todo A
 	for(int a=0; a<A; a++){
-		// Para todo D
-		for(int d=0; d<D; d++){
-			// Para todo O
-			for(int o=0; o<O; o++){
+		// Para todo O
+		for(int o=0; o<O; o++){
+			// Para todo D
+			for(int d=0; d<D; d++){
 				IloExpr soma1(env);
 				IloExpr soma2(env);
-				int temp = 0;
+				
 				// Somatório de V
 				for(int v=0; v<V; v++){
 					soma1 = soma1 + x[a][v] * DTvo[v][o] * VDvd[v][d];
 				}
-				// Somatório de V
-				for(int v=0; v<V; v++){
-					soma2 = soma2 + x[a][v] * OT[v][o] * VDvd[v][d] + y[a][o][d+1];
-				}
 				soma1 = soma1 + y[a][o][d];
 				
+				// Somatório de V
+				for(int v=0; v<V; v++){
+					soma2 = soma2 + x[a][v] * OT[v][o] + y[a][o][d+1];
+				}
+				
 				// Declara a restrição
-				IloRange rest_4(env, 0, soma1-soma2, 0);
+				IloRange rest_5(env, 0, soma1-soma2, 0);
 			
 				// Define o nome da restrição
 				stringstream rest;
-				rest << "Restricao 4[Aviao"<<a<<"][Dia"<<d<<"][Aero"<<o<<"]:";
-				rest_4.setName(rest.str().c_str());
+				rest << "Restricao 5[Aviao"<<a<<"][Dia"<<d<<"][Aero"<<o<<"]:";
+				rest_5.setName(rest.str().c_str());
 		
 				// Adicionando a restrição ao modelo
-				modelo.add(rest_4);
+				modelo.add(rest_5);
 			}
 		}
 	}
-	
-	// Restrição 5 - Só podem ser alocados aviões que cumprem a demanda do voo
+*/	
+	// Restrição 6 - Só podem ser alocados aviões que cumprem a demanda do voo
 	// Para todo V
 	for(int v=0; v<V; v++){
 		IloExpr soma(env);
@@ -416,18 +422,18 @@ int main(int argc, char *argv[]){
 		}
 		
 		// Declara a restrição
-		IloRange rest_5(env, DV[v], soma, IloInfinity);
+		IloRange rest_6(env, DV[v], soma, IloInfinity);
 		
 		// Define o nome da restrição
 		stringstream rest;
-		rest << "Restricao 5[Voo"<<v<<"]:";
-		rest_5.setName(rest.str().c_str());
+		rest << "Restricao 6[Voo"<<v<<"]:";
+		rest_6.setName(rest.str().c_str());
 		
 		// Adicionando a restrição ao modelo
-		modelo.add(rest_5);
+		modelo.add(rest_6);
 	}
 	
-	// Restrição 6 - x[a][v] pertence a {0,1}
+	// Restrição 7 - x[a][v] pertence a {0,1}
 	// Para todo A
 	for(int a=0; a<A; a++){
 		// Para todo V
@@ -436,19 +442,19 @@ int main(int argc, char *argv[]){
 			variavel = x[a][v];
 			
 			// Declara a restrição
-			IloRange rest_6(env, 0, variavel, 1);
+			IloRange rest_7(env, 0, variavel, 1);
 			
 			// Define o nome da restrição
 			stringstream rest;
-			rest << "Restricao 6[Aviao"<<a<<"][Voo"<<v<<"]:";
-			rest_6.setName(rest.str().c_str());
+			rest << "Restricao 7[Aviao"<<a<<"][Voo"<<v<<"]:";
+			rest_7.setName(rest.str().c_str());
 			
 			// Adicionando a restrição ao modelo
-			modelo.add(rest_6);
+			modelo.add(rest_7);
 		}
 	}
 	
-	// Restrição 7 - y[a][o][d] pertence a {0,1}
+	// Restrição 8 - y[a][o][d] pertence a {0,1}
 	// Para todo A
 	for(int a=0; a<A; a++){
 		// Para todo O
@@ -459,15 +465,15 @@ int main(int argc, char *argv[]){
 				variavel = y[a][o][d];
 			
 				// Declara a restrição
-				IloRange rest_7(env, 0, variavel, 1);
+				IloRange rest_8(env, 0, variavel, 1);
 			
 				// Define o nome da restrição
 				stringstream rest;
-				rest << "Restricao 7[Aviao"<<a<<"][Aero"<<o<<"][Dia"<<d<<"]:";
-				rest_7.setName(rest.str().c_str());
+				rest << "Restricao 8[Aviao"<<a<<"][Aero"<<o<<"][Dia"<<d<<"]:";
+				rest_8.setName(rest.str().c_str());
 			
 				// Adicionando a restrição ao modelo
-				modelo.add(rest_7);
+				modelo.add(rest_8);
 			}
 		}
 	}
@@ -484,13 +490,13 @@ int main(int argc, char *argv[]){
     
 	
 	
-	
+	int valor = 0;
     // Imprimindo os valores das variáveis de decisão
 	// Variável x[a][v]
     printf("\n\n");
 	for(int a=0; a<A; a++){
 		for(int v=0; v<V; v++){
-			int valor = cplex.getValue(x[a][v]);
+			valor = cplex.getValue(x[a][v]);
 			printf("x[aviao%d][voo%d] = %d\n", a, v, valor);
 		}
 	}
@@ -500,8 +506,8 @@ int main(int argc, char *argv[]){
 	for(int a=0; a<A; a++){
 		for(int o=0; o<O; o++){
 			for(int d=0; d<D; d++){
-				int valor = cplex.getValue(y[a][o][d]);
-				printf("x[aviao%d][aeroporto%d][dia%d] = %d\n", a, o, d, valor);
+				valor = cplex.getValue(y[a][o][d]);
+				printf("y[aviao%d][aeroporto%d][dia%d] = %d\n", a, o, d, valor);
 			}
 		}
 	}
