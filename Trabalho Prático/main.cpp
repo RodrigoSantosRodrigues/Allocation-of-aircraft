@@ -487,7 +487,7 @@ int main(int argc, char *argv[]){
 	int valor = 0;
     // Imprimindo os valores das variáveis de decisão
 	// Variável x[a][v]
-    printf("\n\n");
+    printf("\n\nVARIAVEIS DE DECISAO\n\n");
 	for(int a=0; a<A; a++){
 		for(int v=0; v<V; v++){
 			valor = cplex.getValue(x[a][v]);
@@ -509,6 +509,10 @@ int main(int argc, char *argv[]){
 			}
 		}
 	}
+	
+	printf("\n\nFUNCAO OBJETIVO\n");
+	double valor = cplex.getObjValue();
+	printf("FO = %.2f\n", valor);
 	
 	return 0;
 }
