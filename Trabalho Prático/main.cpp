@@ -373,7 +373,7 @@ int main(int argc, char *argv[]){
 		}
 	}
 
-
+/*
 	// Restrição 5 - Certifica que a quantidade de decolagens deve ser igual a quantidade de pousos
 	// Para todo A
 	for(int a=0; a<A; a++){
@@ -404,7 +404,7 @@ int main(int argc, char *argv[]){
 			}
 		}
 	}
-
+*/
 	// Restrição 6 - Só podem ser alocados aviões que cumprem a demanda do voo
 	// Para todo V
 	for(int v=0; v<V; v++){
@@ -491,7 +491,9 @@ int main(int argc, char *argv[]){
 	for(int a=0; a<A; a++){
 		for(int v=0; v<V; v++){
 			valor = cplex.getValue(x[a][v]);
-			printf("x[aviao%d][voo%d] = %d\n", a, v, valor);
+			if(valor == 1){
+				printf("x[aviao%d][voo%d] = %d\n", a, v, valor);
+			}
 		}
 	}
 	
@@ -501,7 +503,9 @@ int main(int argc, char *argv[]){
 		for(int o=0; o<O; o++){
 			for(int d=0; d<D; d++){
 				valor = cplex.getValue(y[a][o][d]);
-				printf("y[aviao%d][aeroporto%d][dia%d] = %d\n", a, o, d, valor);
+				if(valor == 1){
+					printf("y[aviao%d][aeroporto%d][dia%d] = %d\n", a, o, d, valor);
+				}
 			}
 		}
 	}

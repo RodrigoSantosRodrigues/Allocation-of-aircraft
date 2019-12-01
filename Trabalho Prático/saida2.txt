@@ -1,0 +1,1194 @@
+A: 25
+V: 183
+D: 7
+T: 6
+O: 4
+
+Avioes: 
+
+Aviao 	 Capacidade 	 Consumo 	 Velocidade
+
+Aviao 0 	 174 	 2700.00 	 830.00
+Aviao 1 	 174 	 2700.00 	 830.00
+Aviao 2 	 174 	 2700.00 	 830.00
+Aviao 3 	 174 	 2700.00 	 830.00
+Aviao 4 	 174 	 2700.00 	 830.00
+Aviao 5 	 272 	 7100.00 	 830.00
+Aviao 6 	 272 	 7100.00 	 830.00
+Aviao 7 	 272 	 7100.00 	 830.00
+Aviao 8 	 70 	 800.00 	 500.00
+Aviao 9 	 70 	 800.00 	 500.00
+Aviao 10 	 70 	 800.00 	 500.00
+Aviao 11 	 70 	 800.00 	 500.00
+Aviao 12 	 118 	 2300.00 	 830.00
+Aviao 13 	 118 	 2300.00 	 830.00
+Aviao 14 	 118 	 2300.00 	 830.00
+Aviao 15 	 118 	 2300.00 	 830.00
+Aviao 16 	 118 	 2300.00 	 830.00
+Aviao 17 	 118 	 2300.00 	 830.00
+Aviao 18 	 118 	 2300.00 	 830.00
+Aviao 19 	 118 	 2300.00 	 830.00
+Aviao 20 	 118 	 2300.00 	 830.00
+Aviao 21 	 118 	 2300.00 	 830.00
+Aviao 22 	 118 	 2300.00 	 830.00
+Aviao 23 	 118 	 2300.00 	 830.00
+Aviao 24 	 118 	 2300.00 	 830.00
+
+Voos: 
+
+Voo 	 Distancia 	 Demanda
+
+Voo 0 	 590.59 	 118 
+Voo 1 	 590.59 	 118 
+Voo 2 	 590.59 	 118 
+Voo 3 	 590.59 	 118 
+Voo 4 	 590.59 	 118 
+Voo 5 	 590.59 	 118 
+Voo 6 	 590.59 	 118 
+Voo 7 	 590.59 	 118 
+Voo 8 	 590.59 	 106 
+Voo 9 	 590.59 	 118 
+Voo 10 	 590.59 	 118 
+Voo 11 	 590.59 	 118 
+Voo 12 	 590.59 	 118 
+Voo 13 	 590.59 	 118 
+Voo 14 	 590.59 	 118 
+Voo 15 	 590.59 	 118 
+Voo 16 	 590.59 	 118 
+Voo 17 	 590.59 	 118 
+Voo 18 	 590.59 	 118 
+Voo 19 	 590.59 	 118 
+Voo 20 	 590.59 	 118 
+Voo 21 	 590.59 	 118 
+Voo 22 	 590.59 	 118 
+Voo 23 	 590.59 	 118 
+Voo 24 	 590.59 	 118 
+Voo 25 	 590.59 	 118 
+Voo 26 	 590.59 	 118 
+Voo 27 	 590.59 	 118 
+Voo 28 	 590.59 	 106 
+Voo 29 	 590.59 	 118 
+Voo 30 	 590.59 	 118 
+Voo 31 	 590.59 	 118 
+Voo 32 	 590.59 	 118 
+Voo 33 	 590.59 	 118 
+Voo 34 	 590.59 	 118 
+Voo 35 	 590.59 	 118 
+Voo 36 	 590.59 	 118 
+Voo 37 	 590.59 	 118 
+Voo 38 	 590.59 	 118 
+Voo 39 	 590.59 	 118 
+Voo 40 	 590.59 	 118 
+Voo 41 	 590.59 	 118 
+Voo 42 	 590.59 	 118 
+Voo 43 	 590.59 	 118 
+Voo 44 	 373.00 	 106 
+Voo 45 	 373.00 	 118 
+Voo 46 	 373.00 	 106 
+Voo 47 	 373.00 	 106 
+Voo 48 	 373.00 	 106 
+Voo 49 	 373.00 	 106 
+Voo 50 	 373.00 	 106 
+Voo 51 	 373.00 	 118 
+Voo 52 	 373.00 	 118 
+Voo 53 	 373.00 	 106 
+Voo 54 	 373.00 	 70 
+Voo 55 	 373.00 	 118 
+Voo 56 	 373.00 	 118 
+Voo 57 	 373.00 	 118 
+Voo 58 	 373.00 	 106 
+Voo 59 	 373.00 	 118 
+Voo 60 	 373.00 	 118 
+Voo 61 	 373.00 	 118 
+Voo 62 	 373.00 	 106 
+Voo 63 	 373.00 	 106 
+Voo 64 	 373.00 	 118 
+Voo 65 	 373.00 	 106 
+Voo 66 	 373.00 	 118 
+Voo 67 	 373.00 	 118 
+Voo 68 	 373.00 	 106 
+Voo 69 	 373.00 	 118 
+Voo 70 	 373.00 	 118 
+Voo 71 	 373.00 	 118 
+Voo 72 	 373.00 	 118 
+Voo 73 	 373.00 	 106 
+Voo 74 	 373.00 	 106 
+Voo 75 	 373.00 	 118 
+Voo 76 	 373.00 	 118 
+Voo 77 	 524.00 	 118 
+Voo 78 	 524.00 	 118 
+Voo 79 	 524.00 	 118 
+Voo 80 	 524.00 	 118 
+Voo 81 	 524.00 	 118 
+Voo 82 	 524.00 	 118 
+Voo 83 	 524.00 	 118 
+Voo 84 	 524.00 	 118 
+Voo 85 	 524.00 	 118 
+Voo 86 	 524.00 	 118 
+Voo 87 	 524.00 	 118 
+Voo 88 	 524.00 	 118 
+Voo 89 	 524.00 	 118 
+Voo 90 	 524.00 	 118 
+Voo 91 	 524.00 	 118 
+Voo 92 	 524.00 	 118 
+Voo 93 	 524.00 	 118 
+Voo 94 	 524.00 	 118 
+Voo 95 	 524.00 	 118 
+Voo 96 	 524.00 	 118 
+Voo 97 	 524.00 	 118 
+Voo 98 	 524.00 	 118 
+Voo 99 	 524.00 	 118 
+Voo 100 	 524.00 	 118 
+Voo 101 	 524.00 	 118 
+Voo 102 	 524.00 	 118 
+Voo 103 	 524.00 	 118 
+Voo 104 	 524.00 	 118 
+Voo 105 	 524.00 	 118 
+Voo 106 	 524.00 	 118 
+Voo 107 	 524.00 	 118 
+Voo 108 	 524.00 	 118 
+Voo 109 	 524.00 	 118 
+Voo 110 	 524.00 	 118 
+Voo 111 	 524.00 	 118 
+Voo 112 	 524.00 	 118 
+Voo 113 	 373.00 	 118 
+Voo 114 	 373.00 	 106 
+Voo 115 	 373.00 	 106 
+Voo 116 	 373.00 	 106 
+Voo 117 	 373.00 	 118 
+Voo 118 	 373.00 	 118 
+Voo 119 	 373.00 	 106 
+Voo 120 	 373.00 	 118 
+Voo 121 	 373.00 	 106 
+Voo 122 	 373.00 	 118 
+Voo 123 	 373.00 	 118 
+Voo 124 	 373.00 	 118 
+Voo 125 	 373.00 	 118 
+Voo 126 	 373.00 	 118 
+Voo 127 	 373.00 	 106 
+Voo 128 	 373.00 	 118 
+Voo 129 	 373.00 	 106 
+Voo 130 	 373.00 	 106 
+Voo 131 	 373.00 	 118 
+Voo 132 	 373.00 	 118 
+Voo 133 	 373.00 	 106 
+Voo 134 	 373.00 	 118 
+Voo 135 	 373.00 	 106 
+Voo 136 	 373.00 	 118 
+Voo 137 	 373.00 	 106 
+Voo 138 	 373.00 	 118 
+Voo 139 	 373.00 	 118 
+Voo 140 	 373.00 	 106 
+Voo 141 	 373.00 	 118 
+Voo 142 	 373.00 	 106 
+Voo 143 	 373.00 	 106 
+Voo 144 	 373.00 	 106 
+Voo 145 	 373.00 	 118 
+Voo 146 	 524.00 	 118 
+Voo 147 	 524.00 	 118 
+Voo 148 	 524.00 	 118 
+Voo 149 	 524.00 	 118 
+Voo 150 	 524.00 	 118 
+Voo 151 	 524.00 	 118 
+Voo 152 	 524.00 	 118 
+Voo 153 	 524.00 	 118 
+Voo 154 	 524.00 	 118 
+Voo 155 	 524.00 	 118 
+Voo 156 	 524.00 	 118 
+Voo 157 	 524.00 	 118 
+Voo 158 	 524.00 	 118 
+Voo 159 	 524.00 	 118 
+Voo 160 	 524.00 	 118 
+Voo 161 	 524.00 	 118 
+Voo 162 	 524.00 	 118 
+Voo 163 	 524.00 	 118 
+Voo 164 	 524.00 	 118 
+Voo 165 	 524.00 	 118 
+Voo 166 	 524.00 	 118 
+Voo 167 	 524.00 	 118 
+Voo 168 	 524.00 	 118 
+Voo 169 	 524.00 	 118 
+Voo 170 	 524.00 	 118 
+Voo 171 	 524.00 	 118 
+Voo 172 	 524.00 	 118 
+Voo 173 	 524.00 	 118 
+Voo 174 	 524.00 	 118 
+Voo 175 	 524.00 	 118 
+Voo 176 	 524.00 	 118 
+Voo 177 	 524.00 	 118 
+Voo 178 	 524.00 	 118 
+Voo 179 	 524.00 	 118 
+Voo 180 	 524.00 	 118 
+Voo 181 	 524.00 	 118 
+Voo 182 	 524.00 	 118 
+
+Trechos: 
+
+Trecho 	 Distancia
+
+Trecho 0 	 590.59 
+Trecho 1 	 590.59 
+Trecho 2 	 373.00 
+Trecho 3 	 524.00 
+Trecho 4 	 373.00 
+Trecho 5 	 524.00 
+
+Dias: 
+
+Dia 	 Quant. de voos 
+
+Dia 0 	 18 
+Dia 1 	 30 
+Dia 2 	 30 
+Dia 3 	 30 
+Dia 4 	 30 
+Dia 5 	 29 
+Dia 6 	 16 
+
+
+Voo V tem origem no aeroporto O? (1 caso sim, 0 caso nao)
+
+Voo 0/Aeroporto 0: 1 	Voo 0/Aeroporto 1: 0 	Voo 0/Aeroporto 2: 0 	Voo 0/Aeroporto 3: 0 	
+Voo 1/Aeroporto 0: 1 	Voo 1/Aeroporto 1: 0 	Voo 1/Aeroporto 2: 0 	Voo 1/Aeroporto 3: 0 	
+Voo 2/Aeroporto 0: 1 	Voo 2/Aeroporto 1: 0 	Voo 2/Aeroporto 2: 0 	Voo 2/Aeroporto 3: 0 	
+Voo 3/Aeroporto 0: 1 	Voo 3/Aeroporto 1: 0 	Voo 3/Aeroporto 2: 0 	Voo 3/Aeroporto 3: 0 	
+Voo 4/Aeroporto 0: 1 	Voo 4/Aeroporto 1: 0 	Voo 4/Aeroporto 2: 0 	Voo 4/Aeroporto 3: 0 	
+Voo 5/Aeroporto 0: 1 	Voo 5/Aeroporto 1: 0 	Voo 5/Aeroporto 2: 0 	Voo 5/Aeroporto 3: 0 	
+Voo 6/Aeroporto 0: 1 	Voo 6/Aeroporto 1: 0 	Voo 6/Aeroporto 2: 0 	Voo 6/Aeroporto 3: 0 	
+Voo 7/Aeroporto 0: 1 	Voo 7/Aeroporto 1: 0 	Voo 7/Aeroporto 2: 0 	Voo 7/Aeroporto 3: 0 	
+Voo 8/Aeroporto 0: 1 	Voo 8/Aeroporto 1: 0 	Voo 8/Aeroporto 2: 0 	Voo 8/Aeroporto 3: 0 	
+Voo 9/Aeroporto 0: 1 	Voo 9/Aeroporto 1: 0 	Voo 9/Aeroporto 2: 0 	Voo 9/Aeroporto 3: 0 	
+Voo 10/Aeroporto 0: 1 	Voo 10/Aeroporto 1: 0 	Voo 10/Aeroporto 2: 0 	Voo 10/Aeroporto 3: 0 	
+Voo 11/Aeroporto 0: 1 	Voo 11/Aeroporto 1: 0 	Voo 11/Aeroporto 2: 0 	Voo 11/Aeroporto 3: 0 	
+Voo 12/Aeroporto 0: 1 	Voo 12/Aeroporto 1: 0 	Voo 12/Aeroporto 2: 0 	Voo 12/Aeroporto 3: 0 	
+Voo 13/Aeroporto 0: 1 	Voo 13/Aeroporto 1: 0 	Voo 13/Aeroporto 2: 0 	Voo 13/Aeroporto 3: 0 	
+Voo 14/Aeroporto 0: 1 	Voo 14/Aeroporto 1: 0 	Voo 14/Aeroporto 2: 0 	Voo 14/Aeroporto 3: 0 	
+Voo 15/Aeroporto 0: 1 	Voo 15/Aeroporto 1: 0 	Voo 15/Aeroporto 2: 0 	Voo 15/Aeroporto 3: 0 	
+Voo 16/Aeroporto 0: 1 	Voo 16/Aeroporto 1: 0 	Voo 16/Aeroporto 2: 0 	Voo 16/Aeroporto 3: 0 	
+Voo 17/Aeroporto 0: 1 	Voo 17/Aeroporto 1: 0 	Voo 17/Aeroporto 2: 0 	Voo 17/Aeroporto 3: 0 	
+Voo 18/Aeroporto 0: 1 	Voo 18/Aeroporto 1: 0 	Voo 18/Aeroporto 2: 0 	Voo 18/Aeroporto 3: 0 	
+Voo 19/Aeroporto 0: 1 	Voo 19/Aeroporto 1: 0 	Voo 19/Aeroporto 2: 0 	Voo 19/Aeroporto 3: 0 	
+Voo 20/Aeroporto 0: 1 	Voo 20/Aeroporto 1: 0 	Voo 20/Aeroporto 2: 0 	Voo 20/Aeroporto 3: 0 	
+Voo 21/Aeroporto 0: 1 	Voo 21/Aeroporto 1: 0 	Voo 21/Aeroporto 2: 0 	Voo 21/Aeroporto 3: 0 	
+Voo 22/Aeroporto 0: 0 	Voo 22/Aeroporto 1: 1 	Voo 22/Aeroporto 2: 0 	Voo 22/Aeroporto 3: 0 	
+Voo 23/Aeroporto 0: 0 	Voo 23/Aeroporto 1: 1 	Voo 23/Aeroporto 2: 0 	Voo 23/Aeroporto 3: 0 	
+Voo 24/Aeroporto 0: 0 	Voo 24/Aeroporto 1: 1 	Voo 24/Aeroporto 2: 0 	Voo 24/Aeroporto 3: 0 	
+Voo 25/Aeroporto 0: 0 	Voo 25/Aeroporto 1: 1 	Voo 25/Aeroporto 2: 0 	Voo 25/Aeroporto 3: 0 	
+Voo 26/Aeroporto 0: 0 	Voo 26/Aeroporto 1: 1 	Voo 26/Aeroporto 2: 0 	Voo 26/Aeroporto 3: 0 	
+Voo 27/Aeroporto 0: 0 	Voo 27/Aeroporto 1: 1 	Voo 27/Aeroporto 2: 0 	Voo 27/Aeroporto 3: 0 	
+Voo 28/Aeroporto 0: 0 	Voo 28/Aeroporto 1: 1 	Voo 28/Aeroporto 2: 0 	Voo 28/Aeroporto 3: 0 	
+Voo 29/Aeroporto 0: 0 	Voo 29/Aeroporto 1: 1 	Voo 29/Aeroporto 2: 0 	Voo 29/Aeroporto 3: 0 	
+Voo 30/Aeroporto 0: 0 	Voo 30/Aeroporto 1: 1 	Voo 30/Aeroporto 2: 0 	Voo 30/Aeroporto 3: 0 	
+Voo 31/Aeroporto 0: 0 	Voo 31/Aeroporto 1: 1 	Voo 31/Aeroporto 2: 0 	Voo 31/Aeroporto 3: 0 	
+Voo 32/Aeroporto 0: 0 	Voo 32/Aeroporto 1: 1 	Voo 32/Aeroporto 2: 0 	Voo 32/Aeroporto 3: 0 	
+Voo 33/Aeroporto 0: 0 	Voo 33/Aeroporto 1: 1 	Voo 33/Aeroporto 2: 0 	Voo 33/Aeroporto 3: 0 	
+Voo 34/Aeroporto 0: 0 	Voo 34/Aeroporto 1: 1 	Voo 34/Aeroporto 2: 0 	Voo 34/Aeroporto 3: 0 	
+Voo 35/Aeroporto 0: 0 	Voo 35/Aeroporto 1: 1 	Voo 35/Aeroporto 2: 0 	Voo 35/Aeroporto 3: 0 	
+Voo 36/Aeroporto 0: 0 	Voo 36/Aeroporto 1: 1 	Voo 36/Aeroporto 2: 0 	Voo 36/Aeroporto 3: 0 	
+Voo 37/Aeroporto 0: 0 	Voo 37/Aeroporto 1: 1 	Voo 37/Aeroporto 2: 0 	Voo 37/Aeroporto 3: 0 	
+Voo 38/Aeroporto 0: 0 	Voo 38/Aeroporto 1: 1 	Voo 38/Aeroporto 2: 0 	Voo 38/Aeroporto 3: 0 	
+Voo 39/Aeroporto 0: 0 	Voo 39/Aeroporto 1: 1 	Voo 39/Aeroporto 2: 0 	Voo 39/Aeroporto 3: 0 	
+Voo 40/Aeroporto 0: 0 	Voo 40/Aeroporto 1: 1 	Voo 40/Aeroporto 2: 0 	Voo 40/Aeroporto 3: 0 	
+Voo 41/Aeroporto 0: 0 	Voo 41/Aeroporto 1: 1 	Voo 41/Aeroporto 2: 0 	Voo 41/Aeroporto 3: 0 	
+Voo 42/Aeroporto 0: 0 	Voo 42/Aeroporto 1: 1 	Voo 42/Aeroporto 2: 0 	Voo 42/Aeroporto 3: 0 	
+Voo 43/Aeroporto 0: 0 	Voo 43/Aeroporto 1: 1 	Voo 43/Aeroporto 2: 0 	Voo 43/Aeroporto 3: 0 	
+Voo 44/Aeroporto 0: 0 	Voo 44/Aeroporto 1: 1 	Voo 44/Aeroporto 2: 0 	Voo 44/Aeroporto 3: 0 	
+Voo 45/Aeroporto 0: 0 	Voo 45/Aeroporto 1: 1 	Voo 45/Aeroporto 2: 0 	Voo 45/Aeroporto 3: 0 	
+Voo 46/Aeroporto 0: 0 	Voo 46/Aeroporto 1: 1 	Voo 46/Aeroporto 2: 0 	Voo 46/Aeroporto 3: 0 	
+Voo 47/Aeroporto 0: 0 	Voo 47/Aeroporto 1: 1 	Voo 47/Aeroporto 2: 0 	Voo 47/Aeroporto 3: 0 	
+Voo 48/Aeroporto 0: 0 	Voo 48/Aeroporto 1: 1 	Voo 48/Aeroporto 2: 0 	Voo 48/Aeroporto 3: 0 	
+Voo 49/Aeroporto 0: 0 	Voo 49/Aeroporto 1: 1 	Voo 49/Aeroporto 2: 0 	Voo 49/Aeroporto 3: 0 	
+Voo 50/Aeroporto 0: 0 	Voo 50/Aeroporto 1: 1 	Voo 50/Aeroporto 2: 0 	Voo 50/Aeroporto 3: 0 	
+Voo 51/Aeroporto 0: 0 	Voo 51/Aeroporto 1: 1 	Voo 51/Aeroporto 2: 0 	Voo 51/Aeroporto 3: 0 	
+Voo 52/Aeroporto 0: 0 	Voo 52/Aeroporto 1: 1 	Voo 52/Aeroporto 2: 0 	Voo 52/Aeroporto 3: 0 	
+Voo 53/Aeroporto 0: 0 	Voo 53/Aeroporto 1: 1 	Voo 53/Aeroporto 2: 0 	Voo 53/Aeroporto 3: 0 	
+Voo 54/Aeroporto 0: 0 	Voo 54/Aeroporto 1: 1 	Voo 54/Aeroporto 2: 0 	Voo 54/Aeroporto 3: 0 	
+Voo 55/Aeroporto 0: 0 	Voo 55/Aeroporto 1: 1 	Voo 55/Aeroporto 2: 0 	Voo 55/Aeroporto 3: 0 	
+Voo 56/Aeroporto 0: 0 	Voo 56/Aeroporto 1: 1 	Voo 56/Aeroporto 2: 0 	Voo 56/Aeroporto 3: 0 	
+Voo 57/Aeroporto 0: 0 	Voo 57/Aeroporto 1: 1 	Voo 57/Aeroporto 2: 0 	Voo 57/Aeroporto 3: 0 	
+Voo 58/Aeroporto 0: 0 	Voo 58/Aeroporto 1: 1 	Voo 58/Aeroporto 2: 0 	Voo 58/Aeroporto 3: 0 	
+Voo 59/Aeroporto 0: 0 	Voo 59/Aeroporto 1: 1 	Voo 59/Aeroporto 2: 0 	Voo 59/Aeroporto 3: 0 	
+Voo 60/Aeroporto 0: 0 	Voo 60/Aeroporto 1: 1 	Voo 60/Aeroporto 2: 0 	Voo 60/Aeroporto 3: 0 	
+Voo 61/Aeroporto 0: 0 	Voo 61/Aeroporto 1: 1 	Voo 61/Aeroporto 2: 0 	Voo 61/Aeroporto 3: 0 	
+Voo 62/Aeroporto 0: 0 	Voo 62/Aeroporto 1: 1 	Voo 62/Aeroporto 2: 0 	Voo 62/Aeroporto 3: 0 	
+Voo 63/Aeroporto 0: 0 	Voo 63/Aeroporto 1: 1 	Voo 63/Aeroporto 2: 0 	Voo 63/Aeroporto 3: 0 	
+Voo 64/Aeroporto 0: 0 	Voo 64/Aeroporto 1: 1 	Voo 64/Aeroporto 2: 0 	Voo 64/Aeroporto 3: 0 	
+Voo 65/Aeroporto 0: 0 	Voo 65/Aeroporto 1: 1 	Voo 65/Aeroporto 2: 0 	Voo 65/Aeroporto 3: 0 	
+Voo 66/Aeroporto 0: 0 	Voo 66/Aeroporto 1: 1 	Voo 66/Aeroporto 2: 0 	Voo 66/Aeroporto 3: 0 	
+Voo 67/Aeroporto 0: 0 	Voo 67/Aeroporto 1: 1 	Voo 67/Aeroporto 2: 0 	Voo 67/Aeroporto 3: 0 	
+Voo 68/Aeroporto 0: 0 	Voo 68/Aeroporto 1: 1 	Voo 68/Aeroporto 2: 0 	Voo 68/Aeroporto 3: 0 	
+Voo 69/Aeroporto 0: 0 	Voo 69/Aeroporto 1: 1 	Voo 69/Aeroporto 2: 0 	Voo 69/Aeroporto 3: 0 	
+Voo 70/Aeroporto 0: 0 	Voo 70/Aeroporto 1: 1 	Voo 70/Aeroporto 2: 0 	Voo 70/Aeroporto 3: 0 	
+Voo 71/Aeroporto 0: 0 	Voo 71/Aeroporto 1: 1 	Voo 71/Aeroporto 2: 0 	Voo 71/Aeroporto 3: 0 	
+Voo 72/Aeroporto 0: 0 	Voo 72/Aeroporto 1: 1 	Voo 72/Aeroporto 2: 0 	Voo 72/Aeroporto 3: 0 	
+Voo 73/Aeroporto 0: 0 	Voo 73/Aeroporto 1: 1 	Voo 73/Aeroporto 2: 0 	Voo 73/Aeroporto 3: 0 	
+Voo 74/Aeroporto 0: 0 	Voo 74/Aeroporto 1: 1 	Voo 74/Aeroporto 2: 0 	Voo 74/Aeroporto 3: 0 	
+Voo 75/Aeroporto 0: 0 	Voo 75/Aeroporto 1: 1 	Voo 75/Aeroporto 2: 0 	Voo 75/Aeroporto 3: 0 	
+Voo 76/Aeroporto 0: 0 	Voo 76/Aeroporto 1: 1 	Voo 76/Aeroporto 2: 0 	Voo 76/Aeroporto 3: 0 	
+Voo 77/Aeroporto 0: 0 	Voo 77/Aeroporto 1: 1 	Voo 77/Aeroporto 2: 0 	Voo 77/Aeroporto 3: 0 	
+Voo 78/Aeroporto 0: 0 	Voo 78/Aeroporto 1: 1 	Voo 78/Aeroporto 2: 0 	Voo 78/Aeroporto 3: 0 	
+Voo 79/Aeroporto 0: 0 	Voo 79/Aeroporto 1: 1 	Voo 79/Aeroporto 2: 0 	Voo 79/Aeroporto 3: 0 	
+Voo 80/Aeroporto 0: 0 	Voo 80/Aeroporto 1: 1 	Voo 80/Aeroporto 2: 0 	Voo 80/Aeroporto 3: 0 	
+Voo 81/Aeroporto 0: 0 	Voo 81/Aeroporto 1: 1 	Voo 81/Aeroporto 2: 0 	Voo 81/Aeroporto 3: 0 	
+Voo 82/Aeroporto 0: 0 	Voo 82/Aeroporto 1: 1 	Voo 82/Aeroporto 2: 0 	Voo 82/Aeroporto 3: 0 	
+Voo 83/Aeroporto 0: 0 	Voo 83/Aeroporto 1: 1 	Voo 83/Aeroporto 2: 0 	Voo 83/Aeroporto 3: 0 	
+Voo 84/Aeroporto 0: 0 	Voo 84/Aeroporto 1: 1 	Voo 84/Aeroporto 2: 0 	Voo 84/Aeroporto 3: 0 	
+Voo 85/Aeroporto 0: 0 	Voo 85/Aeroporto 1: 1 	Voo 85/Aeroporto 2: 0 	Voo 85/Aeroporto 3: 0 	
+Voo 86/Aeroporto 0: 0 	Voo 86/Aeroporto 1: 1 	Voo 86/Aeroporto 2: 0 	Voo 86/Aeroporto 3: 0 	
+Voo 87/Aeroporto 0: 0 	Voo 87/Aeroporto 1: 1 	Voo 87/Aeroporto 2: 0 	Voo 87/Aeroporto 3: 0 	
+Voo 88/Aeroporto 0: 0 	Voo 88/Aeroporto 1: 1 	Voo 88/Aeroporto 2: 0 	Voo 88/Aeroporto 3: 0 	
+Voo 89/Aeroporto 0: 0 	Voo 89/Aeroporto 1: 1 	Voo 89/Aeroporto 2: 0 	Voo 89/Aeroporto 3: 0 	
+Voo 90/Aeroporto 0: 0 	Voo 90/Aeroporto 1: 1 	Voo 90/Aeroporto 2: 0 	Voo 90/Aeroporto 3: 0 	
+Voo 91/Aeroporto 0: 0 	Voo 91/Aeroporto 1: 1 	Voo 91/Aeroporto 2: 0 	Voo 91/Aeroporto 3: 0 	
+Voo 92/Aeroporto 0: 0 	Voo 92/Aeroporto 1: 1 	Voo 92/Aeroporto 2: 0 	Voo 92/Aeroporto 3: 0 	
+Voo 93/Aeroporto 0: 0 	Voo 93/Aeroporto 1: 1 	Voo 93/Aeroporto 2: 0 	Voo 93/Aeroporto 3: 0 	
+Voo 94/Aeroporto 0: 0 	Voo 94/Aeroporto 1: 1 	Voo 94/Aeroporto 2: 0 	Voo 94/Aeroporto 3: 0 	
+Voo 95/Aeroporto 0: 0 	Voo 95/Aeroporto 1: 1 	Voo 95/Aeroporto 2: 0 	Voo 95/Aeroporto 3: 0 	
+Voo 96/Aeroporto 0: 0 	Voo 96/Aeroporto 1: 1 	Voo 96/Aeroporto 2: 0 	Voo 96/Aeroporto 3: 0 	
+Voo 97/Aeroporto 0: 0 	Voo 97/Aeroporto 1: 1 	Voo 97/Aeroporto 2: 0 	Voo 97/Aeroporto 3: 0 	
+Voo 98/Aeroporto 0: 0 	Voo 98/Aeroporto 1: 1 	Voo 98/Aeroporto 2: 0 	Voo 98/Aeroporto 3: 0 	
+Voo 99/Aeroporto 0: 0 	Voo 99/Aeroporto 1: 1 	Voo 99/Aeroporto 2: 0 	Voo 99/Aeroporto 3: 0 	
+Voo 100/Aeroporto 0: 0 	Voo 100/Aeroporto 1: 1 	Voo 100/Aeroporto 2: 0 	Voo 100/Aeroporto 3: 0 	
+Voo 101/Aeroporto 0: 0 	Voo 101/Aeroporto 1: 1 	Voo 101/Aeroporto 2: 0 	Voo 101/Aeroporto 3: 0 	
+Voo 102/Aeroporto 0: 0 	Voo 102/Aeroporto 1: 1 	Voo 102/Aeroporto 2: 0 	Voo 102/Aeroporto 3: 0 	
+Voo 103/Aeroporto 0: 0 	Voo 103/Aeroporto 1: 1 	Voo 103/Aeroporto 2: 0 	Voo 103/Aeroporto 3: 0 	
+Voo 104/Aeroporto 0: 0 	Voo 104/Aeroporto 1: 1 	Voo 104/Aeroporto 2: 0 	Voo 104/Aeroporto 3: 0 	
+Voo 105/Aeroporto 0: 0 	Voo 105/Aeroporto 1: 1 	Voo 105/Aeroporto 2: 0 	Voo 105/Aeroporto 3: 0 	
+Voo 106/Aeroporto 0: 0 	Voo 106/Aeroporto 1: 1 	Voo 106/Aeroporto 2: 0 	Voo 106/Aeroporto 3: 0 	
+Voo 107/Aeroporto 0: 0 	Voo 107/Aeroporto 1: 1 	Voo 107/Aeroporto 2: 0 	Voo 107/Aeroporto 3: 0 	
+Voo 108/Aeroporto 0: 0 	Voo 108/Aeroporto 1: 1 	Voo 108/Aeroporto 2: 0 	Voo 108/Aeroporto 3: 0 	
+Voo 109/Aeroporto 0: 0 	Voo 109/Aeroporto 1: 1 	Voo 109/Aeroporto 2: 0 	Voo 109/Aeroporto 3: 0 	
+Voo 110/Aeroporto 0: 0 	Voo 110/Aeroporto 1: 1 	Voo 110/Aeroporto 2: 0 	Voo 110/Aeroporto 3: 0 	
+Voo 111/Aeroporto 0: 0 	Voo 111/Aeroporto 1: 1 	Voo 111/Aeroporto 2: 0 	Voo 111/Aeroporto 3: 0 	
+Voo 112/Aeroporto 0: 0 	Voo 112/Aeroporto 1: 1 	Voo 112/Aeroporto 2: 0 	Voo 112/Aeroporto 3: 0 	
+Voo 113/Aeroporto 0: 0 	Voo 113/Aeroporto 1: 0 	Voo 113/Aeroporto 2: 1 	Voo 113/Aeroporto 3: 0 	
+Voo 114/Aeroporto 0: 0 	Voo 114/Aeroporto 1: 0 	Voo 114/Aeroporto 2: 1 	Voo 114/Aeroporto 3: 0 	
+Voo 115/Aeroporto 0: 0 	Voo 115/Aeroporto 1: 0 	Voo 115/Aeroporto 2: 1 	Voo 115/Aeroporto 3: 0 	
+Voo 116/Aeroporto 0: 0 	Voo 116/Aeroporto 1: 0 	Voo 116/Aeroporto 2: 1 	Voo 116/Aeroporto 3: 0 	
+Voo 117/Aeroporto 0: 0 	Voo 117/Aeroporto 1: 0 	Voo 117/Aeroporto 2: 1 	Voo 117/Aeroporto 3: 0 	
+Voo 118/Aeroporto 0: 0 	Voo 118/Aeroporto 1: 0 	Voo 118/Aeroporto 2: 1 	Voo 118/Aeroporto 3: 0 	
+Voo 119/Aeroporto 0: 0 	Voo 119/Aeroporto 1: 0 	Voo 119/Aeroporto 2: 1 	Voo 119/Aeroporto 3: 0 	
+Voo 120/Aeroporto 0: 0 	Voo 120/Aeroporto 1: 0 	Voo 120/Aeroporto 2: 1 	Voo 120/Aeroporto 3: 0 	
+Voo 121/Aeroporto 0: 0 	Voo 121/Aeroporto 1: 0 	Voo 121/Aeroporto 2: 1 	Voo 121/Aeroporto 3: 0 	
+Voo 122/Aeroporto 0: 0 	Voo 122/Aeroporto 1: 0 	Voo 122/Aeroporto 2: 1 	Voo 122/Aeroporto 3: 0 	
+Voo 123/Aeroporto 0: 0 	Voo 123/Aeroporto 1: 0 	Voo 123/Aeroporto 2: 1 	Voo 123/Aeroporto 3: 0 	
+Voo 124/Aeroporto 0: 0 	Voo 124/Aeroporto 1: 0 	Voo 124/Aeroporto 2: 1 	Voo 124/Aeroporto 3: 0 	
+Voo 125/Aeroporto 0: 0 	Voo 125/Aeroporto 1: 0 	Voo 125/Aeroporto 2: 1 	Voo 125/Aeroporto 3: 0 	
+Voo 126/Aeroporto 0: 0 	Voo 126/Aeroporto 1: 0 	Voo 126/Aeroporto 2: 1 	Voo 126/Aeroporto 3: 0 	
+Voo 127/Aeroporto 0: 0 	Voo 127/Aeroporto 1: 0 	Voo 127/Aeroporto 2: 1 	Voo 127/Aeroporto 3: 0 	
+Voo 128/Aeroporto 0: 0 	Voo 128/Aeroporto 1: 0 	Voo 128/Aeroporto 2: 1 	Voo 128/Aeroporto 3: 0 	
+Voo 129/Aeroporto 0: 0 	Voo 129/Aeroporto 1: 0 	Voo 129/Aeroporto 2: 1 	Voo 129/Aeroporto 3: 0 	
+Voo 130/Aeroporto 0: 0 	Voo 130/Aeroporto 1: 0 	Voo 130/Aeroporto 2: 1 	Voo 130/Aeroporto 3: 0 	
+Voo 131/Aeroporto 0: 0 	Voo 131/Aeroporto 1: 0 	Voo 131/Aeroporto 2: 1 	Voo 131/Aeroporto 3: 0 	
+Voo 132/Aeroporto 0: 0 	Voo 132/Aeroporto 1: 0 	Voo 132/Aeroporto 2: 1 	Voo 132/Aeroporto 3: 0 	
+Voo 133/Aeroporto 0: 0 	Voo 133/Aeroporto 1: 0 	Voo 133/Aeroporto 2: 1 	Voo 133/Aeroporto 3: 0 	
+Voo 134/Aeroporto 0: 0 	Voo 134/Aeroporto 1: 0 	Voo 134/Aeroporto 2: 1 	Voo 134/Aeroporto 3: 0 	
+Voo 135/Aeroporto 0: 0 	Voo 135/Aeroporto 1: 0 	Voo 135/Aeroporto 2: 1 	Voo 135/Aeroporto 3: 0 	
+Voo 136/Aeroporto 0: 0 	Voo 136/Aeroporto 1: 0 	Voo 136/Aeroporto 2: 1 	Voo 136/Aeroporto 3: 0 	
+Voo 137/Aeroporto 0: 0 	Voo 137/Aeroporto 1: 0 	Voo 137/Aeroporto 2: 1 	Voo 137/Aeroporto 3: 0 	
+Voo 138/Aeroporto 0: 0 	Voo 138/Aeroporto 1: 0 	Voo 138/Aeroporto 2: 1 	Voo 138/Aeroporto 3: 0 	
+Voo 139/Aeroporto 0: 0 	Voo 139/Aeroporto 1: 0 	Voo 139/Aeroporto 2: 1 	Voo 139/Aeroporto 3: 0 	
+Voo 140/Aeroporto 0: 0 	Voo 140/Aeroporto 1: 0 	Voo 140/Aeroporto 2: 1 	Voo 140/Aeroporto 3: 0 	
+Voo 141/Aeroporto 0: 0 	Voo 141/Aeroporto 1: 0 	Voo 141/Aeroporto 2: 1 	Voo 141/Aeroporto 3: 0 	
+Voo 142/Aeroporto 0: 0 	Voo 142/Aeroporto 1: 0 	Voo 142/Aeroporto 2: 1 	Voo 142/Aeroporto 3: 0 	
+Voo 143/Aeroporto 0: 0 	Voo 143/Aeroporto 1: 0 	Voo 143/Aeroporto 2: 1 	Voo 143/Aeroporto 3: 0 	
+Voo 144/Aeroporto 0: 0 	Voo 144/Aeroporto 1: 0 	Voo 144/Aeroporto 2: 1 	Voo 144/Aeroporto 3: 0 	
+Voo 145/Aeroporto 0: 0 	Voo 145/Aeroporto 1: 0 	Voo 145/Aeroporto 2: 1 	Voo 145/Aeroporto 3: 0 	
+Voo 146/Aeroporto 0: 0 	Voo 146/Aeroporto 1: 0 	Voo 146/Aeroporto 2: 0 	Voo 146/Aeroporto 3: 1 	
+Voo 147/Aeroporto 0: 0 	Voo 147/Aeroporto 1: 0 	Voo 147/Aeroporto 2: 0 	Voo 147/Aeroporto 3: 1 	
+Voo 148/Aeroporto 0: 0 	Voo 148/Aeroporto 1: 0 	Voo 148/Aeroporto 2: 0 	Voo 148/Aeroporto 3: 1 	
+Voo 149/Aeroporto 0: 0 	Voo 149/Aeroporto 1: 0 	Voo 149/Aeroporto 2: 0 	Voo 149/Aeroporto 3: 1 	
+Voo 150/Aeroporto 0: 0 	Voo 150/Aeroporto 1: 0 	Voo 150/Aeroporto 2: 0 	Voo 150/Aeroporto 3: 1 	
+Voo 151/Aeroporto 0: 0 	Voo 151/Aeroporto 1: 0 	Voo 151/Aeroporto 2: 0 	Voo 151/Aeroporto 3: 1 	
+Voo 152/Aeroporto 0: 0 	Voo 152/Aeroporto 1: 0 	Voo 152/Aeroporto 2: 0 	Voo 152/Aeroporto 3: 1 	
+Voo 153/Aeroporto 0: 0 	Voo 153/Aeroporto 1: 0 	Voo 153/Aeroporto 2: 0 	Voo 153/Aeroporto 3: 1 	
+Voo 154/Aeroporto 0: 0 	Voo 154/Aeroporto 1: 0 	Voo 154/Aeroporto 2: 0 	Voo 154/Aeroporto 3: 1 	
+Voo 155/Aeroporto 0: 0 	Voo 155/Aeroporto 1: 0 	Voo 155/Aeroporto 2: 0 	Voo 155/Aeroporto 3: 1 	
+Voo 156/Aeroporto 0: 0 	Voo 156/Aeroporto 1: 0 	Voo 156/Aeroporto 2: 0 	Voo 156/Aeroporto 3: 1 	
+Voo 157/Aeroporto 0: 0 	Voo 157/Aeroporto 1: 0 	Voo 157/Aeroporto 2: 0 	Voo 157/Aeroporto 3: 1 	
+Voo 158/Aeroporto 0: 0 	Voo 158/Aeroporto 1: 0 	Voo 158/Aeroporto 2: 0 	Voo 158/Aeroporto 3: 1 	
+Voo 159/Aeroporto 0: 0 	Voo 159/Aeroporto 1: 0 	Voo 159/Aeroporto 2: 0 	Voo 159/Aeroporto 3: 1 	
+Voo 160/Aeroporto 0: 0 	Voo 160/Aeroporto 1: 0 	Voo 160/Aeroporto 2: 0 	Voo 160/Aeroporto 3: 1 	
+Voo 161/Aeroporto 0: 0 	Voo 161/Aeroporto 1: 0 	Voo 161/Aeroporto 2: 0 	Voo 161/Aeroporto 3: 1 	
+Voo 162/Aeroporto 0: 0 	Voo 162/Aeroporto 1: 0 	Voo 162/Aeroporto 2: 0 	Voo 162/Aeroporto 3: 1 	
+Voo 163/Aeroporto 0: 0 	Voo 163/Aeroporto 1: 0 	Voo 163/Aeroporto 2: 0 	Voo 163/Aeroporto 3: 1 	
+Voo 164/Aeroporto 0: 0 	Voo 164/Aeroporto 1: 0 	Voo 164/Aeroporto 2: 0 	Voo 164/Aeroporto 3: 1 	
+Voo 165/Aeroporto 0: 0 	Voo 165/Aeroporto 1: 0 	Voo 165/Aeroporto 2: 0 	Voo 165/Aeroporto 3: 1 	
+Voo 166/Aeroporto 0: 0 	Voo 166/Aeroporto 1: 0 	Voo 166/Aeroporto 2: 0 	Voo 166/Aeroporto 3: 1 	
+Voo 167/Aeroporto 0: 0 	Voo 167/Aeroporto 1: 0 	Voo 167/Aeroporto 2: 0 	Voo 167/Aeroporto 3: 1 	
+Voo 168/Aeroporto 0: 0 	Voo 168/Aeroporto 1: 0 	Voo 168/Aeroporto 2: 0 	Voo 168/Aeroporto 3: 1 	
+Voo 169/Aeroporto 0: 0 	Voo 169/Aeroporto 1: 0 	Voo 169/Aeroporto 2: 0 	Voo 169/Aeroporto 3: 1 	
+Voo 170/Aeroporto 0: 0 	Voo 170/Aeroporto 1: 0 	Voo 170/Aeroporto 2: 0 	Voo 170/Aeroporto 3: 1 	
+Voo 171/Aeroporto 0: 0 	Voo 171/Aeroporto 1: 0 	Voo 171/Aeroporto 2: 0 	Voo 171/Aeroporto 3: 1 	
+Voo 172/Aeroporto 0: 0 	Voo 172/Aeroporto 1: 0 	Voo 172/Aeroporto 2: 0 	Voo 172/Aeroporto 3: 1 	
+Voo 173/Aeroporto 0: 0 	Voo 173/Aeroporto 1: 0 	Voo 173/Aeroporto 2: 0 	Voo 173/Aeroporto 3: 1 	
+Voo 174/Aeroporto 0: 0 	Voo 174/Aeroporto 1: 0 	Voo 174/Aeroporto 2: 0 	Voo 174/Aeroporto 3: 1 	
+Voo 175/Aeroporto 0: 0 	Voo 175/Aeroporto 1: 0 	Voo 175/Aeroporto 2: 0 	Voo 175/Aeroporto 3: 1 	
+Voo 176/Aeroporto 0: 0 	Voo 176/Aeroporto 1: 0 	Voo 176/Aeroporto 2: 0 	Voo 176/Aeroporto 3: 1 	
+Voo 177/Aeroporto 0: 0 	Voo 177/Aeroporto 1: 0 	Voo 177/Aeroporto 2: 0 	Voo 177/Aeroporto 3: 1 	
+Voo 178/Aeroporto 0: 0 	Voo 178/Aeroporto 1: 0 	Voo 178/Aeroporto 2: 0 	Voo 178/Aeroporto 3: 1 	
+Voo 179/Aeroporto 0: 0 	Voo 179/Aeroporto 1: 0 	Voo 179/Aeroporto 2: 0 	Voo 179/Aeroporto 3: 1 	
+Voo 180/Aeroporto 0: 0 	Voo 180/Aeroporto 1: 0 	Voo 180/Aeroporto 2: 0 	Voo 180/Aeroporto 3: 1 	
+Voo 181/Aeroporto 0: 0 	Voo 181/Aeroporto 1: 0 	Voo 181/Aeroporto 2: 0 	Voo 181/Aeroporto 3: 1 	
+Voo 182/Aeroporto 0: 0 	Voo 182/Aeroporto 1: 0 	Voo 182/Aeroporto 2: 0 	Voo 182/Aeroporto 3: 1 	
+
+
+Voo V tem destino no aeroporto O? (1 caso sim, 0 caso nao)
+
+Voo 0/Aeroporto 0: 0 	Voo 0/Aeroporto 1: 1 	Voo 0/Aeroporto 2: 0 	Voo 0/Aeroporto 3: 0 	
+Voo 1/Aeroporto 0: 0 	Voo 1/Aeroporto 1: 1 	Voo 1/Aeroporto 2: 0 	Voo 1/Aeroporto 3: 0 	
+Voo 2/Aeroporto 0: 0 	Voo 2/Aeroporto 1: 1 	Voo 2/Aeroporto 2: 0 	Voo 2/Aeroporto 3: 0 	
+Voo 3/Aeroporto 0: 0 	Voo 3/Aeroporto 1: 1 	Voo 3/Aeroporto 2: 0 	Voo 3/Aeroporto 3: 0 	
+Voo 4/Aeroporto 0: 0 	Voo 4/Aeroporto 1: 1 	Voo 4/Aeroporto 2: 0 	Voo 4/Aeroporto 3: 0 	
+Voo 5/Aeroporto 0: 0 	Voo 5/Aeroporto 1: 1 	Voo 5/Aeroporto 2: 0 	Voo 5/Aeroporto 3: 0 	
+Voo 6/Aeroporto 0: 0 	Voo 6/Aeroporto 1: 1 	Voo 6/Aeroporto 2: 0 	Voo 6/Aeroporto 3: 0 	
+Voo 7/Aeroporto 0: 0 	Voo 7/Aeroporto 1: 1 	Voo 7/Aeroporto 2: 0 	Voo 7/Aeroporto 3: 0 	
+Voo 8/Aeroporto 0: 0 	Voo 8/Aeroporto 1: 1 	Voo 8/Aeroporto 2: 0 	Voo 8/Aeroporto 3: 0 	
+Voo 9/Aeroporto 0: 0 	Voo 9/Aeroporto 1: 1 	Voo 9/Aeroporto 2: 0 	Voo 9/Aeroporto 3: 0 	
+Voo 10/Aeroporto 0: 0 	Voo 10/Aeroporto 1: 1 	Voo 10/Aeroporto 2: 0 	Voo 10/Aeroporto 3: 0 	
+Voo 11/Aeroporto 0: 0 	Voo 11/Aeroporto 1: 1 	Voo 11/Aeroporto 2: 0 	Voo 11/Aeroporto 3: 0 	
+Voo 12/Aeroporto 0: 0 	Voo 12/Aeroporto 1: 1 	Voo 12/Aeroporto 2: 0 	Voo 12/Aeroporto 3: 0 	
+Voo 13/Aeroporto 0: 0 	Voo 13/Aeroporto 1: 1 	Voo 13/Aeroporto 2: 0 	Voo 13/Aeroporto 3: 0 	
+Voo 14/Aeroporto 0: 0 	Voo 14/Aeroporto 1: 1 	Voo 14/Aeroporto 2: 0 	Voo 14/Aeroporto 3: 0 	
+Voo 15/Aeroporto 0: 0 	Voo 15/Aeroporto 1: 1 	Voo 15/Aeroporto 2: 0 	Voo 15/Aeroporto 3: 0 	
+Voo 16/Aeroporto 0: 0 	Voo 16/Aeroporto 1: 1 	Voo 16/Aeroporto 2: 0 	Voo 16/Aeroporto 3: 0 	
+Voo 17/Aeroporto 0: 0 	Voo 17/Aeroporto 1: 1 	Voo 17/Aeroporto 2: 0 	Voo 17/Aeroporto 3: 0 	
+Voo 18/Aeroporto 0: 0 	Voo 18/Aeroporto 1: 1 	Voo 18/Aeroporto 2: 0 	Voo 18/Aeroporto 3: 0 	
+Voo 19/Aeroporto 0: 0 	Voo 19/Aeroporto 1: 1 	Voo 19/Aeroporto 2: 0 	Voo 19/Aeroporto 3: 0 	
+Voo 20/Aeroporto 0: 0 	Voo 20/Aeroporto 1: 1 	Voo 20/Aeroporto 2: 0 	Voo 20/Aeroporto 3: 0 	
+Voo 21/Aeroporto 0: 0 	Voo 21/Aeroporto 1: 1 	Voo 21/Aeroporto 2: 0 	Voo 21/Aeroporto 3: 0 	
+Voo 22/Aeroporto 0: 1 	Voo 22/Aeroporto 1: 0 	Voo 22/Aeroporto 2: 0 	Voo 22/Aeroporto 3: 0 	
+Voo 23/Aeroporto 0: 1 	Voo 23/Aeroporto 1: 0 	Voo 23/Aeroporto 2: 0 	Voo 23/Aeroporto 3: 0 	
+Voo 24/Aeroporto 0: 1 	Voo 24/Aeroporto 1: 0 	Voo 24/Aeroporto 2: 0 	Voo 24/Aeroporto 3: 0 	
+Voo 25/Aeroporto 0: 1 	Voo 25/Aeroporto 1: 0 	Voo 25/Aeroporto 2: 0 	Voo 25/Aeroporto 3: 0 	
+Voo 26/Aeroporto 0: 1 	Voo 26/Aeroporto 1: 0 	Voo 26/Aeroporto 2: 0 	Voo 26/Aeroporto 3: 0 	
+Voo 27/Aeroporto 0: 1 	Voo 27/Aeroporto 1: 0 	Voo 27/Aeroporto 2: 0 	Voo 27/Aeroporto 3: 0 	
+Voo 28/Aeroporto 0: 1 	Voo 28/Aeroporto 1: 0 	Voo 28/Aeroporto 2: 0 	Voo 28/Aeroporto 3: 0 	
+Voo 29/Aeroporto 0: 1 	Voo 29/Aeroporto 1: 0 	Voo 29/Aeroporto 2: 0 	Voo 29/Aeroporto 3: 0 	
+Voo 30/Aeroporto 0: 1 	Voo 30/Aeroporto 1: 0 	Voo 30/Aeroporto 2: 0 	Voo 30/Aeroporto 3: 0 	
+Voo 31/Aeroporto 0: 1 	Voo 31/Aeroporto 1: 0 	Voo 31/Aeroporto 2: 0 	Voo 31/Aeroporto 3: 0 	
+Voo 32/Aeroporto 0: 1 	Voo 32/Aeroporto 1: 0 	Voo 32/Aeroporto 2: 0 	Voo 32/Aeroporto 3: 0 	
+Voo 33/Aeroporto 0: 1 	Voo 33/Aeroporto 1: 0 	Voo 33/Aeroporto 2: 0 	Voo 33/Aeroporto 3: 0 	
+Voo 34/Aeroporto 0: 1 	Voo 34/Aeroporto 1: 0 	Voo 34/Aeroporto 2: 0 	Voo 34/Aeroporto 3: 0 	
+Voo 35/Aeroporto 0: 1 	Voo 35/Aeroporto 1: 0 	Voo 35/Aeroporto 2: 0 	Voo 35/Aeroporto 3: 0 	
+Voo 36/Aeroporto 0: 1 	Voo 36/Aeroporto 1: 0 	Voo 36/Aeroporto 2: 0 	Voo 36/Aeroporto 3: 0 	
+Voo 37/Aeroporto 0: 1 	Voo 37/Aeroporto 1: 0 	Voo 37/Aeroporto 2: 0 	Voo 37/Aeroporto 3: 0 	
+Voo 38/Aeroporto 0: 1 	Voo 38/Aeroporto 1: 0 	Voo 38/Aeroporto 2: 0 	Voo 38/Aeroporto 3: 0 	
+Voo 39/Aeroporto 0: 1 	Voo 39/Aeroporto 1: 0 	Voo 39/Aeroporto 2: 0 	Voo 39/Aeroporto 3: 0 	
+Voo 40/Aeroporto 0: 1 	Voo 40/Aeroporto 1: 0 	Voo 40/Aeroporto 2: 0 	Voo 40/Aeroporto 3: 0 	
+Voo 41/Aeroporto 0: 1 	Voo 41/Aeroporto 1: 0 	Voo 41/Aeroporto 2: 0 	Voo 41/Aeroporto 3: 0 	
+Voo 42/Aeroporto 0: 1 	Voo 42/Aeroporto 1: 0 	Voo 42/Aeroporto 2: 0 	Voo 42/Aeroporto 3: 0 	
+Voo 43/Aeroporto 0: 1 	Voo 43/Aeroporto 1: 0 	Voo 43/Aeroporto 2: 0 	Voo 43/Aeroporto 3: 0 	
+Voo 44/Aeroporto 0: 0 	Voo 44/Aeroporto 1: 0 	Voo 44/Aeroporto 2: 1 	Voo 44/Aeroporto 3: 0 	
+Voo 45/Aeroporto 0: 0 	Voo 45/Aeroporto 1: 0 	Voo 45/Aeroporto 2: 1 	Voo 45/Aeroporto 3: 0 	
+Voo 46/Aeroporto 0: 0 	Voo 46/Aeroporto 1: 0 	Voo 46/Aeroporto 2: 1 	Voo 46/Aeroporto 3: 0 	
+Voo 47/Aeroporto 0: 0 	Voo 47/Aeroporto 1: 0 	Voo 47/Aeroporto 2: 1 	Voo 47/Aeroporto 3: 0 	
+Voo 48/Aeroporto 0: 0 	Voo 48/Aeroporto 1: 0 	Voo 48/Aeroporto 2: 1 	Voo 48/Aeroporto 3: 0 	
+Voo 49/Aeroporto 0: 0 	Voo 49/Aeroporto 1: 0 	Voo 49/Aeroporto 2: 1 	Voo 49/Aeroporto 3: 0 	
+Voo 50/Aeroporto 0: 0 	Voo 50/Aeroporto 1: 0 	Voo 50/Aeroporto 2: 1 	Voo 50/Aeroporto 3: 0 	
+Voo 51/Aeroporto 0: 0 	Voo 51/Aeroporto 1: 0 	Voo 51/Aeroporto 2: 1 	Voo 51/Aeroporto 3: 0 	
+Voo 52/Aeroporto 0: 0 	Voo 52/Aeroporto 1: 0 	Voo 52/Aeroporto 2: 1 	Voo 52/Aeroporto 3: 0 	
+Voo 53/Aeroporto 0: 0 	Voo 53/Aeroporto 1: 0 	Voo 53/Aeroporto 2: 1 	Voo 53/Aeroporto 3: 0 	
+Voo 54/Aeroporto 0: 0 	Voo 54/Aeroporto 1: 0 	Voo 54/Aeroporto 2: 1 	Voo 54/Aeroporto 3: 0 	
+Voo 55/Aeroporto 0: 0 	Voo 55/Aeroporto 1: 0 	Voo 55/Aeroporto 2: 1 	Voo 55/Aeroporto 3: 0 	
+Voo 56/Aeroporto 0: 0 	Voo 56/Aeroporto 1: 0 	Voo 56/Aeroporto 2: 1 	Voo 56/Aeroporto 3: 0 	
+Voo 57/Aeroporto 0: 0 	Voo 57/Aeroporto 1: 0 	Voo 57/Aeroporto 2: 1 	Voo 57/Aeroporto 3: 0 	
+Voo 58/Aeroporto 0: 0 	Voo 58/Aeroporto 1: 0 	Voo 58/Aeroporto 2: 1 	Voo 58/Aeroporto 3: 0 	
+Voo 59/Aeroporto 0: 0 	Voo 59/Aeroporto 1: 0 	Voo 59/Aeroporto 2: 1 	Voo 59/Aeroporto 3: 0 	
+Voo 60/Aeroporto 0: 0 	Voo 60/Aeroporto 1: 0 	Voo 60/Aeroporto 2: 1 	Voo 60/Aeroporto 3: 0 	
+Voo 61/Aeroporto 0: 0 	Voo 61/Aeroporto 1: 0 	Voo 61/Aeroporto 2: 1 	Voo 61/Aeroporto 3: 0 	
+Voo 62/Aeroporto 0: 0 	Voo 62/Aeroporto 1: 0 	Voo 62/Aeroporto 2: 1 	Voo 62/Aeroporto 3: 0 	
+Voo 63/Aeroporto 0: 0 	Voo 63/Aeroporto 1: 0 	Voo 63/Aeroporto 2: 1 	Voo 63/Aeroporto 3: 0 	
+Voo 64/Aeroporto 0: 0 	Voo 64/Aeroporto 1: 0 	Voo 64/Aeroporto 2: 1 	Voo 64/Aeroporto 3: 0 	
+Voo 65/Aeroporto 0: 0 	Voo 65/Aeroporto 1: 0 	Voo 65/Aeroporto 2: 1 	Voo 65/Aeroporto 3: 0 	
+Voo 66/Aeroporto 0: 0 	Voo 66/Aeroporto 1: 0 	Voo 66/Aeroporto 2: 1 	Voo 66/Aeroporto 3: 0 	
+Voo 67/Aeroporto 0: 0 	Voo 67/Aeroporto 1: 0 	Voo 67/Aeroporto 2: 1 	Voo 67/Aeroporto 3: 0 	
+Voo 68/Aeroporto 0: 0 	Voo 68/Aeroporto 1: 0 	Voo 68/Aeroporto 2: 1 	Voo 68/Aeroporto 3: 0 	
+Voo 69/Aeroporto 0: 0 	Voo 69/Aeroporto 1: 0 	Voo 69/Aeroporto 2: 1 	Voo 69/Aeroporto 3: 0 	
+Voo 70/Aeroporto 0: 0 	Voo 70/Aeroporto 1: 0 	Voo 70/Aeroporto 2: 1 	Voo 70/Aeroporto 3: 0 	
+Voo 71/Aeroporto 0: 0 	Voo 71/Aeroporto 1: 0 	Voo 71/Aeroporto 2: 1 	Voo 71/Aeroporto 3: 0 	
+Voo 72/Aeroporto 0: 0 	Voo 72/Aeroporto 1: 0 	Voo 72/Aeroporto 2: 1 	Voo 72/Aeroporto 3: 0 	
+Voo 73/Aeroporto 0: 0 	Voo 73/Aeroporto 1: 0 	Voo 73/Aeroporto 2: 1 	Voo 73/Aeroporto 3: 0 	
+Voo 74/Aeroporto 0: 0 	Voo 74/Aeroporto 1: 0 	Voo 74/Aeroporto 2: 1 	Voo 74/Aeroporto 3: 0 	
+Voo 75/Aeroporto 0: 0 	Voo 75/Aeroporto 1: 0 	Voo 75/Aeroporto 2: 1 	Voo 75/Aeroporto 3: 0 	
+Voo 76/Aeroporto 0: 0 	Voo 76/Aeroporto 1: 0 	Voo 76/Aeroporto 2: 1 	Voo 76/Aeroporto 3: 0 	
+Voo 77/Aeroporto 0: 0 	Voo 77/Aeroporto 1: 0 	Voo 77/Aeroporto 2: 0 	Voo 77/Aeroporto 3: 1 	
+Voo 78/Aeroporto 0: 0 	Voo 78/Aeroporto 1: 0 	Voo 78/Aeroporto 2: 0 	Voo 78/Aeroporto 3: 1 	
+Voo 79/Aeroporto 0: 0 	Voo 79/Aeroporto 1: 0 	Voo 79/Aeroporto 2: 0 	Voo 79/Aeroporto 3: 1 	
+Voo 80/Aeroporto 0: 0 	Voo 80/Aeroporto 1: 0 	Voo 80/Aeroporto 2: 0 	Voo 80/Aeroporto 3: 1 	
+Voo 81/Aeroporto 0: 0 	Voo 81/Aeroporto 1: 0 	Voo 81/Aeroporto 2: 0 	Voo 81/Aeroporto 3: 1 	
+Voo 82/Aeroporto 0: 0 	Voo 82/Aeroporto 1: 0 	Voo 82/Aeroporto 2: 0 	Voo 82/Aeroporto 3: 1 	
+Voo 83/Aeroporto 0: 0 	Voo 83/Aeroporto 1: 0 	Voo 83/Aeroporto 2: 0 	Voo 83/Aeroporto 3: 1 	
+Voo 84/Aeroporto 0: 0 	Voo 84/Aeroporto 1: 0 	Voo 84/Aeroporto 2: 0 	Voo 84/Aeroporto 3: 1 	
+Voo 85/Aeroporto 0: 0 	Voo 85/Aeroporto 1: 0 	Voo 85/Aeroporto 2: 0 	Voo 85/Aeroporto 3: 1 	
+Voo 86/Aeroporto 0: 0 	Voo 86/Aeroporto 1: 0 	Voo 86/Aeroporto 2: 0 	Voo 86/Aeroporto 3: 1 	
+Voo 87/Aeroporto 0: 0 	Voo 87/Aeroporto 1: 0 	Voo 87/Aeroporto 2: 0 	Voo 87/Aeroporto 3: 1 	
+Voo 88/Aeroporto 0: 0 	Voo 88/Aeroporto 1: 0 	Voo 88/Aeroporto 2: 0 	Voo 88/Aeroporto 3: 1 	
+Voo 89/Aeroporto 0: 0 	Voo 89/Aeroporto 1: 0 	Voo 89/Aeroporto 2: 0 	Voo 89/Aeroporto 3: 1 	
+Voo 90/Aeroporto 0: 0 	Voo 90/Aeroporto 1: 0 	Voo 90/Aeroporto 2: 0 	Voo 90/Aeroporto 3: 1 	
+Voo 91/Aeroporto 0: 0 	Voo 91/Aeroporto 1: 0 	Voo 91/Aeroporto 2: 0 	Voo 91/Aeroporto 3: 1 	
+Voo 92/Aeroporto 0: 0 	Voo 92/Aeroporto 1: 0 	Voo 92/Aeroporto 2: 0 	Voo 92/Aeroporto 3: 1 	
+Voo 93/Aeroporto 0: 0 	Voo 93/Aeroporto 1: 0 	Voo 93/Aeroporto 2: 0 	Voo 93/Aeroporto 3: 1 	
+Voo 94/Aeroporto 0: 0 	Voo 94/Aeroporto 1: 0 	Voo 94/Aeroporto 2: 0 	Voo 94/Aeroporto 3: 1 	
+Voo 95/Aeroporto 0: 0 	Voo 95/Aeroporto 1: 0 	Voo 95/Aeroporto 2: 0 	Voo 95/Aeroporto 3: 1 	
+Voo 96/Aeroporto 0: 0 	Voo 96/Aeroporto 1: 0 	Voo 96/Aeroporto 2: 0 	Voo 96/Aeroporto 3: 1 	
+Voo 97/Aeroporto 0: 0 	Voo 97/Aeroporto 1: 0 	Voo 97/Aeroporto 2: 0 	Voo 97/Aeroporto 3: 1 	
+Voo 98/Aeroporto 0: 0 	Voo 98/Aeroporto 1: 0 	Voo 98/Aeroporto 2: 0 	Voo 98/Aeroporto 3: 1 	
+Voo 99/Aeroporto 0: 0 	Voo 99/Aeroporto 1: 0 	Voo 99/Aeroporto 2: 0 	Voo 99/Aeroporto 3: 1 	
+Voo 100/Aeroporto 0: 0 	Voo 100/Aeroporto 1: 0 	Voo 100/Aeroporto 2: 0 	Voo 100/Aeroporto 3: 1 	
+Voo 101/Aeroporto 0: 0 	Voo 101/Aeroporto 1: 0 	Voo 101/Aeroporto 2: 0 	Voo 101/Aeroporto 3: 1 	
+Voo 102/Aeroporto 0: 0 	Voo 102/Aeroporto 1: 0 	Voo 102/Aeroporto 2: 0 	Voo 102/Aeroporto 3: 1 	
+Voo 103/Aeroporto 0: 0 	Voo 103/Aeroporto 1: 0 	Voo 103/Aeroporto 2: 0 	Voo 103/Aeroporto 3: 1 	
+Voo 104/Aeroporto 0: 0 	Voo 104/Aeroporto 1: 0 	Voo 104/Aeroporto 2: 0 	Voo 104/Aeroporto 3: 1 	
+Voo 105/Aeroporto 0: 0 	Voo 105/Aeroporto 1: 0 	Voo 105/Aeroporto 2: 0 	Voo 105/Aeroporto 3: 1 	
+Voo 106/Aeroporto 0: 0 	Voo 106/Aeroporto 1: 0 	Voo 106/Aeroporto 2: 0 	Voo 106/Aeroporto 3: 1 	
+Voo 107/Aeroporto 0: 0 	Voo 107/Aeroporto 1: 0 	Voo 107/Aeroporto 2: 0 	Voo 107/Aeroporto 3: 1 	
+Voo 108/Aeroporto 0: 0 	Voo 108/Aeroporto 1: 0 	Voo 108/Aeroporto 2: 0 	Voo 108/Aeroporto 3: 1 	
+Voo 109/Aeroporto 0: 0 	Voo 109/Aeroporto 1: 0 	Voo 109/Aeroporto 2: 0 	Voo 109/Aeroporto 3: 1 	
+Voo 110/Aeroporto 0: 0 	Voo 110/Aeroporto 1: 0 	Voo 110/Aeroporto 2: 0 	Voo 110/Aeroporto 3: 1 	
+Voo 111/Aeroporto 0: 0 	Voo 111/Aeroporto 1: 0 	Voo 111/Aeroporto 2: 0 	Voo 111/Aeroporto 3: 1 	
+Voo 112/Aeroporto 0: 0 	Voo 112/Aeroporto 1: 0 	Voo 112/Aeroporto 2: 0 	Voo 112/Aeroporto 3: 1 	
+Voo 113/Aeroporto 0: 0 	Voo 113/Aeroporto 1: 1 	Voo 113/Aeroporto 2: 0 	Voo 113/Aeroporto 3: 0 	
+Voo 114/Aeroporto 0: 0 	Voo 114/Aeroporto 1: 1 	Voo 114/Aeroporto 2: 0 	Voo 114/Aeroporto 3: 0 	
+Voo 115/Aeroporto 0: 0 	Voo 115/Aeroporto 1: 1 	Voo 115/Aeroporto 2: 0 	Voo 115/Aeroporto 3: 0 	
+Voo 116/Aeroporto 0: 0 	Voo 116/Aeroporto 1: 1 	Voo 116/Aeroporto 2: 0 	Voo 116/Aeroporto 3: 0 	
+Voo 117/Aeroporto 0: 0 	Voo 117/Aeroporto 1: 1 	Voo 117/Aeroporto 2: 0 	Voo 117/Aeroporto 3: 0 	
+Voo 118/Aeroporto 0: 0 	Voo 118/Aeroporto 1: 1 	Voo 118/Aeroporto 2: 0 	Voo 118/Aeroporto 3: 0 	
+Voo 119/Aeroporto 0: 0 	Voo 119/Aeroporto 1: 1 	Voo 119/Aeroporto 2: 0 	Voo 119/Aeroporto 3: 0 	
+Voo 120/Aeroporto 0: 0 	Voo 120/Aeroporto 1: 1 	Voo 120/Aeroporto 2: 0 	Voo 120/Aeroporto 3: 0 	
+Voo 121/Aeroporto 0: 0 	Voo 121/Aeroporto 1: 1 	Voo 121/Aeroporto 2: 0 	Voo 121/Aeroporto 3: 0 	
+Voo 122/Aeroporto 0: 0 	Voo 122/Aeroporto 1: 1 	Voo 122/Aeroporto 2: 0 	Voo 122/Aeroporto 3: 0 	
+Voo 123/Aeroporto 0: 0 	Voo 123/Aeroporto 1: 1 	Voo 123/Aeroporto 2: 0 	Voo 123/Aeroporto 3: 0 	
+Voo 124/Aeroporto 0: 0 	Voo 124/Aeroporto 1: 1 	Voo 124/Aeroporto 2: 0 	Voo 124/Aeroporto 3: 0 	
+Voo 125/Aeroporto 0: 0 	Voo 125/Aeroporto 1: 1 	Voo 125/Aeroporto 2: 0 	Voo 125/Aeroporto 3: 0 	
+Voo 126/Aeroporto 0: 0 	Voo 126/Aeroporto 1: 1 	Voo 126/Aeroporto 2: 0 	Voo 126/Aeroporto 3: 0 	
+Voo 127/Aeroporto 0: 0 	Voo 127/Aeroporto 1: 1 	Voo 127/Aeroporto 2: 0 	Voo 127/Aeroporto 3: 0 	
+Voo 128/Aeroporto 0: 0 	Voo 128/Aeroporto 1: 1 	Voo 128/Aeroporto 2: 0 	Voo 128/Aeroporto 3: 0 	
+Voo 129/Aeroporto 0: 0 	Voo 129/Aeroporto 1: 1 	Voo 129/Aeroporto 2: 0 	Voo 129/Aeroporto 3: 0 	
+Voo 130/Aeroporto 0: 0 	Voo 130/Aeroporto 1: 1 	Voo 130/Aeroporto 2: 0 	Voo 130/Aeroporto 3: 0 	
+Voo 131/Aeroporto 0: 0 	Voo 131/Aeroporto 1: 1 	Voo 131/Aeroporto 2: 0 	Voo 131/Aeroporto 3: 0 	
+Voo 132/Aeroporto 0: 0 	Voo 132/Aeroporto 1: 1 	Voo 132/Aeroporto 2: 0 	Voo 132/Aeroporto 3: 0 	
+Voo 133/Aeroporto 0: 0 	Voo 133/Aeroporto 1: 1 	Voo 133/Aeroporto 2: 0 	Voo 133/Aeroporto 3: 0 	
+Voo 134/Aeroporto 0: 0 	Voo 134/Aeroporto 1: 1 	Voo 134/Aeroporto 2: 0 	Voo 134/Aeroporto 3: 0 	
+Voo 135/Aeroporto 0: 0 	Voo 135/Aeroporto 1: 1 	Voo 135/Aeroporto 2: 0 	Voo 135/Aeroporto 3: 0 	
+Voo 136/Aeroporto 0: 0 	Voo 136/Aeroporto 1: 1 	Voo 136/Aeroporto 2: 0 	Voo 136/Aeroporto 3: 0 	
+Voo 137/Aeroporto 0: 0 	Voo 137/Aeroporto 1: 1 	Voo 137/Aeroporto 2: 0 	Voo 137/Aeroporto 3: 0 	
+Voo 138/Aeroporto 0: 0 	Voo 138/Aeroporto 1: 1 	Voo 138/Aeroporto 2: 0 	Voo 138/Aeroporto 3: 0 	
+Voo 139/Aeroporto 0: 0 	Voo 139/Aeroporto 1: 1 	Voo 139/Aeroporto 2: 0 	Voo 139/Aeroporto 3: 0 	
+Voo 140/Aeroporto 0: 0 	Voo 140/Aeroporto 1: 1 	Voo 140/Aeroporto 2: 0 	Voo 140/Aeroporto 3: 0 	
+Voo 141/Aeroporto 0: 0 	Voo 141/Aeroporto 1: 1 	Voo 141/Aeroporto 2: 0 	Voo 141/Aeroporto 3: 0 	
+Voo 142/Aeroporto 0: 0 	Voo 142/Aeroporto 1: 1 	Voo 142/Aeroporto 2: 0 	Voo 142/Aeroporto 3: 0 	
+Voo 143/Aeroporto 0: 0 	Voo 143/Aeroporto 1: 1 	Voo 143/Aeroporto 2: 0 	Voo 143/Aeroporto 3: 0 	
+Voo 144/Aeroporto 0: 0 	Voo 144/Aeroporto 1: 1 	Voo 144/Aeroporto 2: 0 	Voo 144/Aeroporto 3: 0 	
+Voo 145/Aeroporto 0: 0 	Voo 145/Aeroporto 1: 1 	Voo 145/Aeroporto 2: 0 	Voo 145/Aeroporto 3: 0 	
+Voo 146/Aeroporto 0: 0 	Voo 146/Aeroporto 1: 1 	Voo 146/Aeroporto 2: 0 	Voo 146/Aeroporto 3: 0 	
+Voo 147/Aeroporto 0: 0 	Voo 147/Aeroporto 1: 1 	Voo 147/Aeroporto 2: 0 	Voo 147/Aeroporto 3: 0 	
+Voo 148/Aeroporto 0: 0 	Voo 148/Aeroporto 1: 1 	Voo 148/Aeroporto 2: 0 	Voo 148/Aeroporto 3: 0 	
+Voo 149/Aeroporto 0: 0 	Voo 149/Aeroporto 1: 1 	Voo 149/Aeroporto 2: 0 	Voo 149/Aeroporto 3: 0 	
+Voo 150/Aeroporto 0: 0 	Voo 150/Aeroporto 1: 1 	Voo 150/Aeroporto 2: 0 	Voo 150/Aeroporto 3: 0 	
+Voo 151/Aeroporto 0: 0 	Voo 151/Aeroporto 1: 1 	Voo 151/Aeroporto 2: 0 	Voo 151/Aeroporto 3: 0 	
+Voo 152/Aeroporto 0: 0 	Voo 152/Aeroporto 1: 1 	Voo 152/Aeroporto 2: 0 	Voo 152/Aeroporto 3: 0 	
+Voo 153/Aeroporto 0: 0 	Voo 153/Aeroporto 1: 1 	Voo 153/Aeroporto 2: 0 	Voo 153/Aeroporto 3: 0 	
+Voo 154/Aeroporto 0: 0 	Voo 154/Aeroporto 1: 1 	Voo 154/Aeroporto 2: 0 	Voo 154/Aeroporto 3: 0 	
+Voo 155/Aeroporto 0: 0 	Voo 155/Aeroporto 1: 1 	Voo 155/Aeroporto 2: 0 	Voo 155/Aeroporto 3: 0 	
+Voo 156/Aeroporto 0: 0 	Voo 156/Aeroporto 1: 1 	Voo 156/Aeroporto 2: 0 	Voo 156/Aeroporto 3: 0 	
+Voo 157/Aeroporto 0: 0 	Voo 157/Aeroporto 1: 1 	Voo 157/Aeroporto 2: 0 	Voo 157/Aeroporto 3: 0 	
+Voo 158/Aeroporto 0: 0 	Voo 158/Aeroporto 1: 1 	Voo 158/Aeroporto 2: 0 	Voo 158/Aeroporto 3: 0 	
+Voo 159/Aeroporto 0: 0 	Voo 159/Aeroporto 1: 1 	Voo 159/Aeroporto 2: 0 	Voo 159/Aeroporto 3: 0 	
+Voo 160/Aeroporto 0: 0 	Voo 160/Aeroporto 1: 1 	Voo 160/Aeroporto 2: 0 	Voo 160/Aeroporto 3: 0 	
+Voo 161/Aeroporto 0: 0 	Voo 161/Aeroporto 1: 1 	Voo 161/Aeroporto 2: 0 	Voo 161/Aeroporto 3: 0 	
+Voo 162/Aeroporto 0: 0 	Voo 162/Aeroporto 1: 1 	Voo 162/Aeroporto 2: 0 	Voo 162/Aeroporto 3: 0 	
+Voo 163/Aeroporto 0: 0 	Voo 163/Aeroporto 1: 1 	Voo 163/Aeroporto 2: 0 	Voo 163/Aeroporto 3: 0 	
+Voo 164/Aeroporto 0: 0 	Voo 164/Aeroporto 1: 1 	Voo 164/Aeroporto 2: 0 	Voo 164/Aeroporto 3: 0 	
+Voo 165/Aeroporto 0: 0 	Voo 165/Aeroporto 1: 1 	Voo 165/Aeroporto 2: 0 	Voo 165/Aeroporto 3: 0 	
+Voo 166/Aeroporto 0: 0 	Voo 166/Aeroporto 1: 1 	Voo 166/Aeroporto 2: 0 	Voo 166/Aeroporto 3: 0 	
+Voo 167/Aeroporto 0: 0 	Voo 167/Aeroporto 1: 1 	Voo 167/Aeroporto 2: 0 	Voo 167/Aeroporto 3: 0 	
+Voo 168/Aeroporto 0: 0 	Voo 168/Aeroporto 1: 1 	Voo 168/Aeroporto 2: 0 	Voo 168/Aeroporto 3: 0 	
+Voo 169/Aeroporto 0: 0 	Voo 169/Aeroporto 1: 1 	Voo 169/Aeroporto 2: 0 	Voo 169/Aeroporto 3: 0 	
+Voo 170/Aeroporto 0: 0 	Voo 170/Aeroporto 1: 1 	Voo 170/Aeroporto 2: 0 	Voo 170/Aeroporto 3: 0 	
+Voo 171/Aeroporto 0: 0 	Voo 171/Aeroporto 1: 1 	Voo 171/Aeroporto 2: 0 	Voo 171/Aeroporto 3: 0 	
+Voo 172/Aeroporto 0: 0 	Voo 172/Aeroporto 1: 1 	Voo 172/Aeroporto 2: 0 	Voo 172/Aeroporto 3: 0 	
+Voo 173/Aeroporto 0: 0 	Voo 173/Aeroporto 1: 1 	Voo 173/Aeroporto 2: 0 	Voo 173/Aeroporto 3: 0 	
+Voo 174/Aeroporto 0: 0 	Voo 174/Aeroporto 1: 1 	Voo 174/Aeroporto 2: 0 	Voo 174/Aeroporto 3: 0 	
+Voo 175/Aeroporto 0: 0 	Voo 175/Aeroporto 1: 1 	Voo 175/Aeroporto 2: 0 	Voo 175/Aeroporto 3: 0 	
+Voo 176/Aeroporto 0: 0 	Voo 176/Aeroporto 1: 1 	Voo 176/Aeroporto 2: 0 	Voo 176/Aeroporto 3: 0 	
+Voo 177/Aeroporto 0: 0 	Voo 177/Aeroporto 1: 1 	Voo 177/Aeroporto 2: 0 	Voo 177/Aeroporto 3: 0 	
+Voo 178/Aeroporto 0: 0 	Voo 178/Aeroporto 1: 1 	Voo 178/Aeroporto 2: 0 	Voo 178/Aeroporto 3: 0 	
+Voo 179/Aeroporto 0: 0 	Voo 179/Aeroporto 1: 1 	Voo 179/Aeroporto 2: 0 	Voo 179/Aeroporto 3: 0 	
+Voo 180/Aeroporto 0: 0 	Voo 180/Aeroporto 1: 1 	Voo 180/Aeroporto 2: 0 	Voo 180/Aeroporto 3: 0 	
+Voo 181/Aeroporto 0: 0 	Voo 181/Aeroporto 1: 1 	Voo 181/Aeroporto 2: 0 	Voo 181/Aeroporto 3: 0 	
+Voo 182/Aeroporto 0: 0 	Voo 182/Aeroporto 1: 1 	Voo 182/Aeroporto 2: 0 	Voo 182/Aeroporto 3: 0 	
+
+
+Voo V pertence ao dia D? (1 caso sim, 0 caso nao)
+
+Voo 0/Dia 0: 1 	Voo 0/Dia 1: 0 	Voo 0/Dia 2: 0 	Voo 0/Dia 3: 0 	Voo 0/Dia 4: 0 	Voo 0/Dia 5: 0 	Voo 0/Dia 6: 0 	
+Voo 1/Dia 0: 0 	Voo 1/Dia 1: 0 	Voo 1/Dia 2: 1 	Voo 1/Dia 3: 0 	Voo 1/Dia 4: 0 	Voo 1/Dia 5: 0 	Voo 1/Dia 6: 0 	
+Voo 2/Dia 0: 0 	Voo 2/Dia 1: 0 	Voo 2/Dia 2: 0 	Voo 2/Dia 3: 1 	Voo 2/Dia 4: 0 	Voo 2/Dia 5: 0 	Voo 2/Dia 6: 0 	
+Voo 3/Dia 0: 0 	Voo 3/Dia 1: 0 	Voo 3/Dia 2: 0 	Voo 3/Dia 3: 0 	Voo 3/Dia 4: 1 	Voo 3/Dia 5: 0 	Voo 3/Dia 6: 0 	
+Voo 4/Dia 0: 0 	Voo 4/Dia 1: 0 	Voo 4/Dia 2: 0 	Voo 4/Dia 3: 0 	Voo 4/Dia 4: 0 	Voo 4/Dia 5: 1 	Voo 4/Dia 6: 0 	
+Voo 5/Dia 0: 0 	Voo 5/Dia 1: 0 	Voo 5/Dia 2: 0 	Voo 5/Dia 3: 0 	Voo 5/Dia 4: 0 	Voo 5/Dia 5: 0 	Voo 5/Dia 6: 1 	
+Voo 6/Dia 0: 0 	Voo 6/Dia 1: 1 	Voo 6/Dia 2: 0 	Voo 6/Dia 3: 0 	Voo 6/Dia 4: 0 	Voo 6/Dia 5: 0 	Voo 6/Dia 6: 0 	
+Voo 7/Dia 0: 0 	Voo 7/Dia 1: 1 	Voo 7/Dia 2: 0 	Voo 7/Dia 3: 0 	Voo 7/Dia 4: 0 	Voo 7/Dia 5: 0 	Voo 7/Dia 6: 0 	
+Voo 8/Dia 0: 0 	Voo 8/Dia 1: 0 	Voo 8/Dia 2: 1 	Voo 8/Dia 3: 0 	Voo 8/Dia 4: 0 	Voo 8/Dia 5: 0 	Voo 8/Dia 6: 0 	
+Voo 9/Dia 0: 0 	Voo 9/Dia 1: 0 	Voo 9/Dia 2: 0 	Voo 9/Dia 3: 1 	Voo 9/Dia 4: 0 	Voo 9/Dia 5: 0 	Voo 9/Dia 6: 0 	
+Voo 10/Dia 0: 0 	Voo 10/Dia 1: 0 	Voo 10/Dia 2: 0 	Voo 10/Dia 3: 0 	Voo 10/Dia 4: 1 	Voo 10/Dia 5: 0 	Voo 10/Dia 6: 0 	
+Voo 11/Dia 0: 0 	Voo 11/Dia 1: 0 	Voo 11/Dia 2: 0 	Voo 11/Dia 3: 0 	Voo 11/Dia 4: 0 	Voo 11/Dia 5: 1 	Voo 11/Dia 6: 0 	
+Voo 12/Dia 0: 0 	Voo 12/Dia 1: 0 	Voo 12/Dia 2: 0 	Voo 12/Dia 3: 0 	Voo 12/Dia 4: 0 	Voo 12/Dia 5: 0 	Voo 12/Dia 6: 1 	
+Voo 13/Dia 0: 0 	Voo 13/Dia 1: 1 	Voo 13/Dia 2: 0 	Voo 13/Dia 3: 0 	Voo 13/Dia 4: 0 	Voo 13/Dia 5: 0 	Voo 13/Dia 6: 0 	
+Voo 14/Dia 0: 0 	Voo 14/Dia 1: 0 	Voo 14/Dia 2: 1 	Voo 14/Dia 3: 0 	Voo 14/Dia 4: 0 	Voo 14/Dia 5: 0 	Voo 14/Dia 6: 0 	
+Voo 15/Dia 0: 0 	Voo 15/Dia 1: 0 	Voo 15/Dia 2: 0 	Voo 15/Dia 3: 1 	Voo 15/Dia 4: 0 	Voo 15/Dia 5: 0 	Voo 15/Dia 6: 0 	
+Voo 16/Dia 0: 0 	Voo 16/Dia 1: 0 	Voo 16/Dia 2: 0 	Voo 16/Dia 3: 0 	Voo 16/Dia 4: 1 	Voo 16/Dia 5: 0 	Voo 16/Dia 6: 0 	
+Voo 17/Dia 0: 0 	Voo 17/Dia 1: 0 	Voo 17/Dia 2: 0 	Voo 17/Dia 3: 0 	Voo 17/Dia 4: 0 	Voo 17/Dia 5: 1 	Voo 17/Dia 6: 0 	
+Voo 18/Dia 0: 0 	Voo 18/Dia 1: 0 	Voo 18/Dia 2: 1 	Voo 18/Dia 3: 0 	Voo 18/Dia 4: 0 	Voo 18/Dia 5: 0 	Voo 18/Dia 6: 0 	
+Voo 19/Dia 0: 0 	Voo 19/Dia 1: 0 	Voo 19/Dia 2: 0 	Voo 19/Dia 3: 1 	Voo 19/Dia 4: 0 	Voo 19/Dia 5: 0 	Voo 19/Dia 6: 0 	
+Voo 20/Dia 0: 0 	Voo 20/Dia 1: 0 	Voo 20/Dia 2: 0 	Voo 20/Dia 3: 0 	Voo 20/Dia 4: 1 	Voo 20/Dia 5: 0 	Voo 20/Dia 6: 0 	
+Voo 21/Dia 0: 0 	Voo 21/Dia 1: 0 	Voo 21/Dia 2: 0 	Voo 21/Dia 3: 0 	Voo 21/Dia 4: 0 	Voo 21/Dia 5: 1 	Voo 21/Dia 6: 0 	
+Voo 22/Dia 0: 0 	Voo 22/Dia 1: 1 	Voo 22/Dia 2: 0 	Voo 22/Dia 3: 0 	Voo 22/Dia 4: 0 	Voo 22/Dia 5: 0 	Voo 22/Dia 6: 0 	
+Voo 23/Dia 0: 0 	Voo 23/Dia 1: 0 	Voo 23/Dia 2: 1 	Voo 23/Dia 3: 0 	Voo 23/Dia 4: 0 	Voo 23/Dia 5: 0 	Voo 23/Dia 6: 0 	
+Voo 24/Dia 0: 0 	Voo 24/Dia 1: 0 	Voo 24/Dia 2: 0 	Voo 24/Dia 3: 1 	Voo 24/Dia 4: 0 	Voo 24/Dia 5: 0 	Voo 24/Dia 6: 0 	
+Voo 25/Dia 0: 0 	Voo 25/Dia 1: 0 	Voo 25/Dia 2: 0 	Voo 25/Dia 3: 0 	Voo 25/Dia 4: 1 	Voo 25/Dia 5: 0 	Voo 25/Dia 6: 0 	
+Voo 26/Dia 0: 0 	Voo 26/Dia 1: 0 	Voo 26/Dia 2: 0 	Voo 26/Dia 3: 0 	Voo 26/Dia 4: 0 	Voo 26/Dia 5: 1 	Voo 26/Dia 6: 0 	
+Voo 27/Dia 0: 1 	Voo 27/Dia 1: 0 	Voo 27/Dia 2: 0 	Voo 27/Dia 3: 0 	Voo 27/Dia 4: 0 	Voo 27/Dia 5: 0 	Voo 27/Dia 6: 0 	
+Voo 28/Dia 0: 0 	Voo 28/Dia 1: 1 	Voo 28/Dia 2: 0 	Voo 28/Dia 3: 0 	Voo 28/Dia 4: 0 	Voo 28/Dia 5: 0 	Voo 28/Dia 6: 0 	
+Voo 29/Dia 0: 0 	Voo 29/Dia 1: 0 	Voo 29/Dia 2: 1 	Voo 29/Dia 3: 0 	Voo 29/Dia 4: 0 	Voo 29/Dia 5: 0 	Voo 29/Dia 6: 0 	
+Voo 30/Dia 0: 0 	Voo 30/Dia 1: 0 	Voo 30/Dia 2: 0 	Voo 30/Dia 3: 1 	Voo 30/Dia 4: 0 	Voo 30/Dia 5: 0 	Voo 30/Dia 6: 0 	
+Voo 31/Dia 0: 0 	Voo 31/Dia 1: 0 	Voo 31/Dia 2: 0 	Voo 31/Dia 3: 0 	Voo 31/Dia 4: 1 	Voo 31/Dia 5: 0 	Voo 31/Dia 6: 0 	
+Voo 32/Dia 0: 0 	Voo 32/Dia 1: 0 	Voo 32/Dia 2: 0 	Voo 32/Dia 3: 0 	Voo 32/Dia 4: 0 	Voo 32/Dia 5: 1 	Voo 32/Dia 6: 0 	
+Voo 33/Dia 0: 0 	Voo 33/Dia 1: 1 	Voo 33/Dia 2: 0 	Voo 33/Dia 3: 0 	Voo 33/Dia 4: 0 	Voo 33/Dia 5: 0 	Voo 33/Dia 6: 0 	
+Voo 34/Dia 0: 0 	Voo 34/Dia 1: 0 	Voo 34/Dia 2: 1 	Voo 34/Dia 3: 0 	Voo 34/Dia 4: 0 	Voo 34/Dia 5: 0 	Voo 34/Dia 6: 0 	
+Voo 35/Dia 0: 0 	Voo 35/Dia 1: 0 	Voo 35/Dia 2: 0 	Voo 35/Dia 3: 1 	Voo 35/Dia 4: 0 	Voo 35/Dia 5: 0 	Voo 35/Dia 6: 0 	
+Voo 36/Dia 0: 0 	Voo 36/Dia 1: 0 	Voo 36/Dia 2: 0 	Voo 36/Dia 3: 0 	Voo 36/Dia 4: 1 	Voo 36/Dia 5: 0 	Voo 36/Dia 6: 0 	
+Voo 37/Dia 0: 0 	Voo 37/Dia 1: 0 	Voo 37/Dia 2: 0 	Voo 37/Dia 3: 0 	Voo 37/Dia 4: 0 	Voo 37/Dia 5: 1 	Voo 37/Dia 6: 0 	
+Voo 38/Dia 0: 0 	Voo 38/Dia 1: 0 	Voo 38/Dia 2: 0 	Voo 38/Dia 3: 0 	Voo 38/Dia 4: 0 	Voo 38/Dia 5: 0 	Voo 38/Dia 6: 1 	
+Voo 39/Dia 0: 0 	Voo 39/Dia 1: 0 	Voo 39/Dia 2: 1 	Voo 39/Dia 3: 0 	Voo 39/Dia 4: 0 	Voo 39/Dia 5: 0 	Voo 39/Dia 6: 0 	
+Voo 40/Dia 0: 0 	Voo 40/Dia 1: 0 	Voo 40/Dia 2: 0 	Voo 40/Dia 3: 1 	Voo 40/Dia 4: 0 	Voo 40/Dia 5: 0 	Voo 40/Dia 6: 0 	
+Voo 41/Dia 0: 0 	Voo 41/Dia 1: 0 	Voo 41/Dia 2: 0 	Voo 41/Dia 3: 0 	Voo 41/Dia 4: 1 	Voo 41/Dia 5: 0 	Voo 41/Dia 6: 0 	
+Voo 42/Dia 0: 0 	Voo 42/Dia 1: 0 	Voo 42/Dia 2: 0 	Voo 42/Dia 3: 0 	Voo 42/Dia 4: 0 	Voo 42/Dia 5: 0 	Voo 42/Dia 6: 0 	
+Voo 43/Dia 0: 0 	Voo 43/Dia 1: 0 	Voo 43/Dia 2: 0 	Voo 43/Dia 3: 0 	Voo 43/Dia 4: 0 	Voo 43/Dia 5: 0 	Voo 43/Dia 6: 1 	
+Voo 44/Dia 0: 0 	Voo 44/Dia 1: 1 	Voo 44/Dia 2: 0 	Voo 44/Dia 3: 0 	Voo 44/Dia 4: 0 	Voo 44/Dia 5: 0 	Voo 44/Dia 6: 0 	
+Voo 45/Dia 0: 0 	Voo 45/Dia 1: 0 	Voo 45/Dia 2: 1 	Voo 45/Dia 3: 0 	Voo 45/Dia 4: 0 	Voo 45/Dia 5: 0 	Voo 45/Dia 6: 0 	
+Voo 46/Dia 0: 0 	Voo 46/Dia 1: 0 	Voo 46/Dia 2: 0 	Voo 46/Dia 3: 1 	Voo 46/Dia 4: 0 	Voo 46/Dia 5: 0 	Voo 46/Dia 6: 0 	
+Voo 47/Dia 0: 0 	Voo 47/Dia 1: 0 	Voo 47/Dia 2: 0 	Voo 47/Dia 3: 0 	Voo 47/Dia 4: 1 	Voo 47/Dia 5: 0 	Voo 47/Dia 6: 0 	
+Voo 48/Dia 0: 0 	Voo 48/Dia 1: 0 	Voo 48/Dia 2: 0 	Voo 48/Dia 3: 0 	Voo 48/Dia 4: 0 	Voo 48/Dia 5: 1 	Voo 48/Dia 6: 0 	
+Voo 49/Dia 0: 0 	Voo 49/Dia 1: 0 	Voo 49/Dia 2: 0 	Voo 49/Dia 3: 0 	Voo 49/Dia 4: 0 	Voo 49/Dia 5: 0 	Voo 49/Dia 6: 1 	
+Voo 50/Dia 0: 0 	Voo 50/Dia 1: 1 	Voo 50/Dia 2: 0 	Voo 50/Dia 3: 0 	Voo 50/Dia 4: 0 	Voo 50/Dia 5: 0 	Voo 50/Dia 6: 0 	
+Voo 51/Dia 0: 1 	Voo 51/Dia 1: 0 	Voo 51/Dia 2: 0 	Voo 51/Dia 3: 0 	Voo 51/Dia 4: 0 	Voo 51/Dia 5: 0 	Voo 51/Dia 6: 0 	
+Voo 52/Dia 0: 0 	Voo 52/Dia 1: 1 	Voo 52/Dia 2: 0 	Voo 52/Dia 3: 0 	Voo 52/Dia 4: 0 	Voo 52/Dia 5: 0 	Voo 52/Dia 6: 0 	
+Voo 53/Dia 0: 0 	Voo 53/Dia 1: 1 	Voo 53/Dia 2: 0 	Voo 53/Dia 3: 0 	Voo 53/Dia 4: 0 	Voo 53/Dia 5: 0 	Voo 53/Dia 6: 0 	
+Voo 54/Dia 0: 1 	Voo 54/Dia 1: 0 	Voo 54/Dia 2: 0 	Voo 54/Dia 3: 0 	Voo 54/Dia 4: 0 	Voo 54/Dia 5: 0 	Voo 54/Dia 6: 0 	
+Voo 55/Dia 0: 0 	Voo 55/Dia 1: 0 	Voo 55/Dia 2: 1 	Voo 55/Dia 3: 0 	Voo 55/Dia 4: 0 	Voo 55/Dia 5: 0 	Voo 55/Dia 6: 0 	
+Voo 56/Dia 0: 0 	Voo 56/Dia 1: 0 	Voo 56/Dia 2: 0 	Voo 56/Dia 3: 1 	Voo 56/Dia 4: 0 	Voo 56/Dia 5: 0 	Voo 56/Dia 6: 0 	
+Voo 57/Dia 0: 0 	Voo 57/Dia 1: 0 	Voo 57/Dia 2: 0 	Voo 57/Dia 3: 0 	Voo 57/Dia 4: 1 	Voo 57/Dia 5: 0 	Voo 57/Dia 6: 0 	
+Voo 58/Dia 0: 0 	Voo 58/Dia 1: 0 	Voo 58/Dia 2: 0 	Voo 58/Dia 3: 0 	Voo 58/Dia 4: 0 	Voo 58/Dia 5: 1 	Voo 58/Dia 6: 0 	
+Voo 59/Dia 0: 0 	Voo 59/Dia 1: 0 	Voo 59/Dia 2: 0 	Voo 59/Dia 3: 0 	Voo 59/Dia 4: 0 	Voo 59/Dia 5: 0 	Voo 59/Dia 6: 1 	
+Voo 60/Dia 0: 0 	Voo 60/Dia 1: 1 	Voo 60/Dia 2: 0 	Voo 60/Dia 3: 0 	Voo 60/Dia 4: 0 	Voo 60/Dia 5: 0 	Voo 60/Dia 6: 0 	
+Voo 61/Dia 0: 1 	Voo 61/Dia 1: 0 	Voo 61/Dia 2: 0 	Voo 61/Dia 3: 0 	Voo 61/Dia 4: 0 	Voo 61/Dia 5: 0 	Voo 61/Dia 6: 0 	
+Voo 62/Dia 0: 0 	Voo 62/Dia 1: 1 	Voo 62/Dia 2: 0 	Voo 62/Dia 3: 0 	Voo 62/Dia 4: 0 	Voo 62/Dia 5: 0 	Voo 62/Dia 6: 0 	
+Voo 63/Dia 0: 0 	Voo 63/Dia 1: 0 	Voo 63/Dia 2: 1 	Voo 63/Dia 3: 0 	Voo 63/Dia 4: 0 	Voo 63/Dia 5: 0 	Voo 63/Dia 6: 0 	
+Voo 64/Dia 0: 0 	Voo 64/Dia 1: 0 	Voo 64/Dia 2: 0 	Voo 64/Dia 3: 1 	Voo 64/Dia 4: 0 	Voo 64/Dia 5: 0 	Voo 64/Dia 6: 0 	
+Voo 65/Dia 0: 0 	Voo 65/Dia 1: 0 	Voo 65/Dia 2: 0 	Voo 65/Dia 3: 0 	Voo 65/Dia 4: 1 	Voo 65/Dia 5: 0 	Voo 65/Dia 6: 0 	
+Voo 66/Dia 0: 0 	Voo 66/Dia 1: 0 	Voo 66/Dia 2: 0 	Voo 66/Dia 3: 0 	Voo 66/Dia 4: 0 	Voo 66/Dia 5: 1 	Voo 66/Dia 6: 0 	
+Voo 67/Dia 0: 1 	Voo 67/Dia 1: 0 	Voo 67/Dia 2: 0 	Voo 67/Dia 3: 0 	Voo 67/Dia 4: 0 	Voo 67/Dia 5: 0 	Voo 67/Dia 6: 0 	
+Voo 68/Dia 0: 0 	Voo 68/Dia 1: 0 	Voo 68/Dia 2: 1 	Voo 68/Dia 3: 0 	Voo 68/Dia 4: 0 	Voo 68/Dia 5: 0 	Voo 68/Dia 6: 0 	
+Voo 69/Dia 0: 0 	Voo 69/Dia 1: 0 	Voo 69/Dia 2: 0 	Voo 69/Dia 3: 1 	Voo 69/Dia 4: 0 	Voo 69/Dia 5: 0 	Voo 69/Dia 6: 0 	
+Voo 70/Dia 0: 0 	Voo 70/Dia 1: 0 	Voo 70/Dia 2: 0 	Voo 70/Dia 3: 0 	Voo 70/Dia 4: 1 	Voo 70/Dia 5: 0 	Voo 70/Dia 6: 0 	
+Voo 71/Dia 0: 0 	Voo 71/Dia 1: 0 	Voo 71/Dia 2: 0 	Voo 71/Dia 3: 0 	Voo 71/Dia 4: 0 	Voo 71/Dia 5: 1 	Voo 71/Dia 6: 0 	
+Voo 72/Dia 0: 0 	Voo 72/Dia 1: 0 	Voo 72/Dia 2: 1 	Voo 72/Dia 3: 0 	Voo 72/Dia 4: 0 	Voo 72/Dia 5: 0 	Voo 72/Dia 6: 0 	
+Voo 73/Dia 0: 0 	Voo 73/Dia 1: 0 	Voo 73/Dia 2: 0 	Voo 73/Dia 3: 1 	Voo 73/Dia 4: 0 	Voo 73/Dia 5: 0 	Voo 73/Dia 6: 0 	
+Voo 74/Dia 0: 0 	Voo 74/Dia 1: 0 	Voo 74/Dia 2: 0 	Voo 74/Dia 3: 0 	Voo 74/Dia 4: 1 	Voo 74/Dia 5: 0 	Voo 74/Dia 6: 0 	
+Voo 75/Dia 0: 0 	Voo 75/Dia 1: 0 	Voo 75/Dia 2: 0 	Voo 75/Dia 3: 0 	Voo 75/Dia 4: 0 	Voo 75/Dia 5: 0 	Voo 75/Dia 6: 1 	
+Voo 76/Dia 0: 0 	Voo 76/Dia 1: 1 	Voo 76/Dia 2: 0 	Voo 76/Dia 3: 0 	Voo 76/Dia 4: 0 	Voo 76/Dia 5: 0 	Voo 76/Dia 6: 0 	
+Voo 77/Dia 0: 0 	Voo 77/Dia 1: 1 	Voo 77/Dia 2: 0 	Voo 77/Dia 3: 0 	Voo 77/Dia 4: 0 	Voo 77/Dia 5: 0 	Voo 77/Dia 6: 0 	
+Voo 78/Dia 0: 0 	Voo 78/Dia 1: 0 	Voo 78/Dia 2: 1 	Voo 78/Dia 3: 0 	Voo 78/Dia 4: 0 	Voo 78/Dia 5: 0 	Voo 78/Dia 6: 0 	
+Voo 79/Dia 0: 0 	Voo 79/Dia 1: 0 	Voo 79/Dia 2: 0 	Voo 79/Dia 3: 1 	Voo 79/Dia 4: 0 	Voo 79/Dia 5: 0 	Voo 79/Dia 6: 0 	
+Voo 80/Dia 0: 0 	Voo 80/Dia 1: 0 	Voo 80/Dia 2: 0 	Voo 80/Dia 3: 0 	Voo 80/Dia 4: 1 	Voo 80/Dia 5: 0 	Voo 80/Dia 6: 0 	
+Voo 81/Dia 0: 0 	Voo 81/Dia 1: 0 	Voo 81/Dia 2: 0 	Voo 81/Dia 3: 0 	Voo 81/Dia 4: 0 	Voo 81/Dia 5: 1 	Voo 81/Dia 6: 0 	
+Voo 82/Dia 0: 0 	Voo 82/Dia 1: 1 	Voo 82/Dia 2: 0 	Voo 82/Dia 3: 0 	Voo 82/Dia 4: 0 	Voo 82/Dia 5: 0 	Voo 82/Dia 6: 0 	
+Voo 83/Dia 0: 0 	Voo 83/Dia 1: 1 	Voo 83/Dia 2: 0 	Voo 83/Dia 3: 0 	Voo 83/Dia 4: 0 	Voo 83/Dia 5: 0 	Voo 83/Dia 6: 0 	
+Voo 84/Dia 0: 0 	Voo 84/Dia 1: 0 	Voo 84/Dia 2: 1 	Voo 84/Dia 3: 0 	Voo 84/Dia 4: 0 	Voo 84/Dia 5: 0 	Voo 84/Dia 6: 0 	
+Voo 85/Dia 0: 0 	Voo 85/Dia 1: 0 	Voo 85/Dia 2: 0 	Voo 85/Dia 3: 1 	Voo 85/Dia 4: 0 	Voo 85/Dia 5: 0 	Voo 85/Dia 6: 0 	
+Voo 86/Dia 0: 0 	Voo 86/Dia 1: 0 	Voo 86/Dia 2: 0 	Voo 86/Dia 3: 0 	Voo 86/Dia 4: 1 	Voo 86/Dia 5: 0 	Voo 86/Dia 6: 0 	
+Voo 87/Dia 0: 0 	Voo 87/Dia 1: 0 	Voo 87/Dia 2: 0 	Voo 87/Dia 3: 0 	Voo 87/Dia 4: 0 	Voo 87/Dia 5: 1 	Voo 87/Dia 6: 0 	
+Voo 88/Dia 0: 1 	Voo 88/Dia 1: 0 	Voo 88/Dia 2: 0 	Voo 88/Dia 3: 0 	Voo 88/Dia 4: 0 	Voo 88/Dia 5: 0 	Voo 88/Dia 6: 0 	
+Voo 89/Dia 0: 0 	Voo 89/Dia 1: 1 	Voo 89/Dia 2: 0 	Voo 89/Dia 3: 0 	Voo 89/Dia 4: 0 	Voo 89/Dia 5: 0 	Voo 89/Dia 6: 0 	
+Voo 90/Dia 0: 0 	Voo 90/Dia 1: 0 	Voo 90/Dia 2: 1 	Voo 90/Dia 3: 0 	Voo 90/Dia 4: 0 	Voo 90/Dia 5: 0 	Voo 90/Dia 6: 0 	
+Voo 91/Dia 0: 0 	Voo 91/Dia 1: 0 	Voo 91/Dia 2: 0 	Voo 91/Dia 3: 1 	Voo 91/Dia 4: 0 	Voo 91/Dia 5: 0 	Voo 91/Dia 6: 0 	
+Voo 92/Dia 0: 0 	Voo 92/Dia 1: 0 	Voo 92/Dia 2: 0 	Voo 92/Dia 3: 0 	Voo 92/Dia 4: 1 	Voo 92/Dia 5: 0 	Voo 92/Dia 6: 0 	
+Voo 93/Dia 0: 0 	Voo 93/Dia 1: 0 	Voo 93/Dia 2: 0 	Voo 93/Dia 3: 0 	Voo 93/Dia 4: 0 	Voo 93/Dia 5: 1 	Voo 93/Dia 6: 0 	
+Voo 94/Dia 0: 0 	Voo 94/Dia 1: 0 	Voo 94/Dia 2: 1 	Voo 94/Dia 3: 0 	Voo 94/Dia 4: 0 	Voo 94/Dia 5: 0 	Voo 94/Dia 6: 0 	
+Voo 95/Dia 0: 0 	Voo 95/Dia 1: 0 	Voo 95/Dia 2: 0 	Voo 95/Dia 3: 1 	Voo 95/Dia 4: 0 	Voo 95/Dia 5: 0 	Voo 95/Dia 6: 0 	
+Voo 96/Dia 0: 0 	Voo 96/Dia 1: 0 	Voo 96/Dia 2: 0 	Voo 96/Dia 3: 0 	Voo 96/Dia 4: 1 	Voo 96/Dia 5: 0 	Voo 96/Dia 6: 0 	
+Voo 97/Dia 0: 0 	Voo 97/Dia 1: 0 	Voo 97/Dia 2: 0 	Voo 97/Dia 3: 0 	Voo 97/Dia 4: 0 	Voo 97/Dia 5: 1 	Voo 97/Dia 6: 0 	
+Voo 98/Dia 0: 0 	Voo 98/Dia 1: 0 	Voo 98/Dia 2: 0 	Voo 98/Dia 3: 0 	Voo 98/Dia 4: 0 	Voo 98/Dia 5: 0 	Voo 98/Dia 6: 1 	
+Voo 99/Dia 0: 0 	Voo 99/Dia 1: 1 	Voo 99/Dia 2: 0 	Voo 99/Dia 3: 0 	Voo 99/Dia 4: 0 	Voo 99/Dia 5: 0 	Voo 99/Dia 6: 0 	
+Voo 100/Dia 0: 0 	Voo 100/Dia 1: 0 	Voo 100/Dia 2: 1 	Voo 100/Dia 3: 0 	Voo 100/Dia 4: 0 	Voo 100/Dia 5: 0 	Voo 100/Dia 6: 0 	
+Voo 101/Dia 0: 0 	Voo 101/Dia 1: 0 	Voo 101/Dia 2: 0 	Voo 101/Dia 3: 1 	Voo 101/Dia 4: 0 	Voo 101/Dia 5: 0 	Voo 101/Dia 6: 0 	
+Voo 102/Dia 0: 0 	Voo 102/Dia 1: 0 	Voo 102/Dia 2: 0 	Voo 102/Dia 3: 0 	Voo 102/Dia 4: 1 	Voo 102/Dia 5: 0 	Voo 102/Dia 6: 0 	
+Voo 103/Dia 0: 0 	Voo 103/Dia 1: 0 	Voo 103/Dia 2: 0 	Voo 103/Dia 3: 0 	Voo 103/Dia 4: 0 	Voo 103/Dia 5: 1 	Voo 103/Dia 6: 0 	
+Voo 104/Dia 0: 1 	Voo 104/Dia 1: 0 	Voo 104/Dia 2: 0 	Voo 104/Dia 3: 0 	Voo 104/Dia 4: 0 	Voo 104/Dia 5: 0 	Voo 104/Dia 6: 0 	
+Voo 105/Dia 0: 0 	Voo 105/Dia 1: 0 	Voo 105/Dia 2: 1 	Voo 105/Dia 3: 0 	Voo 105/Dia 4: 0 	Voo 105/Dia 5: 0 	Voo 105/Dia 6: 0 	
+Voo 106/Dia 0: 0 	Voo 106/Dia 1: 0 	Voo 106/Dia 2: 0 	Voo 106/Dia 3: 1 	Voo 106/Dia 4: 0 	Voo 106/Dia 5: 0 	Voo 106/Dia 6: 0 	
+Voo 107/Dia 0: 0 	Voo 107/Dia 1: 0 	Voo 107/Dia 2: 0 	Voo 107/Dia 3: 0 	Voo 107/Dia 4: 1 	Voo 107/Dia 5: 0 	Voo 107/Dia 6: 0 	
+Voo 108/Dia 0: 0 	Voo 108/Dia 1: 0 	Voo 108/Dia 2: 0 	Voo 108/Dia 3: 0 	Voo 108/Dia 4: 0 	Voo 108/Dia 5: 1 	Voo 108/Dia 6: 0 	
+Voo 109/Dia 0: 0 	Voo 109/Dia 1: 0 	Voo 109/Dia 2: 0 	Voo 109/Dia 3: 0 	Voo 109/Dia 4: 0 	Voo 109/Dia 5: 0 	Voo 109/Dia 6: 1 	
+Voo 110/Dia 0: 0 	Voo 110/Dia 1: 1 	Voo 110/Dia 2: 0 	Voo 110/Dia 3: 0 	Voo 110/Dia 4: 0 	Voo 110/Dia 5: 0 	Voo 110/Dia 6: 0 	
+Voo 111/Dia 0: 0 	Voo 111/Dia 1: 0 	Voo 111/Dia 2: 0 	Voo 111/Dia 3: 0 	Voo 111/Dia 4: 0 	Voo 111/Dia 5: 0 	Voo 111/Dia 6: 1 	
+Voo 112/Dia 0: 1 	Voo 112/Dia 1: 0 	Voo 112/Dia 2: 0 	Voo 112/Dia 3: 0 	Voo 112/Dia 4: 0 	Voo 112/Dia 5: 0 	Voo 112/Dia 6: 0 	
+Voo 113/Dia 0: 1 	Voo 113/Dia 1: 0 	Voo 113/Dia 2: 0 	Voo 113/Dia 3: 0 	Voo 113/Dia 4: 0 	Voo 113/Dia 5: 0 	Voo 113/Dia 6: 0 	
+Voo 114/Dia 0: 0 	Voo 114/Dia 1: 1 	Voo 114/Dia 2: 0 	Voo 114/Dia 3: 0 	Voo 114/Dia 4: 0 	Voo 114/Dia 5: 0 	Voo 114/Dia 6: 0 	
+Voo 115/Dia 0: 1 	Voo 115/Dia 1: 0 	Voo 115/Dia 2: 0 	Voo 115/Dia 3: 0 	Voo 115/Dia 4: 0 	Voo 115/Dia 5: 0 	Voo 115/Dia 6: 0 	
+Voo 116/Dia 0: 0 	Voo 116/Dia 1: 0 	Voo 116/Dia 2: 1 	Voo 116/Dia 3: 0 	Voo 116/Dia 4: 0 	Voo 116/Dia 5: 0 	Voo 116/Dia 6: 0 	
+Voo 117/Dia 0: 0 	Voo 117/Dia 1: 0 	Voo 117/Dia 2: 0 	Voo 117/Dia 3: 1 	Voo 117/Dia 4: 0 	Voo 117/Dia 5: 0 	Voo 117/Dia 6: 0 	
+Voo 118/Dia 0: 0 	Voo 118/Dia 1: 0 	Voo 118/Dia 2: 0 	Voo 118/Dia 3: 0 	Voo 118/Dia 4: 1 	Voo 118/Dia 5: 0 	Voo 118/Dia 6: 0 	
+Voo 119/Dia 0: 0 	Voo 119/Dia 1: 0 	Voo 119/Dia 2: 0 	Voo 119/Dia 3: 0 	Voo 119/Dia 4: 0 	Voo 119/Dia 5: 1 	Voo 119/Dia 6: 0 	
+Voo 120/Dia 0: 0 	Voo 120/Dia 1: 1 	Voo 120/Dia 2: 0 	Voo 120/Dia 3: 0 	Voo 120/Dia 4: 0 	Voo 120/Dia 5: 0 	Voo 120/Dia 6: 0 	
+Voo 121/Dia 0: 0 	Voo 121/Dia 1: 0 	Voo 121/Dia 2: 1 	Voo 121/Dia 3: 0 	Voo 121/Dia 4: 0 	Voo 121/Dia 5: 0 	Voo 121/Dia 6: 0 	
+Voo 122/Dia 0: 0 	Voo 122/Dia 1: 0 	Voo 122/Dia 2: 0 	Voo 122/Dia 3: 1 	Voo 122/Dia 4: 0 	Voo 122/Dia 5: 0 	Voo 122/Dia 6: 0 	
+Voo 123/Dia 0: 0 	Voo 123/Dia 1: 0 	Voo 123/Dia 2: 0 	Voo 123/Dia 3: 0 	Voo 123/Dia 4: 1 	Voo 123/Dia 5: 0 	Voo 123/Dia 6: 0 	
+Voo 124/Dia 0: 0 	Voo 124/Dia 1: 0 	Voo 124/Dia 2: 0 	Voo 124/Dia 3: 0 	Voo 124/Dia 4: 0 	Voo 124/Dia 5: 1 	Voo 124/Dia 6: 0 	
+Voo 125/Dia 0: 0 	Voo 125/Dia 1: 0 	Voo 125/Dia 2: 0 	Voo 125/Dia 3: 0 	Voo 125/Dia 4: 0 	Voo 125/Dia 5: 0 	Voo 125/Dia 6: 1 	
+Voo 126/Dia 0: 1 	Voo 126/Dia 1: 0 	Voo 126/Dia 2: 0 	Voo 126/Dia 3: 0 	Voo 126/Dia 4: 0 	Voo 126/Dia 5: 0 	Voo 126/Dia 6: 0 	
+Voo 127/Dia 0: 0 	Voo 127/Dia 1: 1 	Voo 127/Dia 2: 0 	Voo 127/Dia 3: 0 	Voo 127/Dia 4: 0 	Voo 127/Dia 5: 0 	Voo 127/Dia 6: 0 	
+Voo 128/Dia 0: 0 	Voo 128/Dia 1: 0 	Voo 128/Dia 2: 1 	Voo 128/Dia 3: 0 	Voo 128/Dia 4: 0 	Voo 128/Dia 5: 0 	Voo 128/Dia 6: 0 	
+Voo 129/Dia 0: 0 	Voo 129/Dia 1: 0 	Voo 129/Dia 2: 0 	Voo 129/Dia 3: 1 	Voo 129/Dia 4: 0 	Voo 129/Dia 5: 0 	Voo 129/Dia 6: 0 	
+Voo 130/Dia 0: 0 	Voo 130/Dia 1: 0 	Voo 130/Dia 2: 0 	Voo 130/Dia 3: 0 	Voo 130/Dia 4: 1 	Voo 130/Dia 5: 0 	Voo 130/Dia 6: 0 	
+Voo 131/Dia 0: 0 	Voo 131/Dia 1: 0 	Voo 131/Dia 2: 0 	Voo 131/Dia 3: 0 	Voo 131/Dia 4: 0 	Voo 131/Dia 5: 1 	Voo 131/Dia 6: 0 	
+Voo 132/Dia 0: 0 	Voo 132/Dia 1: 1 	Voo 132/Dia 2: 0 	Voo 132/Dia 3: 0 	Voo 132/Dia 4: 0 	Voo 132/Dia 5: 0 	Voo 132/Dia 6: 0 	
+Voo 133/Dia 0: 0 	Voo 133/Dia 1: 1 	Voo 133/Dia 2: 0 	Voo 133/Dia 3: 0 	Voo 133/Dia 4: 0 	Voo 133/Dia 5: 0 	Voo 133/Dia 6: 0 	
+Voo 134/Dia 0: 0 	Voo 134/Dia 1: 0 	Voo 134/Dia 2: 1 	Voo 134/Dia 3: 0 	Voo 134/Dia 4: 0 	Voo 134/Dia 5: 0 	Voo 134/Dia 6: 0 	
+Voo 135/Dia 0: 0 	Voo 135/Dia 1: 0 	Voo 135/Dia 2: 0 	Voo 135/Dia 3: 1 	Voo 135/Dia 4: 0 	Voo 135/Dia 5: 0 	Voo 135/Dia 6: 0 	
+Voo 136/Dia 0: 0 	Voo 136/Dia 1: 0 	Voo 136/Dia 2: 0 	Voo 136/Dia 3: 0 	Voo 136/Dia 4: 1 	Voo 136/Dia 5: 0 	Voo 136/Dia 6: 0 	
+Voo 137/Dia 0: 0 	Voo 137/Dia 1: 0 	Voo 137/Dia 2: 0 	Voo 137/Dia 3: 0 	Voo 137/Dia 4: 0 	Voo 137/Dia 5: 1 	Voo 137/Dia 6: 0 	
+Voo 138/Dia 0: 1 	Voo 138/Dia 1: 0 	Voo 138/Dia 2: 0 	Voo 138/Dia 3: 0 	Voo 138/Dia 4: 0 	Voo 138/Dia 5: 0 	Voo 138/Dia 6: 0 	
+Voo 139/Dia 0: 0 	Voo 139/Dia 1: 0 	Voo 139/Dia 2: 0 	Voo 139/Dia 3: 0 	Voo 139/Dia 4: 0 	Voo 139/Dia 5: 0 	Voo 139/Dia 6: 1 	
+Voo 140/Dia 0: 1 	Voo 140/Dia 1: 0 	Voo 140/Dia 2: 0 	Voo 140/Dia 3: 0 	Voo 140/Dia 4: 0 	Voo 140/Dia 5: 0 	Voo 140/Dia 6: 0 	
+Voo 141/Dia 0: 0 	Voo 141/Dia 1: 0 	Voo 141/Dia 2: 1 	Voo 141/Dia 3: 0 	Voo 141/Dia 4: 0 	Voo 141/Dia 5: 0 	Voo 141/Dia 6: 0 	
+Voo 142/Dia 0: 0 	Voo 142/Dia 1: 0 	Voo 142/Dia 2: 0 	Voo 142/Dia 3: 1 	Voo 142/Dia 4: 0 	Voo 142/Dia 5: 0 	Voo 142/Dia 6: 0 	
+Voo 143/Dia 0: 0 	Voo 143/Dia 1: 0 	Voo 143/Dia 2: 0 	Voo 143/Dia 3: 0 	Voo 143/Dia 4: 1 	Voo 143/Dia 5: 0 	Voo 143/Dia 6: 0 	
+Voo 144/Dia 0: 0 	Voo 144/Dia 1: 0 	Voo 144/Dia 2: 0 	Voo 144/Dia 3: 0 	Voo 144/Dia 4: 0 	Voo 144/Dia 5: 1 	Voo 144/Dia 6: 0 	
+Voo 145/Dia 0: 0 	Voo 145/Dia 1: 0 	Voo 145/Dia 2: 0 	Voo 145/Dia 3: 0 	Voo 145/Dia 4: 0 	Voo 145/Dia 5: 0 	Voo 145/Dia 6: 1 	
+Voo 146/Dia 0: 0 	Voo 146/Dia 1: 1 	Voo 146/Dia 2: 0 	Voo 146/Dia 3: 0 	Voo 146/Dia 4: 0 	Voo 146/Dia 5: 0 	Voo 146/Dia 6: 0 	
+Voo 147/Dia 0: 0 	Voo 147/Dia 1: 1 	Voo 147/Dia 2: 0 	Voo 147/Dia 3: 0 	Voo 147/Dia 4: 0 	Voo 147/Dia 5: 0 	Voo 147/Dia 6: 0 	
+Voo 148/Dia 0: 1 	Voo 148/Dia 1: 0 	Voo 148/Dia 2: 0 	Voo 148/Dia 3: 0 	Voo 148/Dia 4: 0 	Voo 148/Dia 5: 0 	Voo 148/Dia 6: 0 	
+Voo 149/Dia 0: 0 	Voo 149/Dia 1: 1 	Voo 149/Dia 2: 0 	Voo 149/Dia 3: 0 	Voo 149/Dia 4: 0 	Voo 149/Dia 5: 0 	Voo 149/Dia 6: 0 	
+Voo 150/Dia 0: 0 	Voo 150/Dia 1: 0 	Voo 150/Dia 2: 1 	Voo 150/Dia 3: 0 	Voo 150/Dia 4: 0 	Voo 150/Dia 5: 0 	Voo 150/Dia 6: 0 	
+Voo 151/Dia 0: 0 	Voo 151/Dia 1: 0 	Voo 151/Dia 2: 0 	Voo 151/Dia 3: 1 	Voo 151/Dia 4: 0 	Voo 151/Dia 5: 0 	Voo 151/Dia 6: 0 	
+Voo 152/Dia 0: 0 	Voo 152/Dia 1: 0 	Voo 152/Dia 2: 0 	Voo 152/Dia 3: 0 	Voo 152/Dia 4: 1 	Voo 152/Dia 5: 0 	Voo 152/Dia 6: 0 	
+Voo 153/Dia 0: 0 	Voo 153/Dia 1: 0 	Voo 153/Dia 2: 0 	Voo 153/Dia 3: 0 	Voo 153/Dia 4: 0 	Voo 153/Dia 5: 1 	Voo 153/Dia 6: 0 	
+Voo 154/Dia 0: 0 	Voo 154/Dia 1: 1 	Voo 154/Dia 2: 0 	Voo 154/Dia 3: 0 	Voo 154/Dia 4: 0 	Voo 154/Dia 5: 0 	Voo 154/Dia 6: 0 	
+Voo 155/Dia 0: 0 	Voo 155/Dia 1: 0 	Voo 155/Dia 2: 1 	Voo 155/Dia 3: 0 	Voo 155/Dia 4: 0 	Voo 155/Dia 5: 0 	Voo 155/Dia 6: 0 	
+Voo 156/Dia 0: 0 	Voo 156/Dia 1: 0 	Voo 156/Dia 2: 0 	Voo 156/Dia 3: 1 	Voo 156/Dia 4: 0 	Voo 156/Dia 5: 0 	Voo 156/Dia 6: 0 	
+Voo 157/Dia 0: 0 	Voo 157/Dia 1: 0 	Voo 157/Dia 2: 0 	Voo 157/Dia 3: 0 	Voo 157/Dia 4: 1 	Voo 157/Dia 5: 0 	Voo 157/Dia 6: 0 	
+Voo 158/Dia 0: 0 	Voo 158/Dia 1: 0 	Voo 158/Dia 2: 0 	Voo 158/Dia 3: 0 	Voo 158/Dia 4: 0 	Voo 158/Dia 5: 1 	Voo 158/Dia 6: 0 	
+Voo 159/Dia 0: 1 	Voo 159/Dia 1: 0 	Voo 159/Dia 2: 0 	Voo 159/Dia 3: 0 	Voo 159/Dia 4: 0 	Voo 159/Dia 5: 0 	Voo 159/Dia 6: 0 	
+Voo 160/Dia 0: 0 	Voo 160/Dia 1: 1 	Voo 160/Dia 2: 0 	Voo 160/Dia 3: 0 	Voo 160/Dia 4: 0 	Voo 160/Dia 5: 0 	Voo 160/Dia 6: 0 	
+Voo 161/Dia 0: 0 	Voo 161/Dia 1: 0 	Voo 161/Dia 2: 1 	Voo 161/Dia 3: 0 	Voo 161/Dia 4: 0 	Voo 161/Dia 5: 0 	Voo 161/Dia 6: 0 	
+Voo 162/Dia 0: 0 	Voo 162/Dia 1: 0 	Voo 162/Dia 2: 0 	Voo 162/Dia 3: 1 	Voo 162/Dia 4: 0 	Voo 162/Dia 5: 0 	Voo 162/Dia 6: 0 	
+Voo 163/Dia 0: 0 	Voo 163/Dia 1: 0 	Voo 163/Dia 2: 0 	Voo 163/Dia 3: 0 	Voo 163/Dia 4: 1 	Voo 163/Dia 5: 0 	Voo 163/Dia 6: 0 	
+Voo 164/Dia 0: 0 	Voo 164/Dia 1: 0 	Voo 164/Dia 2: 0 	Voo 164/Dia 3: 0 	Voo 164/Dia 4: 0 	Voo 164/Dia 5: 1 	Voo 164/Dia 6: 0 	
+Voo 165/Dia 0: 0 	Voo 165/Dia 1: 0 	Voo 165/Dia 2: 0 	Voo 165/Dia 3: 0 	Voo 165/Dia 4: 0 	Voo 165/Dia 5: 0 	Voo 165/Dia 6: 1 	
+Voo 166/Dia 0: 0 	Voo 166/Dia 1: 0 	Voo 166/Dia 2: 0 	Voo 166/Dia 3: 0 	Voo 166/Dia 4: 0 	Voo 166/Dia 5: 0 	Voo 166/Dia 6: 1 	
+Voo 167/Dia 0: 0 	Voo 167/Dia 1: 0 	Voo 167/Dia 2: 1 	Voo 167/Dia 3: 0 	Voo 167/Dia 4: 0 	Voo 167/Dia 5: 0 	Voo 167/Dia 6: 0 	
+Voo 168/Dia 0: 0 	Voo 168/Dia 1: 0 	Voo 168/Dia 2: 0 	Voo 168/Dia 3: 1 	Voo 168/Dia 4: 0 	Voo 168/Dia 5: 0 	Voo 168/Dia 6: 0 	
+Voo 169/Dia 0: 0 	Voo 169/Dia 1: 0 	Voo 169/Dia 2: 0 	Voo 169/Dia 3: 0 	Voo 169/Dia 4: 1 	Voo 169/Dia 5: 0 	Voo 169/Dia 6: 0 	
+Voo 170/Dia 0: 0 	Voo 170/Dia 1: 0 	Voo 170/Dia 2: 0 	Voo 170/Dia 3: 0 	Voo 170/Dia 4: 0 	Voo 170/Dia 5: 1 	Voo 170/Dia 6: 0 	
+Voo 171/Dia 0: 0 	Voo 171/Dia 1: 0 	Voo 171/Dia 2: 1 	Voo 171/Dia 3: 0 	Voo 171/Dia 4: 0 	Voo 171/Dia 5: 0 	Voo 171/Dia 6: 0 	
+Voo 172/Dia 0: 0 	Voo 172/Dia 1: 0 	Voo 172/Dia 2: 0 	Voo 172/Dia 3: 1 	Voo 172/Dia 4: 0 	Voo 172/Dia 5: 0 	Voo 172/Dia 6: 0 	
+Voo 173/Dia 0: 0 	Voo 173/Dia 1: 0 	Voo 173/Dia 2: 0 	Voo 173/Dia 3: 0 	Voo 173/Dia 4: 1 	Voo 173/Dia 5: 0 	Voo 173/Dia 6: 0 	
+Voo 174/Dia 0: 0 	Voo 174/Dia 1: 0 	Voo 174/Dia 2: 0 	Voo 174/Dia 3: 0 	Voo 174/Dia 4: 0 	Voo 174/Dia 5: 1 	Voo 174/Dia 6: 0 	
+Voo 175/Dia 0: 0 	Voo 175/Dia 1: 0 	Voo 175/Dia 2: 0 	Voo 175/Dia 3: 0 	Voo 175/Dia 4: 0 	Voo 175/Dia 5: 0 	Voo 175/Dia 6: 1 	
+Voo 176/Dia 0: 0 	Voo 176/Dia 1: 1 	Voo 176/Dia 2: 0 	Voo 176/Dia 3: 0 	Voo 176/Dia 4: 0 	Voo 176/Dia 5: 0 	Voo 176/Dia 6: 0 	
+Voo 177/Dia 0: 0 	Voo 177/Dia 1: 0 	Voo 177/Dia 2: 1 	Voo 177/Dia 3: 0 	Voo 177/Dia 4: 0 	Voo 177/Dia 5: 0 	Voo 177/Dia 6: 0 	
+Voo 178/Dia 0: 0 	Voo 178/Dia 1: 0 	Voo 178/Dia 2: 0 	Voo 178/Dia 3: 1 	Voo 178/Dia 4: 0 	Voo 178/Dia 5: 0 	Voo 178/Dia 6: 0 	
+Voo 179/Dia 0: 0 	Voo 179/Dia 1: 0 	Voo 179/Dia 2: 0 	Voo 179/Dia 3: 0 	Voo 179/Dia 4: 1 	Voo 179/Dia 5: 0 	Voo 179/Dia 6: 0 	
+Voo 180/Dia 0: 0 	Voo 180/Dia 1: 0 	Voo 180/Dia 2: 0 	Voo 180/Dia 3: 0 	Voo 180/Dia 4: 0 	Voo 180/Dia 5: 1 	Voo 180/Dia 6: 0 	
+Voo 181/Dia 0: 1 	Voo 181/Dia 1: 0 	Voo 181/Dia 2: 0 	Voo 181/Dia 3: 0 	Voo 181/Dia 4: 0 	Voo 181/Dia 5: 0 	Voo 181/Dia 6: 0 	
+Voo 182/Dia 0: 1 	Voo 182/Dia 1: 0 	Voo 182/Dia 2: 0 	Voo 182/Dia 3: 0 	Voo 182/Dia 4: 0 	Voo 182/Dia 5: 0 	Voo 182/Dia 6: 0 	
+
+
+Demanda por voos do Trecho X no dia Y
+
+Trecho 0/Dia 0: 118 	Trecho 0/Dia 1: 354 	Trecho 0/Dia 2: 460 	Trecho 0/Dia 3: 472 	Trecho 0/Dia 4: 472 	Trecho 0/Dia 5: 472 	Trecho 0/Dia 6: 236 	
+Trecho 1/Dia 0: 118 	Trecho 1/Dia 1: 342 	Trecho 1/Dia 2: 472 	Trecho 1/Dia 3: 472 	Trecho 1/Dia 4: 472 	Trecho 1/Dia 5: 472 	Trecho 1/Dia 6: 236 	
+Trecho 2/Dia 0: 424 	Trecho 2/Dia 1: 778 	Trecho 2/Dia 2: 566 	Trecho 2/Dia 3: 566 	Trecho 2/Dia 4: 554 	Trecho 2/Dia 5: 448 	Trecho 2/Dia 6: 342 	
+Trecho 3/Dia 0: 354 	Trecho 3/Dia 1: 708 	Trecho 3/Dia 2: 708 	Trecho 3/Dia 3: 708 	Trecho 3/Dia 4: 708 	Trecho 3/Dia 5: 708 	Trecho 3/Dia 6: 354 	
+Trecho 4/Dia 0: 566 	Trecho 4/Dia 1: 554 	Trecho 4/Dia 2: 566 	Trecho 4/Dia 3: 554 	Trecho 4/Dia 4: 566 	Trecho 4/Dia 5: 554 	Trecho 4/Dia 6: 354 	
+Trecho 5/Dia 0: 118 	Trecho 5/Dia 1: 708 	Trecho 5/Dia 2: 708 	Trecho 5/Dia 3: 708 	Trecho 5/Dia 4: 708 	Trecho 5/Dia 5: 708 	Trecho 5/Dia 6: 354 	
+Found incumbent of value 2.3991110e+08 after 0.00 sec. (0.85 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 5991 rows and 10726 columns.
+MIP Presolve modified 2791 coefficients.
+All rows and columns eliminated.
+Presolve time = 0.01 sec. (6.97 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (8.14 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (8.14 ticks)
+
+
+x[aviao8][voo54] = 1
+x[aviao12][voo5] = 1
+x[aviao12][voo9] = 1
+x[aviao12][voo10] = 1
+x[aviao12][voo22] = 1
+x[aviao12][voo23] = 1
+x[aviao12][voo32] = 1
+x[aviao12][voo44] = 1
+x[aviao12][voo59] = 1
+x[aviao12][voo69] = 1
+x[aviao12][voo75] = 1
+x[aviao12][voo79] = 1
+x[aviao12][voo81] = 1
+x[aviao12][voo98] = 1
+x[aviao12][voo99] = 1
+x[aviao12][voo100] = 1
+x[aviao12][voo104] = 1
+x[aviao12][voo115] = 1
+x[aviao12][voo122] = 1
+x[aviao12][voo131] = 1
+x[aviao12][voo138] = 1
+x[aviao12][voo149] = 1
+x[aviao12][voo156] = 1
+x[aviao13][voo34] = 1
+x[aviao13][voo51] = 1
+x[aviao13][voo62] = 1
+x[aviao13][voo95] = 1
+x[aviao13][voo97] = 1
+x[aviao13][voo110] = 1
+x[aviao13][voo111] = 1
+x[aviao13][voo159] = 1
+x[aviao13][voo167] = 1
+x[aviao14][voo1] = 1
+x[aviao14][voo15] = 1
+x[aviao14][voo17] = 1
+x[aviao14][voo19] = 1
+x[aviao14][voo36] = 1
+x[aviao14][voo45] = 1
+x[aviao14][voo46] = 1
+x[aviao14][voo53] = 1
+x[aviao14][voo55] = 1
+x[aviao14][voo56] = 1
+x[aviao14][voo57] = 1
+x[aviao14][voo114] = 1
+x[aviao14][voo153] = 1
+x[aviao14][voo161] = 1
+x[aviao14][voo169] = 1
+x[aviao14][voo175] = 1
+x[aviao14][voo181] = 1
+x[aviao15][voo20] = 1
+x[aviao15][voo85] = 1
+x[aviao15][voo86] = 1
+x[aviao15][voo90] = 1
+x[aviao15][voo112] = 1
+x[aviao15][voo121] = 1
+x[aviao15][voo127] = 1
+x[aviao15][voo128] = 1
+x[aviao15][voo160] = 1
+x[aviao16][voo29] = 1
+x[aviao16][voo37] = 1
+x[aviao16][voo39] = 1
+x[aviao16][voo47] = 1
+x[aviao16][voo63] = 1
+x[aviao16][voo64] = 1
+x[aviao16][voo67] = 1
+x[aviao16][voo76] = 1
+x[aviao16][voo84] = 1
+x[aviao16][voo91] = 1
+x[aviao16][voo96] = 1
+x[aviao16][voo101] = 1
+x[aviao16][voo105] = 1
+x[aviao16][voo118] = 1
+x[aviao16][voo141] = 1
+x[aviao16][voo151] = 1
+x[aviao16][voo155] = 1
+x[aviao16][voo164] = 1
+x[aviao16][voo170] = 1
+x[aviao17][voo12] = 1
+x[aviao17][voo30] = 1
+x[aviao17][voo31] = 1
+x[aviao17][voo52] = 1
+x[aviao17][voo58] = 1
+x[aviao17][voo70] = 1
+x[aviao17][voo83] = 1
+x[aviao17][voo88] = 1
+x[aviao17][voo93] = 1
+x[aviao17][voo107] = 1
+x[aviao17][voo109] = 1
+x[aviao17][voo120] = 1
+x[aviao17][voo130] = 1
+x[aviao17][voo134] = 1
+x[aviao17][voo146] = 1
+x[aviao17][voo147] = 1
+x[aviao18][voo21] = 1
+x[aviao18][voo49] = 1
+x[aviao18][voo73] = 1
+x[aviao18][voo74] = 1
+x[aviao18][voo123] = 1
+x[aviao18][voo132] = 1
+x[aviao18][voo133] = 1
+x[aviao18][voo136] = 1
+x[aviao18][voo137] = 1
+x[aviao18][voo144] = 1
+x[aviao18][voo178] = 1
+x[aviao18][voo180] = 1
+x[aviao19][voo3] = 1
+x[aviao19][voo4] = 1
+x[aviao19][voo24] = 1
+x[aviao19][voo26] = 1
+x[aviao19][voo33] = 1
+x[aviao19][voo35] = 1
+x[aviao19][voo78] = 1
+x[aviao19][voo82] = 1
+x[aviao19][voo103] = 1
+x[aviao19][voo108] = 1
+x[aviao19][voo124] = 1
+x[aviao19][voo140] = 1
+x[aviao19][voo148] = 1
+x[aviao19][voo150] = 1
+x[aviao19][voo177] = 1
+x[aviao20][voo18] = 1
+x[aviao20][voo42] = 1
+x[aviao20][voo60] = 1
+x[aviao20][voo92] = 1
+x[aviao20][voo116] = 1
+x[aviao20][voo139] = 1
+x[aviao20][voo145] = 1
+x[aviao20][voo157] = 1
+x[aviao20][voo163] = 1
+x[aviao20][voo171] = 1
+x[aviao20][voo182] = 1
+x[aviao21][voo2] = 1
+x[aviao21][voo27] = 1
+x[aviao21][voo38] = 1
+x[aviao21][voo65] = 1
+x[aviao21][voo72] = 1
+x[aviao21][voo80] = 1
+x[aviao21][voo117] = 1
+x[aviao21][voo125] = 1
+x[aviao21][voo135] = 1
+x[aviao21][voo168] = 1
+x[aviao21][voo174] = 1
+x[aviao22][voo6] = 1
+x[aviao22][voo41] = 1
+x[aviao22][voo50] = 1
+x[aviao22][voo66] = 1
+x[aviao22][voo68] = 1
+x[aviao22][voo71] = 1
+x[aviao22][voo77] = 1
+x[aviao22][voo89] = 1
+x[aviao22][voo94] = 1
+x[aviao22][voo129] = 1
+x[aviao22][voo152] = 1
+x[aviao22][voo162] = 1
+x[aviao22][voo176] = 1
+x[aviao23][voo25] = 1
+x[aviao23][voo28] = 1
+x[aviao23][voo40] = 1
+x[aviao23][voo43] = 1
+x[aviao23][voo48] = 1
+x[aviao23][voo61] = 1
+x[aviao23][voo106] = 1
+x[aviao23][voo142] = 1
+x[aviao23][voo143] = 1
+x[aviao23][voo158] = 1
+x[aviao23][voo172] = 1
+x[aviao23][voo173] = 1
+x[aviao24][voo0] = 1
+x[aviao24][voo7] = 1
+x[aviao24][voo8] = 1
+x[aviao24][voo11] = 1
+x[aviao24][voo13] = 1
+x[aviao24][voo14] = 1
+x[aviao24][voo16] = 1
+x[aviao24][voo87] = 1
+x[aviao24][voo102] = 1
+x[aviao24][voo113] = 1
+x[aviao24][voo119] = 1
+x[aviao24][voo126] = 1
+x[aviao24][voo154] = 1
+x[aviao24][voo165] = 1
+x[aviao24][voo166] = 1
+x[aviao24][voo179] = 1
+
+
+y[aviao0][aeroporto0][dia0] = 1
+y[aviao0][aeroporto0][dia1] = 1
+y[aviao0][aeroporto0][dia2] = 1
+y[aviao0][aeroporto0][dia3] = 1
+y[aviao0][aeroporto0][dia4] = 1
+y[aviao0][aeroporto0][dia5] = 1
+y[aviao0][aeroporto0][dia6] = 1
+y[aviao1][aeroporto0][dia0] = 1
+y[aviao1][aeroporto0][dia1] = 1
+y[aviao1][aeroporto0][dia2] = 1
+y[aviao1][aeroporto0][dia3] = 1
+y[aviao1][aeroporto0][dia4] = 1
+y[aviao1][aeroporto0][dia5] = 1
+y[aviao1][aeroporto0][dia6] = 1
+y[aviao2][aeroporto0][dia0] = 1
+y[aviao2][aeroporto0][dia1] = 1
+y[aviao2][aeroporto0][dia2] = 1
+y[aviao2][aeroporto0][dia3] = 1
+y[aviao2][aeroporto0][dia4] = 1
+y[aviao2][aeroporto0][dia5] = 1
+y[aviao2][aeroporto0][dia6] = 1
+y[aviao3][aeroporto0][dia0] = 1
+y[aviao3][aeroporto0][dia1] = 1
+y[aviao3][aeroporto0][dia2] = 1
+y[aviao3][aeroporto0][dia3] = 1
+y[aviao3][aeroporto0][dia4] = 1
+y[aviao3][aeroporto0][dia5] = 1
+y[aviao3][aeroporto0][dia6] = 1
+y[aviao4][aeroporto0][dia0] = 1
+y[aviao4][aeroporto0][dia1] = 1
+y[aviao4][aeroporto0][dia2] = 1
+y[aviao4][aeroporto0][dia3] = 1
+y[aviao4][aeroporto0][dia4] = 1
+y[aviao4][aeroporto0][dia5] = 1
+y[aviao4][aeroporto0][dia6] = 1
+y[aviao5][aeroporto0][dia0] = 1
+y[aviao5][aeroporto0][dia1] = 1
+y[aviao5][aeroporto0][dia2] = 1
+y[aviao5][aeroporto0][dia3] = 1
+y[aviao5][aeroporto0][dia4] = 1
+y[aviao5][aeroporto0][dia5] = 1
+y[aviao5][aeroporto0][dia6] = 1
+y[aviao6][aeroporto0][dia0] = 1
+y[aviao6][aeroporto0][dia1] = 1
+y[aviao6][aeroporto0][dia2] = 1
+y[aviao6][aeroporto0][dia3] = 1
+y[aviao6][aeroporto0][dia4] = 1
+y[aviao6][aeroporto0][dia5] = 1
+y[aviao6][aeroporto0][dia6] = 1
+y[aviao7][aeroporto0][dia0] = 1
+y[aviao7][aeroporto0][dia1] = 1
+y[aviao7][aeroporto0][dia2] = 1
+y[aviao7][aeroporto0][dia3] = 1
+y[aviao7][aeroporto0][dia4] = 1
+y[aviao7][aeroporto0][dia5] = 1
+y[aviao7][aeroporto0][dia6] = 1
+y[aviao8][aeroporto0][dia0] = 1
+y[aviao8][aeroporto0][dia1] = 1
+y[aviao8][aeroporto0][dia2] = 1
+y[aviao8][aeroporto0][dia3] = 1
+y[aviao8][aeroporto0][dia4] = 1
+y[aviao8][aeroporto0][dia5] = 1
+y[aviao8][aeroporto0][dia6] = 1
+y[aviao9][aeroporto0][dia0] = 1
+y[aviao9][aeroporto0][dia1] = 1
+y[aviao9][aeroporto0][dia2] = 1
+y[aviao9][aeroporto0][dia3] = 1
+y[aviao9][aeroporto0][dia4] = 1
+y[aviao9][aeroporto0][dia5] = 1
+y[aviao9][aeroporto0][dia6] = 1
+y[aviao10][aeroporto0][dia0] = 1
+y[aviao10][aeroporto0][dia1] = 1
+y[aviao10][aeroporto0][dia2] = 1
+y[aviao10][aeroporto0][dia3] = 1
+y[aviao10][aeroporto0][dia4] = 1
+y[aviao10][aeroporto0][dia5] = 1
+y[aviao10][aeroporto0][dia6] = 1
+y[aviao11][aeroporto0][dia0] = 1
+y[aviao11][aeroporto0][dia1] = 1
+y[aviao11][aeroporto0][dia2] = 1
+y[aviao11][aeroporto0][dia3] = 1
+y[aviao11][aeroporto0][dia4] = 1
+y[aviao11][aeroporto0][dia5] = 1
+y[aviao11][aeroporto0][dia6] = 1
+y[aviao12][aeroporto0][dia0] = 1
+y[aviao12][aeroporto0][dia1] = 1
+y[aviao12][aeroporto0][dia2] = 1
+y[aviao12][aeroporto0][dia3] = 1
+y[aviao12][aeroporto0][dia4] = 1
+y[aviao12][aeroporto0][dia5] = 1
+y[aviao12][aeroporto0][dia6] = 1
+y[aviao13][aeroporto0][dia0] = 1
+y[aviao13][aeroporto0][dia1] = 1
+y[aviao13][aeroporto0][dia2] = 1
+y[aviao13][aeroporto0][dia3] = 1
+y[aviao13][aeroporto0][dia4] = 1
+y[aviao13][aeroporto0][dia5] = 1
+y[aviao13][aeroporto0][dia6] = 1
+y[aviao14][aeroporto0][dia0] = 1
+y[aviao14][aeroporto0][dia1] = 1
+y[aviao14][aeroporto0][dia2] = 1
+y[aviao14][aeroporto0][dia3] = 1
+y[aviao14][aeroporto0][dia4] = 1
+y[aviao14][aeroporto0][dia5] = 1
+y[aviao14][aeroporto0][dia6] = 1
+y[aviao15][aeroporto0][dia0] = 1
+y[aviao15][aeroporto0][dia1] = 1
+y[aviao15][aeroporto0][dia2] = 1
+y[aviao15][aeroporto0][dia3] = 1
+y[aviao15][aeroporto0][dia4] = 1
+y[aviao15][aeroporto0][dia5] = 1
+y[aviao15][aeroporto0][dia6] = 1
+y[aviao16][aeroporto0][dia0] = 1
+y[aviao16][aeroporto0][dia1] = 1
+y[aviao16][aeroporto0][dia2] = 1
+y[aviao16][aeroporto0][dia3] = 1
+y[aviao16][aeroporto0][dia4] = 1
+y[aviao16][aeroporto0][dia5] = 1
+y[aviao16][aeroporto0][dia6] = 1
+y[aviao17][aeroporto0][dia0] = 1
+y[aviao17][aeroporto0][dia1] = 1
+y[aviao17][aeroporto0][dia2] = 1
+y[aviao17][aeroporto0][dia3] = 1
+y[aviao17][aeroporto0][dia4] = 1
+y[aviao17][aeroporto0][dia5] = 1
+y[aviao17][aeroporto0][dia6] = 1
+y[aviao18][aeroporto0][dia0] = 1
+y[aviao18][aeroporto0][dia1] = 1
+y[aviao18][aeroporto0][dia2] = 1
+y[aviao18][aeroporto0][dia3] = 1
+y[aviao18][aeroporto0][dia4] = 1
+y[aviao18][aeroporto0][dia5] = 1
+y[aviao18][aeroporto0][dia6] = 1
+y[aviao19][aeroporto0][dia0] = 1
+y[aviao19][aeroporto0][dia1] = 1
+y[aviao19][aeroporto0][dia2] = 1
+y[aviao19][aeroporto0][dia3] = 1
+y[aviao19][aeroporto0][dia4] = 1
+y[aviao19][aeroporto0][dia5] = 1
+y[aviao19][aeroporto0][dia6] = 1
+y[aviao20][aeroporto0][dia0] = 1
+y[aviao20][aeroporto0][dia1] = 1
+y[aviao20][aeroporto0][dia2] = 1
+y[aviao20][aeroporto0][dia3] = 1
+y[aviao20][aeroporto0][dia4] = 1
+y[aviao20][aeroporto0][dia5] = 1
+y[aviao20][aeroporto0][dia6] = 1
+y[aviao21][aeroporto0][dia0] = 1
+y[aviao21][aeroporto0][dia1] = 1
+y[aviao21][aeroporto0][dia2] = 1
+y[aviao21][aeroporto0][dia3] = 1
+y[aviao21][aeroporto0][dia4] = 1
+y[aviao21][aeroporto0][dia5] = 1
+y[aviao21][aeroporto0][dia6] = 1
+y[aviao22][aeroporto0][dia0] = 1
+y[aviao22][aeroporto0][dia1] = 1
+y[aviao22][aeroporto0][dia2] = 1
+y[aviao22][aeroporto0][dia3] = 1
+y[aviao22][aeroporto0][dia4] = 1
+y[aviao22][aeroporto0][dia5] = 1
+y[aviao22][aeroporto0][dia6] = 1
+y[aviao23][aeroporto0][dia0] = 1
+y[aviao23][aeroporto0][dia1] = 1
+y[aviao23][aeroporto0][dia2] = 1
+y[aviao23][aeroporto0][dia3] = 1
+y[aviao23][aeroporto0][dia4] = 1
+y[aviao23][aeroporto0][dia5] = 1
+y[aviao23][aeroporto0][dia6] = 1
+y[aviao24][aeroporto0][dia0] = 1
+y[aviao24][aeroporto0][dia1] = 1
+y[aviao24][aeroporto0][dia2] = 1
+y[aviao24][aeroporto0][dia3] = 1
+y[aviao24][aeroporto0][dia4] = 1
+y[aviao24][aeroporto0][dia5] = 1
+y[aviao24][aeroporto0][dia6] = 1
