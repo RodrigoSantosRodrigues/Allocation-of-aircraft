@@ -379,9 +379,8 @@ int main(int argc, char *argv[]){
 	for(int a=1; a<A; a++){
 		// Para todo D
 		for(int d=1; d<D; d++){
-			for(int o=1; o<O; o++){
 			// Para todo O
-			
+			for(int o=1; o<O; o++){
 				IloExpr soma1(env);
 				IloExpr soma2(env);
 				
@@ -395,7 +394,8 @@ int main(int argc, char *argv[]){
 				for(int v=1; v<V; v++){
 					soma2 = soma2 + x[a][v] * OT[v][o] + y[a][o][d+1];
 				}
-				soma2-=soma1;
+				soma2 = soma2 - soma1;
+				
 				// Declara a restrição
 				IloRange rest_5(env, 0, soma2, 0);
 			
