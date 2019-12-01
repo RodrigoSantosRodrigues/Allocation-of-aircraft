@@ -478,7 +478,7 @@ int main(int argc, char *argv[]){
 	// Carregando o módulo do Cplex
     IloCplex cplex(modelo);
     // Exportando o lp
-    cplex.exportModel("aeronave.lp");
+    cplex.exportModel("aeronave1.lp");
     // Executando o modelo
     cplex.solve();
     
