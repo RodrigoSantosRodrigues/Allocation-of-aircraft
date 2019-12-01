@@ -511,8 +511,8 @@ int main(int argc, char *argv[]){
 	}
 	
 	printf("\n\nFUNCAO OBJETIVO\n");
-	double valor = cplex.getObjValue();
-	printf("FO = %.2f\n", valor);
+	double teste = cplex.getObjValue();
+	printf("FO = %.2f\n", teste);
 	
 	return 0;
 }

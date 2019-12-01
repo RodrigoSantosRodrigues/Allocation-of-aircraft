@@ -1032,6 +1032,8 @@ Parallel b&c, 4 threads:
 Total (root+branch&cut) =    0.06 sec. (41.53 ticks)
 
 
+VARIAVEIS DE DECISAO
+
 x[aviao8][voo54] = 1
 x[aviao12][voo40] = 1
 x[aviao12][voo75] = 1
@@ -1436,3 +1438,7 @@ y[aviao24][aeroporto0][dia3] = 1
 y[aviao24][aeroporto0][dia4] = 1
 y[aviao24][aeroporto0][dia5] = 1
 y[aviao24][aeroporto0][dia6] = 1
+
+
+FUNCAO OBJETIVO
+FO = 300669754.22
