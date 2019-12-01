@@ -177,25 +177,25 @@ int main(int argc, char *argv[]){
 	printf("O: %d\n",O);
 	
 	// Impressão dos dados dependentes de 1 conjunto
-	printf("Avioes: \n\n");
+	printf("\nAvioes: \n\n");
     printf("Aviao \t Capacidade \t Consumo \t Velocidade\n\n");
     for(int a=0; a<A; a++){
         printf("Aviao %d \t %d \t %.2f \t %.2f\n", a, KA[a], CA[a], VA[a]);
     }
 	
-	printf("Voos: \n\n");
+	printf("\nVoos: \n\n");
     printf("Voo \t Distancia \t Demanda\n\n");
     for(int v=0; v<V; v++){
         printf("Voo %d \t %.2f \t %d \n", v, DisTv[v], DV[v]);
     }
 	
-	printf("Trechos: \n\n");
+	printf("\nTrechos: \n\n");
 	printf("Trecho \t Distancia\n\n");
 	for(int t=0; t<T; t++){
 		printf("Trecho %d \t %.2f \n", t, DisTt[t]);
 	}
 	
-	printf("Dias: \n\n");
+	printf("\nDias: \n\n");
 	printf("Dia \t Quant. de voos \n\n");
 	for(int d=0; d<D; d++){
 		printf("Dia %d \t %d \n", d, VDd[d]);
@@ -203,7 +203,7 @@ int main(int argc, char *argv[]){
 	
 	// Impressão dos dados dependentes de 2 conjuntos
 	// Por voos (v) e aeroportos (o)
-	printf("\nVoo V tem origem no aeroporto O? (1 caso sim, 0 caso nao)\n\n");
+	printf("\n\nVoo V tem origem no aeroporto O? (1 caso sim, 0 caso nao)\n\n");
 	for(int v=0; v<V; v++){
 		for(int o=0; o<O; o++){
 			printf("Voo %d/Aeroporto %d: %d \t", v, o, DTvo[v][o]);
@@ -376,36 +376,31 @@ int main(int argc, char *argv[]){
 
 	// Restrição 5 - Certifica que a quantidade de decolagens deve ser igual a quantidade de pousos
 	// Para todo A
-	for(int a=1; a<A; a++){
+	for(int a=0; a<A; a++){
 		// Para todo D
-		for(int d=1; d<D; d++){
+		for(int d=0; d<D; d++){
 			// Para todo O
-			for(int o=1; o<O; o++){
-				IloExpr soma1(env);
-				IloExpr soma2(env);
+			for(int o=0; o<O; o++){
+				IloExpr rest_5(env);
+				IloExpr soma(env);
 				
 				// Somatório de V
-				for(int v=1; v<V; v++){
-					soma1 = soma1 + x[a][v] * DTvo[v][o] * VDvd[v][d];
+				for(int v=0; v<V; v++){
+					rest_5 = rest_5 + x[a][v] * DTvo[v][o] * VDvd[v][d];
 				}
-				soma1 = soma1 + y[a][o][d];
+				rest_5 = rest_5 + y[a][o][d];
 				
 				// Somatório de V
-				for(int v=1; v<V; v++){
-					soma2 = soma2 + x[a][v] * OT[v][o] + y[a][o][d+1];
+				for(int v=0; v<V; v++){
+					if((d+1) < D){
+						soma = soma + x[a][v] * OT[v][o] + y[a][o][d+1];
+					}
+					if((d+1) >= D){
+						soma = soma + x[a][v] * OT[v][o];
+					}
 				}
-				soma2 = soma2 - soma1;
 				
-				// Declara a restrição
-				IloRange rest_5(env, 0, soma2, 0);
-			
-				// Define o nome da restrição
-				stringstream rest;
-				rest << "Restricao 5[Aviao"<<a<<"][Dia"<<d<<"][Aero"<<o<<"]:";
-				rest_5.setName(rest.str().c_str());
-		
-				// Adicionando a restrição ao modelo
-				modelo.add(rest_5);
+				modelo.add(rest_5 == soma);
 			}
 		}
 	}
